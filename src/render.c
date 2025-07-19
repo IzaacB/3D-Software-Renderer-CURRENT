@@ -1,5 +1,8 @@
+#include "ctagss.h"
 #include "render.h"
+#include "scene.h"
 #include "raster.h"
+#include "object.h"
 
 void render_init()
 {
@@ -44,10 +47,25 @@ void render_quit()
     SDL_Quit();
 }
 
+void render_preload()
+{
+    objects.cube = object_import("../res/models/cube.obj");
+}
+
+void render_dump()
+{
+    object_deport(objects.cube);
+}
+
 //Main render loop.
 void render()
 {
+    scene_init();
     color c = {1, 1, 1};
-    raster_ppx(0, 0, c);
-    raster_ppx(10, 10, c);
+    v2 p0 = {-80, -50};
+    v2 p1 = {0, 55};
+    v2 p2 = {80, -50};
+    raster_triangle_wireframe(p0, p1, p2, c);
+
+    scene_clear();
 }
