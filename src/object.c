@@ -52,5 +52,21 @@ void object_deport(object o)
 
 void object_draw(object o)
 {
-    //todo
+    u32 vertice_offset = scene.vertices.used;
+    for (u32 i = 0; i < o.vertices.used; i++)
+    {
+        v3 v = o.vertices.vals[i];
+        v = v3_transform(v, o.t, true, true, true, false);
+        v = v3_transform(v, viewport.t, true, true, false, true);
+        array_insert(scene.vertices, v);
+    }
+
+    for (u32 i = 0; i < o.faces.used; i++)
+    {
+        face f = o.faces.vals[i];
+        f.i0 += vertice_offset;
+        f.i1 += vertice_offset;
+        f.i2 += vertice_offset;
+        array_insert(scene.faces, f);
+    }
 }

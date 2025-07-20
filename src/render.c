@@ -61,11 +61,14 @@ void render_dump()
 void render()
 {
     scene_init();
-    color c = {1, 1, 1};
-    v2 p0 = {-80, -50};
-    v2 p1 = {0, 55};
-    v2 p2 = {80, -50};
-    raster_triangle_wireframe(p0, p1, p2, c);
-
+    viewport.t.position.x += .1;
+    objects.cube.t.position.z = 5;
+    objects.cube.t.rotation.x += .01;
+    objects.cube.t.rotation.y += .01;
+    objects.cube.t.rotation.z += .01;
+    object_draw(objects.cube);
+    objects.cube.t.position.z = 10;
+    object_draw(objects.cube);
+    scene_render();
     scene_clear();
 }

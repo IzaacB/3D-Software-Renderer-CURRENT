@@ -45,12 +45,6 @@ array_define_type(face, face_array);
 
 typedef struct
 {
-    v3 position, rotation, scale;
-}
-transform;
-
-typedef struct
-{
     v3_array vertices;
     face_array faces;
     transform t;
@@ -77,8 +71,14 @@ struct Objects
     object cube;
 };
 
+struct Viewport
+{
+    transform t;
+};
+
 extern struct State state;
 extern struct Scene scene;
 extern struct Objects objects;
+extern struct Viewport viewport;
 
 #endif
