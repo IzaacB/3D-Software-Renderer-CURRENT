@@ -46,9 +46,9 @@
 #define array_concat(type, dest, a, b) \
      do { \
           __typeof__(a) _a = a, _b = b; \
-          (dest) = (type *)malloc((_a.used + _b.used) * sizeof(type)); \
-          memcpy((dest), (_a.values), (_a.used) * sizeof(type)); \
-          memcpy((dest) + (_a.used), (_b.values), (_b.used) * sizeof(type)); \
+          (dest).vals = (type *)malloc((_a.used + _b.used) * sizeof(type)); \
+          memcpy((dest).vals, (_a.vals), (_a.used) * sizeof(type)); \
+          memcpy((dest).vals + (_a.used), (_b.vals), (_b.used) * sizeof(type)); \
      } while (0)
 
 #define array_clear(array) \

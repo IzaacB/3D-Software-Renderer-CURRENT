@@ -78,3 +78,64 @@ void raster_triangle_wireframe(v2 p0, v2 p1, v2 p2, color c)
     raster_line(p1, p2, c);
     raster_line(p2, p0, c);
 }
+
+void raster_triangle_solid(u32 i)
+{
+    v3 p0 = scene.projected.vals[scene.faces.vals[i].i0];
+    v3 p1 = scene.projected.vals[scene.faces.vals[i].i1];
+    v3 p2 = scene.projected.vals[scene.faces.vals[i].i2];
+
+    color c = {.7, .7, .7};
+
+    v3 t;
+    if (p1.y < p0.y)
+    {
+        t = p0;
+        p0 = p1;
+        p1 = t;
+    }
+
+    if (p2.y < p0.y)
+    {
+        t = p0;
+        p0 = p2;
+        p2 = t;
+    }
+
+    if (p2.y < p1.y)
+    {
+        t = p1;
+        p1 = p2;
+        p2 = t;
+    }
+
+    f32_array x01 = raster_lerp(p0.y, p0.x, p1.y, p1.x);
+    f32_array x12 = raster_lerp(p1.y, p1.x, p2.y, p2.x);
+    f32_array x02 = raster_lerp(p0.y, p0.x, p2.y, p2.x);
+    f32_array x012;
+    array_concat(f32, x012, x01, x12);
+
+    for (u32 y_index = 0; y_index < x02.used; y_index++)
+    {
+        i32 y = y_index + p0.y;
+
+        i32 x_start = x02.vals[y_index];
+        i32 x_end = x012.vals[y_index];
+
+        if (x_start > x_end)
+        {
+            i32 t = x_start;
+            x_start = x_end;
+            x_end = t;
+        }
+
+        for (i32 x = x_start; x < x_end; x++)
+        {
+            raster_ppx(x, y, c);
+        }
+    }
+
+    array_clear(x01);
+    array_clear(x12);
+    array_clear(x012);
+}

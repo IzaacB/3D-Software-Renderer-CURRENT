@@ -102,6 +102,7 @@ void object_draw(object o)
         if (v3_dot(v3_norm(origin), normal) < 0)
         {
             array_insert(scene.faces, f);
+            array_insert(scene.normals, normal);
         }
     }
 }

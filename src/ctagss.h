@@ -24,8 +24,8 @@ typedef int16_t i16;
 typedef int32_t i32;
 typedef int64_t i64;
 
-#define CANVAS_WIDTH 320
-#define CANVAS_HEIGHT 200
+#define CANVAS_WIDTH 1200
+#define CANVAS_HEIGHT 800
 #define TARGET_FPS 60
 
 array_define_type(f32, f32_array);
@@ -43,6 +43,13 @@ typedef struct
 }
 face;
 array_define_type(face, face_array);
+
+typedef struct
+{
+    v3 normal;
+    f32 distance;
+}
+plane;
 
 typedef struct
 {
@@ -71,6 +78,9 @@ struct Scene
 {
     v3_array vertices;
     face_array faces;
+    v3_array normals;
+
+    v3_array projected;
 };
 
 struct Objects
@@ -81,6 +91,7 @@ struct Objects
 struct Viewport
 {
     transform t;
+    plane near, far, left, right, top, bottom;
 };
 
 extern struct State state;

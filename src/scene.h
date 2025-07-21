@@ -3,6 +3,7 @@
 
 extern void scene_init();
 extern void scene_clear();
+extern void scene_clip_volume();
 extern void scene_render();
 
 #endif

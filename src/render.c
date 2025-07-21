@@ -69,6 +69,7 @@ void render()
     object_draw(objects.cube);
     objects.cube.t.position.z = 10;
     object_draw(objects.cube);
+    scene_clip_volume();
     scene_render();
     scene_clear();
 }
