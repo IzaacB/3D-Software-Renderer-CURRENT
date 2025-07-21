@@ -36,6 +36,6 @@ transform;
 #define v3_dot(_a, _b) ({ __typeof__(_a) __a = _a, __b = _b; (f32) (__a.x * __b.x + __a.y * __b.y + __a.z * __b.z); })
 #define v3_cross(_a, _b) ({ __typeof__(_a) __a = _a, __b = _b; (v3) {__a.y * __b.z - __a.z * __b.y, __a.z * __b.x - __a.x * __b.z, __a.x * __b.y - __a.y * __b.x}; })
 
-extern v3 v3_transform(v3 v, transform t, bool position, bool rotation, bool scale, bool negate);
+extern v3 v3_transform(v3 v, transform t, unsigned int mode);
 
 #endif

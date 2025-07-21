@@ -61,11 +61,11 @@ void render_dump()
 void render()
 {
     scene_init();
-    viewport.t.position.x += .1;
+    //viewport.t.position.x += .1 * state.delta;
     objects.cube.t.position.z = 5;
-    objects.cube.t.rotation.x += .01;
-    objects.cube.t.rotation.y += .01;
-    objects.cube.t.rotation.z += .01;
+    objects.cube.t.rotation.x += 1 * state.delta;
+    objects.cube.t.rotation.y += 1 * state.delta;
+    objects.cube.t.rotation.z += 1 * state.delta;
     object_draw(objects.cube);
     objects.cube.t.position.z = 10;
     object_draw(objects.cube);

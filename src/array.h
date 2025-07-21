@@ -19,7 +19,7 @@
 #define array_insert(array, value) \
      do { \
           __typeof__(value) _value = value;\
-          if ((array).used == (array).len) { \
+          if ((array).used >= (array).len) { \
                (array).len = (array).len ? (array).len * 2 : 4; /* Weird array size recalc but breaks if modified.*/\
                void* tmp = realloc((array).vals, sizeof(*(array).vals) * (array).len); \
                (array).vals = tmp; \

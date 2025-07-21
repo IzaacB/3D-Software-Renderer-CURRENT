@@ -26,6 +26,7 @@ typedef int64_t i64;
 
 #define CANVAS_WIDTH 320
 #define CANVAS_HEIGHT 200
+#define TARGET_FPS 60
 
 array_define_type(f32, f32_array);
 array_define_type(v3, v3_array);
@@ -47,6 +48,9 @@ typedef struct
 {
     v3_array vertices;
     face_array faces;
+
+    v3_array normals;
+    
     transform t;
 }
 object;
@@ -58,6 +62,9 @@ struct State
     SDL_Texture *canvas;
 
     u32 surface[CANVAS_WIDTH * CANVAS_HEIGHT];
+
+    f32 delta;
+    const u8 *keystate;
 };
 
 struct Scene
