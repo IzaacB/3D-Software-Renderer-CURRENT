@@ -186,7 +186,6 @@ static void scene_clip_plane(plane p)
 
 void scene_clip_volume()
 {
-
     scene_clip_plane(viewport.near);
     scene_clip_plane(viewport.far);
     scene_clip_plane(viewport.right);
@@ -214,6 +213,7 @@ void scene_render()
     for (u32 i = 0; i < scene.faces.used; i++)
     {
         raster_triangle_solid(i);
+        raster_triangle_wireframe(i);
     }
 
     array_clear(scene.projected);

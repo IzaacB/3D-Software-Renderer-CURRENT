@@ -49,6 +49,8 @@
           (dest).vals = (type *)malloc((_a.used + _b.used) * sizeof(type)); \
           memcpy((dest).vals, (_a.vals), (_a.used) * sizeof(type)); \
           memcpy((dest).vals + (_a.used), (_b.vals), (_b.used) * sizeof(type)); \
+          (dest).used = (_a.used + _b.used); \
+          (dest).len = (dest).used; \
      } while (0)
 
 #define array_clear(array) \

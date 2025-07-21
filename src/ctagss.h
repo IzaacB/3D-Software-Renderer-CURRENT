@@ -24,8 +24,8 @@ typedef int16_t i16;
 typedef int32_t i32;
 typedef int64_t i64;
 
-#define CANVAS_WIDTH 1200
-#define CANVAS_HEIGHT 800
+#define CANVAS_WIDTH 320
+#define CANVAS_HEIGHT 200
 #define TARGET_FPS 60
 
 array_define_type(f32, f32_array);

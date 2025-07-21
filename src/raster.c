@@ -72,11 +72,20 @@ void raster_line(v2 p0, v2 p1, color c)
      }
 }
 
-void raster_triangle_wireframe(v2 p0, v2 p1, v2 p2, color c)
+void raster_triangle_wireframe(u32 i)
 {
-    raster_line(p0, p1, c);
-    raster_line(p1, p2, c);
-    raster_line(p2, p0, c);
+     v3 p0 = scene.projected.vals[scene.faces.vals[i].i0];
+     v3 p1 = scene.projected.vals[scene.faces.vals[i].i1];
+     v3 p2 = scene.projected.vals[scene.faces.vals[i].i2];
+
+     v2 h0 = v3_to_v2(p0);
+     v2 h1 = v3_to_v2(p1);
+     v2 h2 = v3_to_v2(p2);
+     
+     color c = {1, 1, 1};
+     raster_line(h0, h1, c);
+     raster_line(h1, h2, c);
+     raster_line(h2, h0, c);
 }
 
 void raster_triangle_solid(u32 i)
@@ -112,10 +121,10 @@ void raster_triangle_solid(u32 i)
     f32_array x01 = raster_lerp(p0.y, p0.x, p1.y, p1.x);
     f32_array x12 = raster_lerp(p1.y, p1.x, p2.y, p2.x);
     f32_array x02 = raster_lerp(p0.y, p0.x, p2.y, p2.x);
-    f32_array x012;
+    f32_array x012; array_init(x012);
     array_concat(f32, x012, x01, x12);
 
-    for (u32 y_index = 0; y_index < x02.used; y_index++)
+    for (u32 y_index = 0; y_index < x012.used; y_index++)
     {
         i32 y = y_index + p0.y;
 
@@ -137,5 +146,6 @@ void raster_triangle_solid(u32 i)
 
     array_clear(x01);
     array_clear(x12);
+    array_clear(x02);
     array_clear(x012);
 }

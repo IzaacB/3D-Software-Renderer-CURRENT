@@ -36,36 +36,7 @@ int main(int argc, char *argv[])
 
         state.keystate = SDL_GetKeyboardState(NULL);
 
-        if (state.keystate[SDL_SCANCODE_W])
-        {
-            viewport.t.position.z += 5 * state.delta;
-        }
-
-        if (state.keystate[SDL_SCANCODE_S])
-        {
-            viewport.t.position.z -= 5 * state.delta;
-        }
-
-        if (state.keystate[SDL_SCANCODE_A])
-        {
-            viewport.t.position.x -= 5 * state.delta;
-        }
-
-        if (state.keystate[SDL_SCANCODE_D])
-        {
-            viewport.t.position.x += 5 * state.delta;
-        }
-
-        if (state.keystate[SDL_SCANCODE_X])
-        {
-            viewport.t.rotation.y += 1 * state.delta;
-        }
-
-        if (state.keystate[SDL_SCANCODE_Z])
-        {
-            viewport.t.rotation.y -= 1 * state.delta;
-        }
-
+        viewport_control();
 
         render_clear();
         render();

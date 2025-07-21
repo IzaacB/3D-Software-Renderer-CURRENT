@@ -1,0 +1,11 @@
+C:/Users/izaac/OneDrive/Desktop/Projects/Aule_Creation_Engine/build/CMakeFiles/app.dir
+C:/Users/izaac/OneDrive/Desktop/Projects/Aule_Creation_Engine/build/CMakeFiles/edit_cache.dir
+C:/Users/izaac/OneDrive/Desktop/Projects/Aule_Creation_Engine/build/CMakeFiles/rebuild_cache.dir
+C:/Users/izaac/OneDrive/Desktop/Projects/Aule_Creation_Engine/build/lib/SDL2/CMakeFiles/sdl_headers_copy.dir
+C:/Users/izaac/OneDrive/Desktop/Projects/Aule_Creation_Engine/build/lib/SDL2/CMakeFiles/SDL2main.dir
+C:/Users/izaac/OneDrive/Desktop/Projects/Aule_Creation_Engine/build/lib/SDL2/CMakeFiles/SDL2.dir
+C:/Users/izaac/OneDrive/Desktop/Projects/Aule_Creation_Engine/build/lib/SDL2/CMakeFiles/SDL2-static.dir
+C:/Users/izaac/OneDrive/Desktop/Projects/Aule_Creation_Engine/build/lib/SDL2/CMakeFiles/SDL2_test.dir
+C:/Users/izaac/OneDrive/Desktop/Projects/Aule_Creation_Engine/build/lib/SDL2/CMakeFiles/uninstall.dir
+C:/Users/izaac/OneDrive/Desktop/Projects/Aule_Creation_Engine/build/lib/SDL2/CMakeFiles/edit_cache.dir
+C:/Users/izaac/OneDrive/Desktop/Projects/Aule_Creation_Engine/build/lib/SDL2/CMakeFiles/rebuild_cache.dir

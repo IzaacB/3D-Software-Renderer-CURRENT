@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/izaac/OneDrive/Desktop/Projects/Aule_Creation_Engine/lib/SDL2/src/main/windows/version.rc
+winresrc.h
+C:/Users/izaac/OneDrive/Desktop/Projects/Aule_Creation_Engine/lib/SDL2/src/main/windows/winresrc.h
+
