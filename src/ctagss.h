@@ -24,11 +24,13 @@ typedef int16_t i16;
 typedef int32_t i32;
 typedef int64_t i64;
 
-#define CANVAS_WIDTH 320
-#define CANVAS_HEIGHT 200
+#define CANVAS_WIDTH 640
+#define CANVAS_HEIGHT 480
 #define TARGET_FPS 60
+#define RENDER_DISTANCE 25
 
 array_define_type(f32, f32_array);
+array_define_type(u32, u32_array);
 array_define_type(v3, v3_array);
 
 typedef struct
@@ -53,10 +55,19 @@ plane;
 
 typedef struct
 {
+    color c;
+}
+material;
+array_define_type(material, material_array);
+
+typedef struct
+{
     v3_array vertices;
     face_array faces;
 
     v3_array normals;
+
+    material m;
     
     transform t;
 }
@@ -69,6 +80,7 @@ struct State
     SDL_Texture *canvas;
 
     u32 surface[CANVAS_WIDTH * CANVAS_HEIGHT];
+    f32 depth_buffer[CANVAS_WIDTH * CANVAS_HEIGHT];
 
     f32 delta;
     const u8 *keystate;
@@ -79,6 +91,9 @@ struct Scene
     v3_array vertices;
     face_array faces;
     v3_array normals;
+
+    material_array materials;
+    u32_array material_indices;
 
     v3_array projected;
 };

@@ -4,7 +4,7 @@
 static f32_array raster_lerp(f32 i0, f32 d0, f32 i1, f32 d1)
 {
      f32_array line;
-     array_init(line);
+     array_init(f32, line);
 
      f32 slope = 0;
 
@@ -35,6 +35,23 @@ void raster_ppx(f32 x, f32 y, color c)
     }
 }
 
+static void raster_ppx_z(f32 x, f32 y, f32 z, color c)
+{
+    x = ((f32)CANVAS_WIDTH / 2 + x);
+    y = ((f32)CANVAS_HEIGHT / 2 - y);
+
+    bool on_screen = x >= 0 && x < CANVAS_WIDTH && y >= 0 && y < CANVAS_HEIGHT;
+
+    if (on_screen)
+    {
+        if (state.depth_buffer[(u32)y * CANVAS_WIDTH + (u32)x] > z){
+            u32 color_dword = (u8)(c.b * 255) << 16 | (u8)(c.g * 255) << 8 | (u8)(c.r * 255);
+            state.surface[(u32)y * CANVAS_WIDTH + (u32)x] = color_dword;
+            state.depth_buffer[(u32)y * CANVAS_WIDTH + (u32)x] = z;
+        }   
+    }
+}
+
 void raster_line(v2 p0, v2 p1, color c)
 {
      if (p0.x == p1.x && p0.y == p1.y){
@@ -48,11 +65,14 @@ void raster_line(v2 p0, v2 p1, color c)
                p0 = p1;
                p1 = t;
           }
+
           f32_array line = raster_lerp(p0.x, p0.y, p1.x, p1.y);
+
           for (u32 x = 0; x < line.used; x++)
           {
                raster_ppx(x + p0.x, line.vals[x], c);
           }
+
           array_clear(line);
      }
      else
@@ -63,11 +83,14 @@ void raster_line(v2 p0, v2 p1, color c)
                p0 = p1;
                p1 = t;
           }
+          
           f32_array line  = raster_lerp(p0.y, p0.x, p1.y, p1.x);
+
           for (u32 y = 0; y < line.used; y++)
           {
                raster_ppx(line.vals[y], y + p0.y, c);
           }
+
           array_clear(line);
      }
 }
@@ -94,7 +117,7 @@ void raster_triangle_solid(u32 i)
     v3 p1 = scene.projected.vals[scene.faces.vals[i].i1];
     v3 p2 = scene.projected.vals[scene.faces.vals[i].i2];
 
-    color c = {.7, .7, .7};
+    color c = scene.materials.vals[scene.material_indices.vals[i]].c;
 
     v3 t;
     if (p1.y < p0.y)
@@ -121,31 +144,52 @@ void raster_triangle_solid(u32 i)
     f32_array x01 = raster_lerp(p0.y, p0.x, p1.y, p1.x);
     f32_array x12 = raster_lerp(p1.y, p1.x, p2.y, p2.x);
     f32_array x02 = raster_lerp(p0.y, p0.x, p2.y, p2.x);
-    f32_array x012; array_init(x012);
+    f32_array x012;
     array_concat(f32, x012, x01, x12);
+
+    f32_array z01 = raster_lerp(p0.y, p0.z, p1.y, p1.z);
+    f32_array z12 = raster_lerp(p1.y, p1.z, p2.y, p2.z);
+    f32_array z02 = raster_lerp(p0.y, p0.z, p2.y, p2.z);
+    f32_array z012;
+    array_concat(f32, z012, z01, z12);
 
     for (u32 y_index = 0; y_index < x012.used; y_index++)
     {
         i32 y = y_index + p0.y;
 
-        i32 x_start = x02.vals[y_index];
-        i32 x_end = x012.vals[y_index];
+        f32 x_start = (x02.vals[y_index]);
+        f32 x_end = (x012.vals[y_index]);
 
-        if (x_start > x_end)
-        {
-            i32 t = x_start;
+        f32 z_start = (z02.vals[y_index]);
+        f32 z_end = (z012.vals[y_index]);
+
+        if (x_start > x_end){
+            f32 temp = x_start;
             x_start = x_end;
-            x_end = t;
+            x_end = temp;
+
+            temp = z_start;
+            z_start = z_end;
+            z_end = temp;
         }
+        
+        f32_array z_scan = raster_lerp(x_start, z_start, x_end + 1, z_end);
 
         for (i32 x = x_start; x < x_end; x++)
         {
-            raster_ppx(x, y, c);
+            f32 z = z_scan.vals[(u32)(x - x_start)];
+            raster_ppx_z(x, y, z, c);
         }
+        array_clear(z_scan);
     }
 
     array_clear(x01);
     array_clear(x12);
     array_clear(x02);
     array_clear(x012);
+
+    array_clear(z01);
+    array_clear(z12);
+    array_clear(z02);
+    array_clear(z012);
 }

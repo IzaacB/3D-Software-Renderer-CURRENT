@@ -6,7 +6,7 @@ void viewport_init()
     transform t = {
         {0, 0, 0},
         {0, 0, 0},
-        {(f32)CANVAS_WIDTH / (f32)CANVAS_HEIGHT, 1, 1}
+        {(f32)CANVAS_WIDTH / (f32)CANVAS_HEIGHT, 1, .5}
     };
 
     viewport.t = t;
@@ -22,7 +22,7 @@ void viewport_init()
     plane far = 
     {
         {0, 0, -1},
-        50, //TO-DO, Make a view distance setting and swap with this value.
+        RENDER_DISTANCE,
     };
 
     viewport.far = far;

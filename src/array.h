@@ -8,19 +8,19 @@
           u32 used, len; \
      } name
 
-#define array_init(array) \
+#define array_init(type, array) \
      do \
      { \
-          (array).vals = NULL; \
+          (array).vals = (type *)malloc(3 * sizeof(type)); \
           (array).used = 0; \
-          (array).len = 0; \
+          (array).len = 3; \
      } while (0)
 
 #define array_insert(array, value) \
      do { \
           __typeof__(value) _value = value;\
           if ((array).used >= (array).len) { \
-               (array).len = (array).len ? (array).len * 2 : 4; /* Weird array size recalc but breaks if modified.*/\
+               (array).len = (array).len * 3;\
                void* tmp = realloc((array).vals, sizeof(*(array).vals) * (array).len); \
                (array).vals = tmp; \
           } \
@@ -41,7 +41,6 @@
                (dest).vals[_i] = _src.vals[_i]; \
           } \
      } while (0)
-
 
 #define array_concat(type, dest, a, b) \
      do { \

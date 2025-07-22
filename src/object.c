@@ -9,12 +9,15 @@ object object_import(char *path)
             {0, 0, 0},
             {0, 0, 0},
             {1, 1, 1}
+        },
+        .m = {
+            .c = {.75, .75, .75}
         }
     };
 
-    array_init(o.vertices);
-    array_init(o.faces);
-    array_init(o.normals);
+    array_init(v3, o.vertices);
+    array_init(face, o.faces);
+    array_init(v3, o.normals);
 
     FILE *file = fopen(path, "r");
     char string[256];
@@ -103,6 +106,9 @@ void object_draw(object o)
         {
             array_insert(scene.faces, f);
             array_insert(scene.normals, normal);
+            
+            array_insert(scene.material_indices, scene.materials.used);
         }
     }
+    array_insert(scene.materials, o.m);
 }

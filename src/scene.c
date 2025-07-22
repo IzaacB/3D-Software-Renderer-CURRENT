@@ -4,9 +4,16 @@
 
 void scene_init()
 {
-    array_init(scene.vertices);
-    array_init(scene.faces);
-    array_init(scene.normals);
+    array_init(v3, scene.vertices);
+    array_init(face, scene.faces);
+    array_init(v3, scene.normals);
+    array_init(material, scene.materials);
+    array_init(u32, scene.material_indices);
+
+    for (u32 i = 0; i < CANVAS_WIDTH * CANVAS_HEIGHT; i++)
+    {
+        state.depth_buffer[i] = RENDER_DISTANCE;
+    }
 }
 
 void scene_clear()
@@ -14,18 +21,23 @@ void scene_clear()
     array_clear(scene.vertices);
     array_clear(scene.faces);
     array_clear(scene.normals);
+    array_clear(scene.materials);
+    array_clear(scene.material_indices);
 }
 
 static void scene_clip_plane(plane p)
 {
     v3_array vertices_clip;
-    array_init(vertices_clip);
+    array_init(v3, vertices_clip);
 
     face_array faces_clip;
-    array_init(faces_clip);
+    array_init(face, faces_clip);
 
     v3_array normals_clip;
-    array_init(normals_clip);
+    array_init(v3, normals_clip);
+
+    u32_array material_indices_clip;
+    array_init(u32, material_indices_clip);
 
     for (u32 i = 0; i < scene.faces.used; i++)
     {
@@ -34,6 +46,8 @@ static void scene_clip_plane(plane p)
         v3 p2 = scene.vertices.vals[scene.faces.vals[i].i2];
 
         v3 normal = scene.normals.vals[i];
+
+        u32 material_index = scene.material_indices.vals[i];
 
         f32 d0 = v3_dot(p.normal, p0) + p.distance;
         f32 d1 = v3_dot(p.normal, p1) + p.distance;
@@ -66,6 +80,7 @@ static void scene_clip_plane(plane p)
 
             array_insert(faces_clip, f);
             array_insert(normals_clip, normal);
+            array_insert(material_indices_clip, material_index);
 
             continue;
         }
@@ -151,6 +166,7 @@ static void scene_clip_plane(plane p)
 
             array_insert(faces_clip, f);
             array_insert(normals_clip, normal);
+            array_insert(material_indices_clip, material_index);
 
         }else if(num_clipped_vertices == 4)
         {
@@ -170,18 +186,23 @@ static void scene_clip_plane(plane p)
 
             array_insert(faces_clip, f0);
             array_insert(normals_clip, normal);
+            array_insert(material_indices_clip, material_index);
             
             array_insert(faces_clip, f1);
             array_insert(normals_clip, normal);
+            array_insert(material_indices_clip, material_index);
         }
     }
     array_copy(v3, vertices_clip, scene.vertices);
     array_copy(face, faces_clip, scene.faces);
     array_copy(v3, normals_clip, scene.normals);
+    array_copy(u32, material_indices_clip, scene.material_indices);
+
 
     array_clear(vertices_clip);
     array_clear(faces_clip);
     array_clear(normals_clip);
+    array_clear(material_indices_clip);
 }
 
 void scene_clip_volume()
@@ -196,7 +217,7 @@ void scene_clip_volume()
 
 void scene_render()
 {
-    array_init(scene.projected);
+    array_init(v3, scene.projected);
 
     for (u32 i = 0; i < scene.vertices.used; i++)
     {
@@ -213,7 +234,7 @@ void scene_render()
     for (u32 i = 0; i < scene.faces.used; i++)
     {
         raster_triangle_solid(i);
-        raster_triangle_wireframe(i);
+        //raster_triangle_wireframe(i);
     }
 
     array_clear(scene.projected);

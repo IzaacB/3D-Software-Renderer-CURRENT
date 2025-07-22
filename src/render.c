@@ -62,8 +62,12 @@ void render()
 {
     scene_init();
 
+    color one_color = {0, 1, 0};
+    color another_color = {1, 0, 0};
     objects.cube.t.position.z = 5;
+    objects.cube.m.c = one_color;
     object_draw(objects.cube);
+    objects.cube.m.c = another_color;
     objects.cube.t.position.z = 10;
     object_draw(objects.cube);
 
