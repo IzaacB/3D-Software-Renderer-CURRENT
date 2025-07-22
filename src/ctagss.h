@@ -55,6 +55,15 @@ plane;
 
 typedef struct
 {
+    v3 direction;
+    color c;
+    f32 intensity;
+}
+dir_light;
+array_define_type(dir_light, dir_light_array);
+
+typedef struct
+{
     color c;
 }
 material;
@@ -96,11 +105,17 @@ struct Scene
     u32_array material_indices;
 
     v3_array projected;
+
+    dir_light_array dir_lights;
 };
 
 struct Objects
 {
     object cube;
+    object sphere;
+    object cone;
+    object cylinder;
+    object torus;
 };
 
 struct Viewport

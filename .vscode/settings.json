@@ -7,6 +7,11 @@
         "type_traits": "c",
         "forward_list": "c",
         "ratio": "c",
-        "variant": "c"
+        "variant": "c",
+        "charconv": "c",
+        "compare": "c",
+        "functional": "c",
+        "tuple": "c",
+        "utility": "c"
     }
 }

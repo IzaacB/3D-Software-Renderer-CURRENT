@@ -9,6 +9,7 @@ void scene_init()
     array_init(v3, scene.normals);
     array_init(material, scene.materials);
     array_init(u32, scene.material_indices);
+    array_init(dir_light, scene.dir_lights);
 
     for (u32 i = 0; i < CANVAS_WIDTH * CANVAS_HEIGHT; i++)
     {
@@ -23,6 +24,7 @@ void scene_clear()
     array_clear(scene.normals);
     array_clear(scene.materials);
     array_clear(scene.material_indices);
+    array_clear(scene.dir_lights);
 }
 
 static void scene_clip_plane(plane p)

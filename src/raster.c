@@ -117,8 +117,28 @@ void raster_triangle_solid(u32 i)
     v3 p1 = scene.projected.vals[scene.faces.vals[i].i1];
     v3 p2 = scene.projected.vals[scene.faces.vals[i].i2];
 
+    v3 normal = scene.normals.vals[i];
     color c = scene.materials.vals[scene.material_indices.vals[i]].c;
+    color lit = {.1 * c.r, .1 * c.g, .1 * c.b};
 
+    for (u32 j = 0; j < scene.dir_lights.used; j++)
+    {
+        dir_light light = scene.dir_lights.vals[j];
+        v3 light_dir = v3_norm(v3_transform(light.direction, viewport.t, 3));
+        f32 dot = fmax(0, v3_dot(normal, light_dir));
+        
+        color contribution = 
+        {
+            (dot * light.intensity) * c.r,
+            (dot * light.intensity) * c.g,
+            (dot * light.intensity) * c.b
+        };
+
+        lit.r = fmin(lit.r + contribution.r, 1);
+        lit.g = fmin(lit.g + contribution.g, 1);
+        lit.b = fmin(lit.b + contribution.b, 1);
+    }
+    
     v3 t;
     if (p1.y < p0.y)
     {
@@ -178,7 +198,7 @@ void raster_triangle_solid(u32 i)
         for (i32 x = x_start; x < x_end; x++)
         {
             f32 z = z_scan.vals[(u32)(x - x_start)];
-            raster_ppx_z(x, y, z, c);
+            raster_ppx_z(x, y, z, lit);
         }
         array_clear(z_scan);
     }

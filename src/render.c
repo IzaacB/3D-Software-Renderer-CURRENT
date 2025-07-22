@@ -49,7 +49,12 @@ void render_quit()
 
 void render_preload()
 {
-    objects.cube = object_import("../res/models/cube.obj");
+    objects.cube = object_import("../res/models/primitives/cube.obj");
+    objects.sphere = object_import("../res/models/primitives/sphere.obj");
+    objects.cylinder = object_import("../res/models/primitives/cylinder.obj");
+    objects.torus = object_import("../res/models/primitives/torus.obj");
+    objects.cone= object_import("../res/models/primitives/cone.obj");
+
 }
 
 void render_dump()
@@ -62,11 +67,19 @@ void render()
 {
     scene_init();
 
+    dir_light sun = {
+        {1, 1, -1},
+        {1, 1, 1},
+        1
+    };
+
+    array_insert(scene.dir_lights, sun);
+
     color one_color = {0, 1, 0};
     color another_color = {1, 0, 0};
     objects.cube.t.position.z = 5;
     objects.cube.m.c = one_color;
-    object_draw(objects.cube);
+    object_draw(objects.torus);
     objects.cube.m.c = another_color;
     objects.cube.t.position.z = 10;
     object_draw(objects.cube);

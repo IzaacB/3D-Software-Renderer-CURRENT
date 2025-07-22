@@ -89,6 +89,17 @@ void viewport_control()
         viewport.t.position.z -= move_speed * sin(viewport.t.rotation.y) * state.delta;
     }
 
+    if (state.keystate[SDL_SCANCODE_SPACE])
+    {
+        viewport.t.position.y += move_speed * state.delta;
+    }
+
+    if (state.keystate[SDL_SCANCODE_C])
+    {
+        viewport.t.position.y -= move_speed * state.delta;
+
+    }
+
     if (state.keystate[SDL_SCANCODE_RIGHT])
     {
         viewport.t.rotation.y += rotation_speed * state.delta;
