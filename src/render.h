@@ -1,6 +1,7 @@
 #ifndef RENDER_H
 #define RENDER_H
 
+extern void render_settings();
 extern void render_init();
 extern void render_update();
 extern void render_clear();

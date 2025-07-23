@@ -22,7 +22,7 @@ void viewport_init()
     plane far = 
     {
         {0, 0, -1},
-        RENDER_DISTANCE,
+        settings.render_distance,
     };
 
     viewport.far = far;

@@ -3,6 +3,7 @@
 #include "viewport.h"
 
 struct State state;
+struct Settings settings;
 struct Scene scene;
 struct Images images;
 struct Objects objects;
@@ -10,6 +11,7 @@ struct Viewport viewport;
 
 int main(int argc, char *argv[])
 {
+    render_settings();
     render_init();
     render_preload();
     viewport_init();

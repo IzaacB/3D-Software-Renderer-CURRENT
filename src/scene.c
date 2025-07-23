@@ -14,7 +14,7 @@ void scene_init()
 
     for (u32 i = 0; i < CANVAS_WIDTH * CANVAS_HEIGHT; i++)
     {
-        state.depth_buffer[i] = RENDER_DISTANCE;
+        state.depth_buffer[i] = settings.render_distance;
     }
 }
 
@@ -295,14 +295,19 @@ void scene_render()
 
     for (u32 i = 0; i < scene.faces.used; i++)
     {
-        if (scene.materials.vals[scene.material_indices.vals[i]].textured)
-        {   
-            raster_triangle_textured(i);
+        if (!settings.wireframe)
+        {
+            if (scene.materials.vals[scene.material_indices.vals[i]].textured)
+            {   
+                raster_triangle_textured(i);
+            }else
+            {
+                raster_triangle_solid(i);
+            }
         }else
         {
-            raster_triangle_solid(i);
+            raster_triangle_wireframe(i);
         }
-        //raster_triangle_wireframe(i);
     }
 
     array_clear(scene.projected);

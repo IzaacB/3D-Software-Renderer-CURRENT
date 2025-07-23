@@ -5,6 +5,22 @@
 #include "object.h"
 #include "image.h"
 
+void render_settings()
+{
+    settings.color_range = 16;
+
+    settings.render_distance = 75;
+    settings.wireframe = false;
+
+    color ambient_light = {.4, .4, .5};
+    settings.ambient_light = ambient_light;
+
+    settings.fog = true;
+    settings.fog_intensity = 2;
+    color fog_color = {1, 1, 1};
+    settings.fog_color = fog_color;
+}
+
 void render_init()
 {
     state.window = SDL_CreateWindow(
@@ -50,7 +66,8 @@ void render_quit()
 
 void render_preload()
 {
-    images.test = image_load("../res/models/sponza/textures/wall.bmp");
+    images.wall = image_load("../res/models/sponza/textures/wall.bmp");
+    images.floor = image_load("../res/models/sponza/textures/floor.bmp");
 
     objects.cube = object_import("../res/models/primitives/cube.obj", 0);
     objects.sphere = object_import("../res/models/primitives/sphere.obj", 0);
@@ -59,8 +76,12 @@ void render_preload()
     objects.cone = object_import("../res/models/primitives/cone.obj", 0);
     objects.sponza_wall = object_import("../res/models/sponza/sponza_wall.obj", 1);
     objects.sponza_floor = object_import("../res/models/sponza/sponza_floor.obj", 1);
-    objects.sponza_wall.m.texture = images.test;
+
+    objects.sponza_wall.m.texture = images.wall;
     objects.sponza_wall.m.textured = true;
+
+    objects.sponza_floor.m.texture = images.floor;
+    objects.sponza_floor.m.textured = true;
 }
 
 void render_dump()
@@ -82,13 +103,13 @@ void render()
     dir_light sun = {
         {1, 1, 1},
         {1, 1, 1},
-        2
+        1
     };
 
     dir_light farts = {
         {-1, -1, -1},
         {.5, .5, 1},
-        1
+        .5
     };
 
     array_insert(scene.dir_lights, sun);

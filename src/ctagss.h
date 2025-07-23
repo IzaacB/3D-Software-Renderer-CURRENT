@@ -27,7 +27,6 @@ typedef int64_t i64;
 #define CANVAS_WIDTH 320
 #define CANVAS_HEIGHT 200
 #define TARGET_FPS 60
-#define RENDER_DISTANCE 25
 
 array_define_type(f32, f32_array);
 array_define_type(u32, u32_array);
@@ -109,6 +108,22 @@ struct State
     const u8 *keystate;
 };
 
+struct Settings
+{
+    u8 color_range;
+    
+    f32 render_distance;
+    bool wireframe;
+
+    color ambient_light;
+
+    bool fog;
+    f32 fog_intensity;
+    color fog_color;
+    f32 fog_distance;
+
+};
+
 struct Scene
 {
     v3_array vertices;
@@ -126,7 +141,8 @@ struct Scene
 
 struct Images
 {
-    image test;
+    image floor;
+    image wall;
 };
 
 struct Objects
@@ -147,6 +163,7 @@ struct Viewport
 };
 
 extern struct State state;
+extern struct Settings settings;
 extern struct Scene scene;
 extern struct Images images;
 extern struct Objects objects;

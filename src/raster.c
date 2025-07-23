@@ -45,8 +45,16 @@ void raster_ppx_z(f32 x, f32 y, f32 z, color c)
 
     if (on_screen)
     {
-        if (state.depth_buffer[(u32)y * CANVAS_WIDTH + (u32)x] > z){
-            u32 color_dword = (u8)(c.b * 255) << 16 | (u8)(c.g * 255) << 8 | (u8)(c.r * 255);
+        if (state.depth_buffer[(u32)y * CANVAS_WIDTH + (u32)x] > z)
+        {
+            c.r = fmin(floor(c.r * settings.color_range), settings.color_range);
+            c.g = fmin(floor(c.g * settings.color_range), settings.color_range);
+            c.b = fmin(floor(c.b * settings.color_range), settings.color_range);
+
+            f32 color_ratio = 255 / (f32)settings.color_range;
+
+            u32 color_dword = (u8)(c.b * color_ratio) << 16 | (u8)(c.g * color_ratio) << 8 | (u8)(c.r * color_ratio);
+
             state.surface[(u32)y * CANVAS_WIDTH + (u32)x] = color_dword;
             state.depth_buffer[(u32)y * CANVAS_WIDTH + (u32)x] = z;
         }   
@@ -120,7 +128,7 @@ void raster_triangle_solid(u32 i)
 
     v3 normal = scene.normals.vals[i];
     color c = scene.materials.vals[scene.material_indices.vals[i]].c;
-    color lit = {.1 * c.r, .1 * c.g, .1 * c.b};
+    color lit = {settings.ambient_light.r * c.r, settings.ambient_light.g * c.g, settings.ambient_light.b * c.b};
 
     for (u32 j = 0; j < scene.dir_lights.used; j++)
     {
@@ -199,7 +207,19 @@ void raster_triangle_solid(u32 i)
         for (i32 x = x_start; x < x_end; x++)
         {
             f32 z = 1 / z_scan.vals[(u32)(x - x_start)];
-            raster_ppx_z(x, y, z, lit);
+            if (settings.fog)
+            {
+                color lit_with_fog = lit;
+                f32 fog_affect = (z / settings.render_distance) * settings.fog_intensity;
+
+                lit_with_fog.r -= fog_affect * settings.fog_color.r;
+                lit_with_fog.g -= fog_affect * settings.fog_color.g;
+                lit_with_fog.b -= fog_affect * settings.fog_color.b;
+                raster_ppx_z(x, y, z, lit_with_fog);
+            }else
+            {
+                raster_ppx_z(x, y, z, lit);
+            }
         }
         array_clear(z_scan);
     }
@@ -226,7 +246,8 @@ void raster_triangle_textured(u32 i)
     v2 uv2 = scene.uvs.vals[scene.faces.vals[i].uv2];
 
     v3 normal = scene.normals.vals[i];
-    color contribution = {0, 0, 0};
+    image texture = scene.materials.vals[scene.material_indices.vals[i]].texture;
+    color contribution = settings.ambient_light;
 
     for (u32 j = 0; j < scene.dir_lights.used; j++)
     {
@@ -336,7 +357,7 @@ void raster_triangle_textured(u32 i)
         f32_array u_scan = raster_lerp(x_start, u_start, x_end + 1, u_end);
         f32_array v_scan = raster_lerp(x_start, v_start, x_end + 1, v_end);
 
-        for (i32 x = x_start; x < x_end; x++)
+        for (i32 x = round(x_start); x < round(x_end); x++)
         {
             i32 x_index = x - x_start;
 
@@ -345,14 +366,24 @@ void raster_triangle_textured(u32 i)
             f32 u = u_scan.vals[x_index] * z;
             f32 v = v_scan.vals[x_index] * z;
 
-            u32 u_sample = (u32)round(u * images.test.width) % images.test.width;
-            u32 v_sample = (u32)round(v * images.test.height) % images.test.height;
+            i32 u_sample = (i32)round(u * texture.width) % texture.width;
+            i32 v_sample = (i32)round(v * texture.height) % texture.height;
 
-            color lit_texel = image_sample(scene.materials.vals[scene.material_indices.vals[i]].texture, u_sample, v_sample);
+            color lit_texel = image_sample(texture, u_sample, v_sample);
 
-            lit_texel.r = fmin(contribution.r * lit_texel.r, 1);
-            lit_texel.g = fmin(contribution.g * lit_texel.g, 1);
-            lit_texel.b = fmin(contribution.b * lit_texel.b, 1);
+            if (settings.fog)
+            {
+                f32 fog_affect = (z / settings.render_distance) * settings.fog_intensity;
+                lit_texel.r = fmin(contribution.r * lit_texel.r - (fog_affect * settings.fog_color.r), 1);
+                lit_texel.g = fmin(contribution.g * lit_texel.g - (fog_affect * settings.fog_color.g), 1);
+                lit_texel.b = fmin(contribution.b * lit_texel.b - (fog_affect * settings.fog_color.b), 1);
+            }else
+            {
+                lit_texel.r = fmin(contribution.r * lit_texel.r, 1);
+                lit_texel.g = fmin(contribution.g * lit_texel.g, 1);
+                lit_texel.b = fmin(contribution.b * lit_texel.b, 1);
+            }
+            
 
             raster_ppx_z(x, y, z, lit_texel);
         }
