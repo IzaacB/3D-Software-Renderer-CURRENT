@@ -134,7 +134,7 @@ void raster_triangle_solid(u32 i)
     {
         dir_light light = scene.dir_lights.vals[j];
         v3 light_dir = v3_norm(v3_transform(light.direction, viewport.t, 3));
-        f32 dot = fmax(0, v3_dot(normal, light_dir));
+        f32 dot = fmax(0, -v3_dot(normal, light_dir));
         
         color contribution = 
         {
@@ -143,9 +143,9 @@ void raster_triangle_solid(u32 i)
             dot * light.intensity * c.b * light.c.b
         };
 
-        lit.r = fmin(lit.r + contribution.r, 1);
-        lit.g = fmin(lit.g + contribution.g, 1);
-        lit.b = fmin(lit.b + contribution.b, 1);
+        lit.r = lit.r + contribution.r;
+        lit.g = lit.g + contribution.g;
+        lit.b = lit.b + contribution.b;
     }
     
     v3 t;
@@ -212,12 +212,16 @@ void raster_triangle_solid(u32 i)
                 color lit_with_fog = lit;
                 f32 fog_affect = (z / settings.render_distance) * settings.fog_intensity;
 
-                lit_with_fog.r -= fog_affect * settings.fog_color.r;
-                lit_with_fog.g -= fog_affect * settings.fog_color.g;
-                lit_with_fog.b -= fog_affect * settings.fog_color.b;
+                lit_with_fog.r = fmax(0, fmin(1, lit_with_fog.r - fog_affect * settings.fog_color.r));
+                lit_with_fog.g = fmax(0, fmin(1, lit_with_fog.g - fog_affect * settings.fog_color.g));
+                lit_with_fog.b = fmax(0, fmin(1, lit_with_fog.b - fog_affect * settings.fog_color.b));
                 raster_ppx_z(x, y, z, lit_with_fog);
             }else
             {
+                lit.r = fmax(0, fmin(1, lit.r));
+                lit.g = fmax(0, fmin(1, lit.g));
+                lit.b = fmax(0, fmin(1, lit.b));
+
                 raster_ppx_z(x, y, z, lit);
             }
         }
@@ -253,7 +257,7 @@ void raster_triangle_textured(u32 i)
     {
         dir_light light = scene.dir_lights.vals[j];
         v3 light_dir = v3_norm(v3_transform(light.direction, viewport.t, 3));
-        f32 dot = fmax(0, v3_dot(normal, light_dir));
+        f32 dot = fmax(0, -v3_dot(normal, light_dir));
         
         contribution.r += (dot * light.intensity * light.c.r);
         contribution.g += (dot * light.intensity * light.c.g);
@@ -374,14 +378,14 @@ void raster_triangle_textured(u32 i)
             if (settings.fog)
             {
                 f32 fog_affect = (z / settings.render_distance) * settings.fog_intensity;
-                lit_texel.r = fmin(contribution.r * lit_texel.r - (fog_affect * settings.fog_color.r), 1);
-                lit_texel.g = fmin(contribution.g * lit_texel.g - (fog_affect * settings.fog_color.g), 1);
-                lit_texel.b = fmin(contribution.b * lit_texel.b - (fog_affect * settings.fog_color.b), 1);
+                lit_texel.r = fmax(0, fmin(contribution.r * lit_texel.r - (fog_affect * settings.fog_color.r), 1));
+                lit_texel.g = fmax(0, fmin(contribution.g * lit_texel.g - (fog_affect * settings.fog_color.g), 1));
+                lit_texel.b = fmax(0, fmin(contribution.b * lit_texel.b - (fog_affect * settings.fog_color.b), 1));
             }else
             {
-                lit_texel.r = fmin(contribution.r * lit_texel.r, 1);
-                lit_texel.g = fmin(contribution.g * lit_texel.g, 1);
-                lit_texel.b = fmin(contribution.b * lit_texel.b, 1);
+                lit_texel.r = fmax(0, fmin(contribution.r * lit_texel.r, 1));
+                lit_texel.g = fmax(0, fmin(contribution.g * lit_texel.g, 1));
+                lit_texel.b = fmax(0, fmin(contribution.b * lit_texel.b, 1));
             }
             
 

@@ -141,19 +141,26 @@ struct Scene
 
 struct Images
 {
-    image floor;
-    image wall;
+    image bricks;
+    image grass;
+    image tile;
+    image yellow_wood;
 };
 
 struct Objects
 {
+    //3D Primitives.
     object cube;
     object sphere;
     object cone;
     object cylinder;
     object torus;
-    object sponza_wall;
-    object sponza_floor;
+
+    //Scene objects.
+    object scene_grass;
+    object scene_ring;
+    object scene_tile;
+    object scene_wall;
 };
 
 struct Viewport

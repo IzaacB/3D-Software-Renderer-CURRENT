@@ -2,7 +2,7 @@
 #include "image.h"
 #include "raster.h"
 
-image image_load(const char *path)
+image image_import(const char *path)
 {
      image img;
 

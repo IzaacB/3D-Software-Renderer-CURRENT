@@ -9,14 +9,14 @@ void render_settings()
 {
     settings.color_range = 16;
 
-    settings.render_distance = 75;
+    settings.render_distance = 25;
     settings.wireframe = false;
 
-    color ambient_light = {.4, .4, .5};
+    color ambient_light = {.5, .5, .5};
     settings.ambient_light = ambient_light;
 
     settings.fog = true;
-    settings.fog_intensity = 2;
+    settings.fog_intensity = -.25;
     color fog_color = {1, 1, 1};
     settings.fog_color = fog_color;
 }
@@ -66,33 +66,57 @@ void render_quit()
 
 void render_preload()
 {
-    images.wall = image_load("../res/models/sponza/textures/wall.bmp");
-    images.floor = image_load("../res/models/sponza/textures/floor.bmp");
+    //Images.
+    images.bricks = image_import("../res/images/bricks.bmp");
+    images.grass = image_import("../res/images/grass.bmp");
+    images.tile = image_import("../res/images/tile.bmp");
+    images.yellow_wood = image_import("../res/images/yellow_wood.bmp");
 
+    //3D primitives.
     objects.cube = object_import("../res/models/primitives/cube.obj", 0);
     objects.sphere = object_import("../res/models/primitives/sphere.obj", 0);
     objects.cylinder = object_import("../res/models/primitives/cylinder.obj", 0);
     objects.torus = object_import("../res/models/primitives/torus.obj", 0);
     objects.cone = object_import("../res/models/primitives/cone.obj", 0);
-    objects.sponza_wall = object_import("../res/models/sponza/sponza_wall.obj", 1);
-    objects.sponza_floor = object_import("../res/models/sponza/sponza_floor.obj", 1);
 
-    objects.sponza_wall.m.texture = images.wall;
-    objects.sponza_wall.m.textured = true;
+    //Scene objects.
+    objects.scene_grass = object_import("../res/models/scene_grass.obj", 1);
+    objects.scene_grass.m.texture = images.grass;
+    objects.scene_grass.m.textured = true;
 
-    objects.sponza_floor.m.texture = images.floor;
-    objects.sponza_floor.m.textured = true;
+    objects.scene_ring = object_import("../res/models/scene_ring.obj", 1);
+    objects.scene_ring.m.texture = images.yellow_wood;
+    objects.scene_ring.m.textured = true;
+
+    objects.scene_tile = object_import("../res/models/scene_tile.obj", 1);
+    objects.scene_tile.m.texture = images.tile;
+    objects.scene_tile.m.textured = true;
+
+    objects.scene_wall = object_import("../res/models/scene_wall.obj", 1);
+    objects.scene_wall.m.texture = images.bricks;
+    objects.scene_wall.m.textured = true;
 }
 
 void render_dump()
 {
+    //Unload images.
+    image_deport(images.bricks);
+    image_deport(images.grass);
+    image_deport(images.tile);
+    image_deport(images.yellow_wood);
+
+    //Unload primitives.
     object_deport(objects.cube);
     object_deport(objects.sphere);
     object_deport(objects.cylinder);
     object_deport(objects.torus);
     object_deport(objects.cone);
-    object_deport(objects.sponza_wall);
-    object_deport(objects.sponza_floor);
+
+    //Unload scene objects.
+    object_deport(objects.scene_grass);
+    object_deport(objects.scene_ring);
+    object_deport(objects.scene_tile);
+    object_deport(objects.scene_wall);
 }
 
 //Main render loop.
@@ -100,27 +124,19 @@ void render()
 {
     scene_init();
 
+    //Insert light sources.
     dir_light sun = {
-        {1, 1, 1},
+        {1, -1, 0},
         {1, 1, 1},
         1
     };
-
-    dir_light farts = {
-        {-1, -1, -1},
-        {.5, .5, 1},
-        .5
-    };
-
     array_insert(scene.dir_lights, sun);
-    array_insert(scene.dir_lights, farts);
 
-    objects.sponza_wall.t.position.z = 0;
-    object_draw(objects.sponza_wall);
-    object_draw(objects.sponza_floor);
-    objects.sphere.t.position.z = 3;
-    objects.sphere.t.position.y = 5;
-    object_draw(objects.sphere);
+    //Draw scene.
+    object_draw(objects.scene_grass);
+    object_draw(objects.scene_ring);
+    object_draw(objects.scene_tile);
+    object_draw(objects.scene_wall);
 
     scene_clip_volume();
     scene_render();
