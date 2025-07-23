@@ -4,6 +4,7 @@
 
 struct State state;
 struct Scene scene;
+struct Images images;
 struct Objects objects;
 struct Viewport viewport;
 

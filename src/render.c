@@ -3,6 +3,7 @@
 #include "scene.h"
 #include "raster.h"
 #include "object.h"
+#include "image.h"
 
 void render_init()
 {
@@ -49,17 +50,28 @@ void render_quit()
 
 void render_preload()
 {
-    objects.cube = object_import("../res/models/primitives/cube.obj");
-    objects.sphere = object_import("../res/models/primitives/sphere.obj");
-    objects.cylinder = object_import("../res/models/primitives/cylinder.obj");
-    objects.torus = object_import("../res/models/primitives/torus.obj");
-    objects.cone= object_import("../res/models/primitives/cone.obj");
+    images.test = image_load("../res/models/sponza/textures/wall.bmp");
 
+    objects.cube = object_import("../res/models/primitives/cube.obj", 0);
+    objects.sphere = object_import("../res/models/primitives/sphere.obj", 0);
+    objects.cylinder = object_import("../res/models/primitives/cylinder.obj", 0);
+    objects.torus = object_import("../res/models/primitives/torus.obj", 0);
+    objects.cone = object_import("../res/models/primitives/cone.obj", 0);
+    objects.sponza_wall = object_import("../res/models/sponza/sponza_wall.obj", 1);
+    objects.sponza_floor = object_import("../res/models/sponza/sponza_floor.obj", 1);
+    objects.sponza_wall.m.texture = images.test;
+    objects.sponza_wall.m.textured = true;
 }
 
 void render_dump()
 {
     object_deport(objects.cube);
+    object_deport(objects.sphere);
+    object_deport(objects.cylinder);
+    object_deport(objects.torus);
+    object_deport(objects.cone);
+    object_deport(objects.sponza_wall);
+    object_deport(objects.sponza_floor);
 }
 
 //Main render loop.
@@ -68,21 +80,26 @@ void render()
     scene_init();
 
     dir_light sun = {
-        {1, 1, -1},
         {1, 1, 1},
+        {1, 1, 1},
+        2
+    };
+
+    dir_light farts = {
+        {-1, -1, -1},
+        {.5, .5, 1},
         1
     };
 
     array_insert(scene.dir_lights, sun);
+    array_insert(scene.dir_lights, farts);
 
-    color one_color = {0, 1, 0};
-    color another_color = {1, 0, 0};
-    objects.cube.t.position.z = 5;
-    objects.cube.m.c = one_color;
-    object_draw(objects.torus);
-    objects.cube.m.c = another_color;
-    objects.cube.t.position.z = 10;
-    object_draw(objects.cube);
+    objects.sponza_wall.t.position.z = 0;
+    object_draw(objects.sponza_wall);
+    object_draw(objects.sponza_floor);
+    objects.sphere.t.position.z = 3;
+    objects.sphere.t.position.y = 5;
+    object_draw(objects.sphere);
 
     scene_clip_volume();
     scene_render();

@@ -24,14 +24,15 @@ typedef int16_t i16;
 typedef int32_t i32;
 typedef int64_t i64;
 
-#define CANVAS_WIDTH 640
-#define CANVAS_HEIGHT 480
+#define CANVAS_WIDTH 320
+#define CANVAS_HEIGHT 200
 #define TARGET_FPS 60
 #define RENDER_DISTANCE 25
 
 array_define_type(f32, f32_array);
 array_define_type(u32, u32_array);
 array_define_type(v3, v3_array);
+array_define_type(v2, v2_array);
 
 typedef struct
 {
@@ -42,6 +43,7 @@ color;
 typedef struct
 {
     u32 i0, i1, i2;
+    u32 uv0, uv1, uv2;
 }
 face;
 array_define_type(face, face_array);
@@ -64,7 +66,18 @@ array_define_type(dir_light, dir_light_array);
 
 typedef struct
 {
+    SDL_Surface *source;
+    u32 *pixels;
+    u32 width, height;
+    u32 h_frames, v_frames;
+}
+image;
+
+typedef struct
+{
     color c;
+    bool textured;
+    image texture;
 }
 material;
 array_define_type(material, material_array);
@@ -75,6 +88,7 @@ typedef struct
     face_array faces;
 
     v3_array normals;
+    v2_array uvs;
 
     material m;
     
@@ -100,6 +114,7 @@ struct Scene
     v3_array vertices;
     face_array faces;
     v3_array normals;
+    v2_array uvs;
 
     material_array materials;
     u32_array material_indices;
@@ -109,6 +124,11 @@ struct Scene
     dir_light_array dir_lights;
 };
 
+struct Images
+{
+    image test;
+};
+
 struct Objects
 {
     object cube;
@@ -116,6 +136,8 @@ struct Objects
     object cone;
     object cylinder;
     object torus;
+    object sponza_wall;
+    object sponza_floor;
 };
 
 struct Viewport
@@ -126,6 +148,7 @@ struct Viewport
 
 extern struct State state;
 extern struct Scene scene;
+extern struct Images images;
 extern struct Objects objects;
 extern struct Viewport viewport;
 
