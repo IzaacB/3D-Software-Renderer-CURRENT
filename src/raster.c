@@ -31,13 +31,15 @@ void raster_ppx(f32 x, f32 y, color c)
 
     if (on_screen)
     {
-        c.r = fmax(0, fmin(floor(c.r * settings.color_range), settings.color_range));
-        c.g = fmax(0, fmin(floor(c.g * settings.color_range), settings.color_range));
-        c.b = fmax(0, fmin(floor(c.b * settings.color_range), settings.color_range));
+        c.r = fmax(0, fmin(floor(c.r * settings.color_range_red), settings.color_range_red));
+        c.g = fmax(0, fmin(floor(c.g * settings.color_range_green), settings.color_range_green));
+        c.b = fmax(0, fmin(floor(c.b * settings.color_range_blue), settings.color_range_blue));
 
-        f32 color_ratio = 255 / (f32)settings.color_range;
+        f32 color_ratio_red = 255 / (f32)settings.color_range_red;
+        f32 color_ratio_green = 255 / (f32)settings.color_range_green;
+        f32 color_ratio_blue = 255 / (f32)settings.color_range_blue;
 
-        u32 color_dword = (u8)(c.b * 255) << 16 | (u8)(c.g * 255) << 8 | (u8)(c.r * 255);
+        u32 color_dword = (u8)(c.b * color_ratio_red) << 16 | (u8)(c.g * color_ratio_green) << 8 | (u8)(c.r * color_ratio_blue);
 
         state.surface[(u32)y * CANVAS_WIDTH + (u32)x] = color_dword;
     }
@@ -54,13 +56,15 @@ void raster_ppx_z(f32 x, f32 y, f32 z, color c)
     {
         if (state.depth_buffer[(u32)y * CANVAS_WIDTH + (u32)x] > z)
         {
-            c.r = fmax(0, fmin(floor(c.r * settings.color_range), settings.color_range));
-            c.g = fmax(0, fmin(floor(c.g * settings.color_range), settings.color_range));
-            c.b = fmax(0, fmin(floor(c.b * settings.color_range), settings.color_range));
+            c.r = fmax(0, fmin(floor(c.r * settings.color_range_red), settings.color_range_red));
+            c.g = fmax(0, fmin(floor(c.g * settings.color_range_green), settings.color_range_green));
+            c.b = fmax(0, fmin(floor(c.b * settings.color_range_blue), settings.color_range_blue));
 
-            f32 color_ratio = 255 / (f32)settings.color_range;
+            f32 color_ratio_red = 255 / (f32)settings.color_range_red;
+            f32 color_ratio_green = 255 / (f32)settings.color_range_green;
+            f32 color_ratio_blue = 255 / (f32)settings.color_range_blue;
 
-            u32 color_dword = (u8)(c.b * color_ratio) << 16 | (u8)(c.g * color_ratio) << 8 | (u8)(c.r * color_ratio);
+            u32 color_dword = (u8)(c.b * color_ratio_red) << 16 | (u8)(c.g * color_ratio_green) << 8 | (u8)(c.r * color_ratio_blue);
 
             state.surface[(u32)y * CANVAS_WIDTH + (u32)x] = color_dword;
             state.depth_buffer[(u32)y * CANVAS_WIDTH + (u32)x] = z;
@@ -422,10 +426,9 @@ void raster_triangle_textured(u32 i)
     array_clear(v012);
 }
 
-void raster_sprite3D(sprite3D s)
+void raster_sprite3D(image sprite, v3 pos, f32 size)
 {
-    v3 origin = {0, 0, 0};
-    origin = v3_transform(v3_transform(origin, s.t, 0), viewport.t, 1);
+    v3 origin = v3_transform(pos, viewport.t, 1);
 
     if (origin.z > viewport.t.scale.z)
     {
@@ -434,10 +437,27 @@ void raster_sprite3D(sprite3D s)
             round((origin.y / origin.z * viewport.t.scale.z) * (CANVAS_HEIGHT / viewport.t.scale.y)),
             origin.z};
 
-        f32 scale = fmax(.01, (1 / point.z) * 7);
+        f32 screen_ratio = CANVAS_HEIGHT / sprite.width;
+        f32 scale = fmax(.01, (size / point.z * viewport.t.scale.z) * screen_ratio);
 
-        f32 scaled_w = s.img.width * scale;
-        f32 scaled_h = s.img.height * scale;
+        f32 scaled_w = sprite.width * scale;
+        f32 scaled_h = sprite.height * scale;
+
+        f32 fog_affect = (point.z / settings.render_distance) * settings.fog_intensity;
+
+        v3 normal = {0, 0, -1};
+        color contribution = settings.ambient_light;
+
+        for (u32 j = 0; j < scene.dir_lights.used; j++)
+        {
+            dir_light light = scene.dir_lights.vals[j];
+            v3 light_dir = v3_norm(v3_transform(light.direction, viewport.t, 3));
+            f32 dot = fmax(0, -v3_dot(normal, light_dir));
+
+            contribution.r += (dot * light.intensity * light.c.r);
+            contribution.g += (dot * light.intensity * light.c.g);
+            contribution.b += (dot * light.intensity * light.c.b);
+        }
 
         for(i32 y = 0; y < floor(scaled_h); y++)
         {
@@ -447,7 +467,13 @@ void raster_sprite3D(sprite3D s)
             {
                 i32 sample_x = floor((f32)x / scale);
 
-                color sample = image_sample(s.img, sample_x, sample_y);
+                color sample = image_sample(sprite, sample_x, sample_y);
+
+                sample.r -= fog_affect * settings.fog_color.r;
+                sample.g -= fog_affect * settings.fog_color.g;
+                sample.b -= fog_affect * settings.fog_color.b;
+                
+
                 if (sample.a == 1)
                 {
                     raster_ppx_z(point.x + x - scaled_w / 2, point.y - y + scaled_h / 2, point.z, sample);

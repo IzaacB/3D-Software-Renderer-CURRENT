@@ -7,16 +7,18 @@
 
 void render_settings()
 {
-    settings.color_range = 16;
+    settings.color_range_red = 16;
+    settings.color_range_green = 17;
+    settings.color_range_blue = 14;
 
-    settings.render_distance = 25;
+    settings.render_distance = 50;
     settings.wireframe = false;
 
-    color ambient_light = {.5, .5, .5};
+    color ambient_light = {.25, .25, .25};
     settings.ambient_light = ambient_light;
 
     settings.fog = true;
-    settings.fog_intensity = -.2;
+    settings.fog_intensity = -.5;
     color fog_color = {1, 1, 1};
     settings.fog_color = fog_color;
 }
@@ -149,7 +151,8 @@ void render()
     scene_clip_volume();
     scene_render();
 
-    raster_sprite3D(green);
+    v3 sprite_pos = {0, 2, 0};
+    raster_sprite3D(images.green, sprite_pos, 7);
 
     scene_clear();
 }

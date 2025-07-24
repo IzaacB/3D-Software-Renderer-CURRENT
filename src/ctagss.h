@@ -24,8 +24,8 @@ typedef int16_t i16;
 typedef int32_t i32;
 typedef int64_t i64;
 
-#define CANVAS_WIDTH 640
-#define CANVAS_HEIGHT 480
+#define CANVAS_WIDTH 320
+#define CANVAS_HEIGHT 200
 #define TARGET_FPS 60
 
 array_define_type(f32, f32_array);
@@ -109,7 +109,9 @@ struct State
 
 struct Settings
 {
-    u8 color_range;
+    u8 color_range_green;
+    u8 color_range_red;
+    u8 color_range_blue;
 
     f32 render_distance;
     bool wireframe;
