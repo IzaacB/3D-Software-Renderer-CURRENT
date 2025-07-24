@@ -7,5 +7,6 @@ extern void raster_line(v2 p0, v2 p1, color c);
 extern void raster_triangle_wireframe(u32 i);
 extern void raster_triangle_solid(u32 i);
 extern void raster_triangle_textured(u32 i);
+extern void raster_sprite3D(sprite3D s);
 
 #endif

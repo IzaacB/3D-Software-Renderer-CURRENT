@@ -6,56 +6,50 @@ void viewport_init()
     transform t = {
         {0, 0, 0},
         {0, 0, 0},
-        {(f32)CANVAS_WIDTH / (f32)CANVAS_HEIGHT, 1, .5}
-    };
+        {(f32)CANVAS_WIDTH / (f32)CANVAS_HEIGHT, 1, .5}};
 
     viewport.t = t;
 
-    plane near = 
-    {
-        {0, 0, 1},
-        -viewport.t.scale.z
-    };
+    plane near =
+        {
+            {0, 0, 1},
+            -viewport.t.scale.z};
 
     viewport.near = near;
 
-    plane far = 
-    {
-        {0, 0, -1},
-        settings.render_distance,
-    };
+    plane far =
+        {
+            {0, 0, -1},
+            settings.render_distance,
+        };
 
     viewport.far = far;
 
-    plane right = 
-    {
-        {-viewport.t.scale.z, 0, viewport.t.scale.x / 2},
-        0
-    };
+    plane right =
+        {
+            {-viewport.t.scale.z, 0, viewport.t.scale.x / 2},
+            0};
 
     viewport.right = right;
 
-    plane left = 
-    {
-        {viewport.t.scale.z, 0, viewport.t.scale.x / 2},
-        0
-    };
+    plane left =
+        {
+            {viewport.t.scale.z, 0, viewport.t.scale.x / 2},
+            0};
 
     viewport.left = left;
 
     plane top =
-    {
-        {0, -viewport.t.scale.z, viewport.t.scale.y / 2},
-        0
-    };
+        {
+            {0, -viewport.t.scale.z, viewport.t.scale.y / 2},
+            0};
 
     viewport.top = top;
 
-    plane bottom = 
-    {
-        {0, viewport.t.scale.z, viewport.t.scale.y / 2},
-        0
-    };
+    plane bottom =
+        {
+            {0, viewport.t.scale.z, viewport.t.scale.y / 2},
+            0};
 
     viewport.bottom = bottom;
 }
@@ -97,7 +91,6 @@ void viewport_control()
     if (state.keystate[SDL_SCANCODE_C])
     {
         viewport.t.position.y -= move_speed * state.delta;
-
     }
 
     if (state.keystate[SDL_SCANCODE_RIGHT])

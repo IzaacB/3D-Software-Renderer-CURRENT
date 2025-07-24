@@ -16,7 +16,7 @@ void render_settings()
     settings.ambient_light = ambient_light;
 
     settings.fog = true;
-    settings.fog_intensity = -.25;
+    settings.fog_intensity = -.2;
     color fog_color = {1, 1, 1};
     settings.fog_color = fog_color;
 }
@@ -27,21 +27,18 @@ void render_init()
         "Software Rasterizer",
         SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED,
         1200, 800,
-        SDL_WINDOW_SHOWN | SDL_WINDOW_RESIZABLE
-    );
+        SDL_WINDOW_SHOWN | SDL_WINDOW_RESIZABLE);
 
     state.renderer = SDL_CreateRenderer(
         state.window,
         -1,
-        SDL_RENDERER_SOFTWARE | SDL_RENDERER_PRESENTVSYNC
-    );
+        SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);
 
-     state.canvas = SDL_CreateTexture(
+    state.canvas = SDL_CreateTexture(
         state.renderer,
         SDL_PIXELFORMAT_ABGR8888,
         SDL_TEXTUREACCESS_STREAMING,
-        CANVAS_WIDTH, CANVAS_HEIGHT
-    );
+        CANVAS_WIDTH, CANVAS_HEIGHT);
 }
 
 void render_update()
@@ -66,20 +63,21 @@ void render_quit()
 
 void render_preload()
 {
-    //Images.
+    // Images.
     images.bricks = image_import("../res/images/bricks.bmp");
     images.grass = image_import("../res/images/grass.bmp");
     images.tile = image_import("../res/images/tile.bmp");
     images.yellow_wood = image_import("../res/images/yellow_wood.bmp");
+    images.green = image_import("../res/images/green.bmp");
 
-    //3D primitives.
+    // 3D primitives.
     objects.cube = object_import("../res/models/primitives/cube.obj", 0);
     objects.sphere = object_import("../res/models/primitives/sphere.obj", 0);
     objects.cylinder = object_import("../res/models/primitives/cylinder.obj", 0);
     objects.torus = object_import("../res/models/primitives/torus.obj", 0);
     objects.cone = object_import("../res/models/primitives/cone.obj", 0);
 
-    //Scene objects.
+    // Scene objects.
     objects.scene_grass = object_import("../res/models/scene_grass.obj", 1);
     objects.scene_grass.m.texture = images.grass;
     objects.scene_grass.m.textured = true;
@@ -99,46 +97,59 @@ void render_preload()
 
 void render_dump()
 {
-    //Unload images.
+    // Unload images.
     image_deport(images.bricks);
     image_deport(images.grass);
     image_deport(images.tile);
     image_deport(images.yellow_wood);
+    image_deport(images.green);
 
-    //Unload primitives.
+    // Unload primitives.
     object_deport(objects.cube);
     object_deport(objects.sphere);
     object_deport(objects.cylinder);
     object_deport(objects.torus);
     object_deport(objects.cone);
 
-    //Unload scene objects.
+    // Unload scene objects.
     object_deport(objects.scene_grass);
     object_deport(objects.scene_ring);
     object_deport(objects.scene_tile);
     object_deport(objects.scene_wall);
 }
 
-//Main render loop.
+// Main render loop.
 void render()
 {
     scene_init();
 
-    //Insert light sources.
+    // Insert light sources.
     dir_light sun = {
         {1, -1, 0},
         {1, 1, 1},
-        1
-    };
+        1};
     array_insert(scene.dir_lights, sun);
 
-    //Draw scene.
+    // Draw scene.
     object_draw(objects.scene_grass);
     object_draw(objects.scene_ring);
     object_draw(objects.scene_tile);
     object_draw(objects.scene_wall);
 
+    sprite3D green = 
+    {
+        images.green,
+        {
+            {0, 1.75, 0},
+            {0, 0, 0},
+            {1, 1, 1}
+        }
+    };
+
     scene_clip_volume();
     scene_render();
+
+    raster_sprite3D(green);
+
     scene_clear();
 }

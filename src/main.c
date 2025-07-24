@@ -53,6 +53,6 @@ int main(int argc, char *argv[])
     }
 
     render_dump();
-    
+
     render_quit();
 }

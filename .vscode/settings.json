@@ -13,6 +13,17 @@
         "functional": "c",
         "tuple": "c",
         "utility": "c",
-        "cmath": "c"
+        "cmath": "c",
+        "chrono": "c",
+        "text_encoding": "c",
+        "typeinfo": "c",
+        "optional": "c",
+        "format": "c",
+        "ranges": "c",
+        "system_error": "c",
+        "string_view": "c",
+        "initializer_list": "c",
+        "span": "c",
+        "vector.h": "c"
     }
 }

@@ -4,22 +4,22 @@
 
 static f32_array raster_lerp(f32 i0, f32 d0, f32 i1, f32 d1)
 {
-     f32_array line;
-     array_init(f32, line);
+    f32_array line;
+    array_init(f32, line, CANVAS_WIDTH);
 
-     f32 slope = 0;
+    f32 slope = 0;
 
-     if(i1 != i0)
-     {
-          slope = (d1 - d0) / (i1 - i0);
-     }
+    if (i1 != i0)
+    {
+        slope = (d1 - d0) / (i1 - i0);
+    }
 
-     for (u32 i = 0; i < (u32)(i1 - i0); i++)
-     {
-          array_insert(line, d0 + slope * i);
-     }
+    for (u32 i = 0; i < (u32)(i1 - i0); i++)
+    {
+        array_insert(line, d0 + slope * i);
+    }
 
-     return line;
+    return line;
 }
 
 void raster_ppx(f32 x, f32 y, color c)
@@ -31,7 +31,14 @@ void raster_ppx(f32 x, f32 y, color c)
 
     if (on_screen)
     {
+        c.r = fmax(0, fmin(floor(c.r * settings.color_range), settings.color_range));
+        c.g = fmax(0, fmin(floor(c.g * settings.color_range), settings.color_range));
+        c.b = fmax(0, fmin(floor(c.b * settings.color_range), settings.color_range));
+
+        f32 color_ratio = 255 / (f32)settings.color_range;
+
         u32 color_dword = (u8)(c.b * 255) << 16 | (u8)(c.g * 255) << 8 | (u8)(c.r * 255);
+
         state.surface[(u32)y * CANVAS_WIDTH + (u32)x] = color_dword;
     }
 }
@@ -47,9 +54,9 @@ void raster_ppx_z(f32 x, f32 y, f32 z, color c)
     {
         if (state.depth_buffer[(u32)y * CANVAS_WIDTH + (u32)x] > z)
         {
-            c.r = fmin(floor(c.r * settings.color_range), settings.color_range);
-            c.g = fmin(floor(c.g * settings.color_range), settings.color_range);
-            c.b = fmin(floor(c.b * settings.color_range), settings.color_range);
+            c.r = fmax(0, fmin(floor(c.r * settings.color_range), settings.color_range));
+            c.g = fmax(0, fmin(floor(c.g * settings.color_range), settings.color_range));
+            c.b = fmax(0, fmin(floor(c.b * settings.color_range), settings.color_range));
 
             f32 color_ratio = 255 / (f32)settings.color_range;
 
@@ -57,67 +64,68 @@ void raster_ppx_z(f32 x, f32 y, f32 z, color c)
 
             state.surface[(u32)y * CANVAS_WIDTH + (u32)x] = color_dword;
             state.depth_buffer[(u32)y * CANVAS_WIDTH + (u32)x] = z;
-        }   
+        }
     }
 }
 
 void raster_line(v2 p0, v2 p1, color c)
 {
-     if (p0.x == p1.x && p0.y == p1.y){
-          raster_ppx(p0.x, p0.y, c);
+    if (p0.x == p1.x && p0.y == p1.y)
+    {
+        raster_ppx(p0.x, p0.y, c);
+    }
+    else if (fabsf(p1.x - p0.x) >= fabsf(p1.y - p0.y))
+    {
+        if (p1.x < p0.x)
+        {
+            v2 t = p0;
+            p0 = p1;
+            p1 = t;
+        }
 
-     }else if(fabsf(p1.x - p0.x) >= fabsf(p1.y - p0.y))
-     {
-          if (p1.x < p0.x)
-          {
-               v2 t = p0;
-               p0 = p1;
-               p1 = t;
-          }
+        f32_array line = raster_lerp(p0.x, p0.y, p1.x, p1.y);
 
-          f32_array line = raster_lerp(p0.x, p0.y, p1.x, p1.y);
+        for (u32 x = 0; x < line.used; x++)
+        {
+            raster_ppx(x + p0.x, line.vals[x], c);
+        }
 
-          for (u32 x = 0; x < line.used; x++)
-          {
-               raster_ppx(x + p0.x, line.vals[x], c);
-          }
+        array_clear(line);
+    }
+    else
+    {
+        if (p1.y < p0.y)
+        {
+            v2 t = p0;
+            p0 = p1;
+            p1 = t;
+        }
 
-          array_clear(line);
-     }
-     else
-     {
-          if (p1.y < p0.y)
-          {
-               v2 t = p0;
-               p0 = p1;
-               p1 = t;
-          }
-          
-          f32_array line  = raster_lerp(p0.y, p0.x, p1.y, p1.x);
+        f32_array line = raster_lerp(p0.y, p0.x, p1.y, p1.x);
 
-          for (u32 y = 0; y < line.used; y++)
-          {
-               raster_ppx(line.vals[y], y + p0.y, c);
-          }
+        for (u32 y = 0; y < line.used; y++)
+        {
+            raster_ppx(line.vals[y], y + p0.y, c);
+        }
 
-          array_clear(line);
-     }
+        array_clear(line);
+    }
 }
 
 void raster_triangle_wireframe(u32 i)
 {
-     v3 p0 = scene.projected.vals[scene.faces.vals[i].i0];
-     v3 p1 = scene.projected.vals[scene.faces.vals[i].i1];
-     v3 p2 = scene.projected.vals[scene.faces.vals[i].i2];
+    v3 p0 = scene.projected.vals[scene.faces.vals[i].i0];
+    v3 p1 = scene.projected.vals[scene.faces.vals[i].i1];
+    v3 p2 = scene.projected.vals[scene.faces.vals[i].i2];
 
-     v2 h0 = v3_to_v2(p0);
-     v2 h1 = v3_to_v2(p1);
-     v2 h2 = v3_to_v2(p2);
-     
-     color c = {1, 1, 1};
-     raster_line(h0, h1, c);
-     raster_line(h1, h2, c);
-     raster_line(h2, h0, c);
+    v2 h0 = v3_to_v2(p0);
+    v2 h1 = v3_to_v2(p1);
+    v2 h2 = v3_to_v2(p2);
+
+    color c = {1, 1, 1};
+    raster_line(h0, h1, c);
+    raster_line(h1, h2, c);
+    raster_line(h2, h0, c);
 }
 
 void raster_triangle_solid(u32 i)
@@ -135,19 +143,18 @@ void raster_triangle_solid(u32 i)
         dir_light light = scene.dir_lights.vals[j];
         v3 light_dir = v3_norm(v3_transform(light.direction, viewport.t, 3));
         f32 dot = fmax(0, -v3_dot(normal, light_dir));
-        
-        color contribution = 
-        {
-            dot * light.intensity * c.r * light.c.r,
-            dot * light.intensity * c.g * light.c.g,
-            dot * light.intensity * c.b * light.c.b
-        };
+
+        color contribution =
+            {
+                dot * light.intensity * c.r * light.c.r,
+                dot * light.intensity * c.g * light.c.g,
+                dot * light.intensity * c.b * light.c.b};
 
         lit.r = lit.r + contribution.r;
         lit.g = lit.g + contribution.g;
         lit.b = lit.b + contribution.b;
     }
-    
+
     v3 t;
     if (p1.y < p0.y)
     {
@@ -192,7 +199,8 @@ void raster_triangle_solid(u32 i)
         f32 z_start = (z02.vals[y_index]);
         f32 z_end = (z012.vals[y_index]);
 
-        if (x_start > x_end){
+        if (x_start > x_end)
+        {
             f32 temp = x_start;
             x_start = x_end;
             x_end = temp;
@@ -201,7 +209,7 @@ void raster_triangle_solid(u32 i)
             z_start = z_end;
             z_end = temp;
         }
-        
+
         f32_array z_scan = raster_lerp(x_start, z_start, x_end + 1, z_end);
 
         for (i32 x = x_start; x < x_end; x++)
@@ -212,16 +220,14 @@ void raster_triangle_solid(u32 i)
                 color lit_with_fog = lit;
                 f32 fog_affect = (z / settings.render_distance) * settings.fog_intensity;
 
-                lit_with_fog.r = fmax(0, fmin(1, lit_with_fog.r - fog_affect * settings.fog_color.r));
-                lit_with_fog.g = fmax(0, fmin(1, lit_with_fog.g - fog_affect * settings.fog_color.g));
-                lit_with_fog.b = fmax(0, fmin(1, lit_with_fog.b - fog_affect * settings.fog_color.b));
-                raster_ppx_z(x, y, z, lit_with_fog);
-            }else
-            {
-                lit.r = fmax(0, fmin(1, lit.r));
-                lit.g = fmax(0, fmin(1, lit.g));
-                lit.b = fmax(0, fmin(1, lit.b));
+                lit_with_fog.r -= fog_affect * settings.fog_color.r;
+                lit_with_fog.g -= fog_affect * settings.fog_color.g;
+                lit_with_fog.b -= fog_affect * settings.fog_color.b;
 
+                raster_ppx_z(x, y, z, lit_with_fog);
+            }
+            else
+            {
                 raster_ppx_z(x, y, z, lit);
             }
         }
@@ -258,12 +264,12 @@ void raster_triangle_textured(u32 i)
         dir_light light = scene.dir_lights.vals[j];
         v3 light_dir = v3_norm(v3_transform(light.direction, viewport.t, 3));
         f32 dot = fmax(0, -v3_dot(normal, light_dir));
-        
+
         contribution.r += (dot * light.intensity * light.c.r);
         contribution.g += (dot * light.intensity * light.c.g);
         contribution.b += (dot * light.intensity * light.c.b);
     }
-    
+
     v3 t0;
     v2 t1;
     if (p1.y < p0.y)
@@ -339,7 +345,8 @@ void raster_triangle_textured(u32 i)
         f32 v_start = (v02.vals[y_index]);
         f32 v_end = (v012.vals[y_index]);
 
-        if (x_start > x_end){
+        if (x_start > x_end)
+        {
             f32 temp = x_start;
             x_start = x_end;
             x_end = temp;
@@ -356,7 +363,7 @@ void raster_triangle_textured(u32 i)
             v_start = v_end;
             v_end = temp;
         }
-        
+
         f32_array z_scan = raster_lerp(x_start, z_start, x_end + 1, z_end);
         f32_array u_scan = raster_lerp(x_start, u_start, x_end + 1, u_end);
         f32_array v_scan = raster_lerp(x_start, v_start, x_end + 1, v_end);
@@ -375,19 +382,17 @@ void raster_triangle_textured(u32 i)
 
             color lit_texel = image_sample(texture, u_sample, v_sample);
 
+            lit_texel.r *= contribution.r * lit_texel.r;
+            lit_texel.g *= contribution.g * lit_texel.g;
+            lit_texel.b *= contribution.b * lit_texel.b;
+
             if (settings.fog)
             {
                 f32 fog_affect = (z / settings.render_distance) * settings.fog_intensity;
-                lit_texel.r = fmax(0, fmin(contribution.r * lit_texel.r - (fog_affect * settings.fog_color.r), 1));
-                lit_texel.g = fmax(0, fmin(contribution.g * lit_texel.g - (fog_affect * settings.fog_color.g), 1));
-                lit_texel.b = fmax(0, fmin(contribution.b * lit_texel.b - (fog_affect * settings.fog_color.b), 1));
-            }else
-            {
-                lit_texel.r = fmax(0, fmin(contribution.r * lit_texel.r, 1));
-                lit_texel.g = fmax(0, fmin(contribution.g * lit_texel.g, 1));
-                lit_texel.b = fmax(0, fmin(contribution.b * lit_texel.b, 1));
+                lit_texel.r -= fog_affect * settings.fog_color.r;
+                lit_texel.g -= fog_affect * settings.fog_color.g;
+                lit_texel.b -= fog_affect * settings.fog_color.b;
             }
-            
 
             raster_ppx_z(x, y, z, lit_texel);
         }
@@ -415,4 +420,39 @@ void raster_triangle_textured(u32 i)
     array_clear(v12);
     array_clear(v02);
     array_clear(v012);
+}
+
+void raster_sprite3D(sprite3D s)
+{
+    v3 origin = {0, 0, 0};
+    origin = v3_transform(v3_transform(origin, s.t, 0), viewport.t, 1);
+
+    if (origin.z > viewport.t.scale.z)
+    {
+        v3 point = {
+            round((origin.x / origin.z * viewport.t.scale.z) * (CANVAS_WIDTH / viewport.t.scale.x)),
+            round((origin.y / origin.z * viewport.t.scale.z) * (CANVAS_HEIGHT / viewport.t.scale.y)),
+            origin.z};
+
+        f32 scale = fmax(.01, (1 / point.z) * 7);
+
+        f32 scaled_w = s.img.width * scale;
+        f32 scaled_h = s.img.height * scale;
+
+        for(i32 y = 0; y < floor(scaled_h); y++)
+        {
+            i32 sample_y = floor((f32)y / scale);
+
+            for (i32 x = 0; x < floor(scaled_w); x++)
+            {
+                i32 sample_x = floor((f32)x / scale);
+
+                color sample = image_sample(s.img, sample_x, sample_y);
+                if (sample.a == 1)
+                {
+                    raster_ppx_z(point.x + x - scaled_w / 2, point.y - y + scaled_h / 2, point.z, sample);
+                }
+            }
+        }
+    }
 }

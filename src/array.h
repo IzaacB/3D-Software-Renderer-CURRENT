@@ -2,62 +2,70 @@
 #define ARRAY_H
 
 #define array_define_type(type, name) \
-     typedef struct \
-     {\
-          type* vals; \
-          u32 used, len; \
-     } name
+    typedef struct                    \
+    {                                 \
+        type *vals;                   \
+        u32 used, len;                \
+    } name
 
-#define array_init(type, array) \
-     do \
-     { \
-          (array).vals = (type *)malloc(3 * sizeof(type)); \
-          (array).used = 0; \
-          (array).len = 3; \
-     } while (0)
+#define array_init(type, array, size)                        \
+    do                                                       \
+    {                                                        \
+        u32 _size = size;                                    \
+        (array).vals = (type *)malloc(_size * sizeof(type)); \
+        (array).used = 0;                                    \
+        (array).len = size;                                  \
+    } while (0)
 
-#define array_insert(array, value) \
-     do { \
-          __typeof__(value) _value = value;\
-          if ((array).used >= (array).len) { \
-               (array).len = (array).len * 3;\
-               void* tmp = realloc((array).vals, sizeof(*(array).vals) * (array).len); \
-               (array).vals = tmp; \
-          } \
-          (array).vals[(array).used++] = (_value); \
-     } while (0)
+#define array_insert(array, value)                                                  \
+    do                                                                              \
+    {                                                                               \
+        __typeof__(value) _value = value;                                           \
+        if ((array).used >= (array).len)                                            \
+        {                                                                           \
+            (array).len = (array).len * 3;                                          \
+            void *tmp = realloc((array).vals, sizeof(*(array).vals) * (array).len); \
+            (array).vals = tmp;                                                     \
+        }                                                                           \
+        (array).vals[(array).used++] = (_value);                                    \
+    } while (0)
 
-#define array_copy(type, src, dest) \
-     do { \
-          __typeof__(src) _src = (src); \
-          if ((dest).vals != NULL) { \
-               free((dest).vals); \
-               (dest).vals = NULL; \
-          } \
-          (dest).len = _src.len; \
-          (dest).used = _src.used; \
-          (dest).vals = (type *)malloc(_src.len * sizeof(type)); \
-          for (size_t _i = 0; _i < _src.used; _i++) { \
-               (dest).vals[_i] = _src.vals[_i]; \
-          } \
-     } while (0)
+#define array_copy(type, src, dest)                            \
+    do                                                         \
+    {                                                          \
+        __typeof__(src) _src = (src);                          \
+        if ((dest).vals != NULL)                               \
+        {                                                      \
+            free((dest).vals);                                 \
+            (dest).vals = NULL;                                \
+        }                                                      \
+        (dest).len = _src.len;                                 \
+        (dest).used = _src.used;                               \
+        (dest).vals = (type *)malloc(_src.len * sizeof(type)); \
+        for (size_t _i = 0; _i < _src.used; _i++)              \
+        {                                                      \
+            (dest).vals[_i] = _src.vals[_i];                   \
+        }                                                      \
+    } while (0)
 
-#define array_concat(type, dest, a, b) \
-     do { \
-          __typeof__(a) _a = a, _b = b; \
-          (dest).vals = (type *)malloc((_a.used + _b.used) * sizeof(type)); \
-          memcpy((dest).vals, (_a.vals), (_a.used) * sizeof(type)); \
-          memcpy((dest).vals + (_a.used), (_b.vals), (_b.used) * sizeof(type)); \
-          (dest).used = (_a.used + _b.used); \
-          (dest).len = (dest).used; \
-     } while (0)
+#define array_concat(type, dest, a, b)                                        \
+    do                                                                        \
+    {                                                                         \
+        __typeof__(a) _a = a, _b = b;                                         \
+        (dest).vals = (type *)malloc((_a.used + _b.used) * sizeof(type));     \
+        memcpy((dest).vals, (_a.vals), (_a.used) * sizeof(type));             \
+        memcpy((dest).vals + (_a.used), (_b.vals), (_b.used) * sizeof(type)); \
+        (dest).used = (_a.used + _b.used);                                    \
+        (dest).len = (dest).used;                                             \
+    } while (0)
 
-#define array_clear(array) \
-     do { \
-          free((array).vals); \
-          (array).vals = NULL; \
-          (array).used = 0; \
-          (array).len = 0; \
-     } while (0)
+#define array_clear(array)   \
+    do                       \
+    {                        \
+        free((array).vals);  \
+        (array).vals = NULL; \
+        (array).used = 0;    \
+        (array).len = 0;     \
+    } while (0)
 
 #endif

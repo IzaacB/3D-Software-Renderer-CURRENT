@@ -6,19 +6,18 @@
 
 typedef struct
 {
-     float x, y;
+    float x, y;
 } v2;
 
 typedef struct
 {
-     float x, y, z;
+    float x, y, z;
 } v3;
 
 typedef struct
 {
     v3 position, rotation, scale;
-}
-transform;
+} transform;
 
 #define v2_add(_a, _b) ({ __typeof__(_a) __a = _a, __b = _b; (v2) {__a.x + __b.x, __a.y + __b.y}; })
 #define v2_sub(_a, _b) ({ __typeof__(_a) __a = _a, __b = _b; (v2) {__a.x - __b.x, __a.y - __b.y}; })

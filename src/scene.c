@@ -4,13 +4,13 @@
 
 void scene_init()
 {
-    array_init(v3, scene.vertices);
-    array_init(face, scene.faces);
-    array_init(v3, scene.normals);
-    array_init(v2, scene.uvs);
-    array_init(material, scene.materials);
-    array_init(u32, scene.material_indices);
-    array_init(dir_light, scene.dir_lights);
+    array_init(v3, scene.vertices, 1);
+    array_init(face, scene.faces, 1);
+    array_init(v3, scene.normals, 1);
+    array_init(v2, scene.uvs, 1);
+    array_init(material, scene.materials, 1);
+    array_init(u32, scene.material_indices, 1);
+    array_init(dir_light, scene.dir_lights, 1);
 
     for (u32 i = 0; i < CANVAS_WIDTH * CANVAS_HEIGHT; i++)
     {
@@ -32,19 +32,19 @@ void scene_clear()
 static void scene_clip_plane(plane p)
 {
     v3_array vertices_clip;
-    array_init(v3, vertices_clip);
+    array_init(v3, vertices_clip, scene.vertices.used);
 
     face_array faces_clip;
-    array_init(face, faces_clip);
+    array_init(face, faces_clip, scene.faces.used);
 
     v3_array normals_clip;
-    array_init(v3, normals_clip);
+    array_init(v3, normals_clip, scene.normals.used);
 
     v2_array uvs_clip;
-    array_init(v2, uvs_clip);
+    array_init(v2, uvs_clip, scene.uvs.used);
 
     u32_array material_indices_clip;
-    array_init(u32, material_indices_clip);
+    array_init(u32, material_indices_clip, scene.material_indices.used);
 
     for (u32 i = 0; i < scene.faces.used; i++)
     {
@@ -89,15 +89,14 @@ static void scene_clip_plane(plane p)
             array_insert(vertices_clip, p2);
             array_insert(uvs_clip, uv2);
 
-            face f = 
-            {
-                new_vertex_indices[0],
-                new_vertex_indices[1],
-                new_vertex_indices[2],
-                new_uv_indices[0],
-                new_uv_indices[1],
-                new_uv_indices[2]
-            };
+            face f =
+                {
+                    new_vertex_indices[0],
+                    new_vertex_indices[1],
+                    new_vertex_indices[2],
+                    new_uv_indices[0],
+                    new_uv_indices[1],
+                    new_uv_indices[2]};
 
             array_insert(faces_clip, f);
             array_insert(normals_clip, normal);
@@ -122,18 +121,17 @@ static void scene_clip_plane(plane p)
         if (p0_in != p1_in)
         {
             f32 t = d0 / (d0 - d1);
-            v3 intersection = 
-            {
-                p0.x + t * (p1.x - p0.x),
-                p0.y + t * (p1.y - p0.y),
-                p0.z + t * (p1.z - p0.z)
-            };
+            v3 intersection =
+                {
+                    p0.x + t * (p1.x - p0.x),
+                    p0.y + t * (p1.y - p0.y),
+                    p0.z + t * (p1.z - p0.z)};
 
-            v2 uv_intersection = 
-            {
-                uv0.x + t * (uv1.x - uv0.x),
-                uv0.y + t * (uv1.y - uv0.y),
-            };
+            v2 uv_intersection =
+                {
+                    uv0.x + t * (uv1.x - uv0.x),
+                    uv0.y + t * (uv1.y - uv0.y),
+                };
 
             new_vertex_indices[num_clipped_vertices] = vertices_clip.used;
             new_uv_indices[num_clipped_vertices] = uvs_clip.used;
@@ -154,18 +152,17 @@ static void scene_clip_plane(plane p)
         if (p1_in != p2_in)
         {
             f32 t = d1 / (d1 - d2);
-            v3 intersection = 
-            {
-                p1.x + t * (p2.x - p1.x),
-                p1.y + t * (p2.y - p1.y),
-                p1.z + t * (p2.z - p1.z)
-            };
+            v3 intersection =
+                {
+                    p1.x + t * (p2.x - p1.x),
+                    p1.y + t * (p2.y - p1.y),
+                    p1.z + t * (p2.z - p1.z)};
 
-            v2 uv_intersection = 
-            {
-                uv1.x + t * (uv2.x - uv1.x),
-                uv1.y + t * (uv2.y - uv1.y),
-            };
+            v2 uv_intersection =
+                {
+                    uv1.x + t * (uv2.x - uv1.x),
+                    uv1.y + t * (uv2.y - uv1.y),
+                };
 
             new_vertex_indices[num_clipped_vertices] = vertices_clip.used;
             new_uv_indices[num_clipped_vertices] = uvs_clip.used;
@@ -186,18 +183,17 @@ static void scene_clip_plane(plane p)
         if (p2_in != p0_in)
         {
             f32 t = d2 / (d2 - d0);
-            v3 intersection = 
-            {
-                p2.x + t * (p0.x - p2.x),
-                p2.y + t * (p0.y - p2.y),
-                p2.z + t * (p0.z - p2.z)
-            };
+            v3 intersection =
+                {
+                    p2.x + t * (p0.x - p2.x),
+                    p2.y + t * (p0.y - p2.y),
+                    p2.z + t * (p0.z - p2.z)};
 
-            v2 uv_intersection = 
-            {
-                uv2.x + t * (uv0.x - uv2.x),
-                uv2.y + t * (uv0.y - uv2.y),
-            };
+            v2 uv_intersection =
+                {
+                    uv2.x + t * (uv0.x - uv2.x),
+                    uv2.y + t * (uv0.y - uv2.y),
+                };
 
             new_vertex_indices[num_clipped_vertices] = vertices_clip.used;
             new_uv_indices[num_clipped_vertices] = uvs_clip.used;
@@ -208,52 +204,49 @@ static void scene_clip_plane(plane p)
 
         if (num_clipped_vertices == 3)
         {
-            face f = 
-            {
-                new_vertex_indices[0],
-                new_vertex_indices[1],
-                new_vertex_indices[2],
-                new_uv_indices[0],
-                new_uv_indices[1],
-                new_uv_indices[2]
-            };
+            face f =
+                {
+                    new_vertex_indices[0],
+                    new_vertex_indices[1],
+                    new_vertex_indices[2],
+                    new_uv_indices[0],
+                    new_uv_indices[1],
+                    new_uv_indices[2]};
 
             array_insert(faces_clip, f);
             array_insert(normals_clip, normal);
             array_insert(material_indices_clip, material_index);
-
-        }else if(num_clipped_vertices == 4)
+        }
+        else if (num_clipped_vertices == 4)
         {
-            face f0 = 
-            {
-                new_vertex_indices[0],
-                new_vertex_indices[1],
-                new_vertex_indices[2],
-                new_uv_indices[0],
-                new_uv_indices[1],
-                new_uv_indices[2]
-            };
+            face f0 =
+                {
+                    new_vertex_indices[0],
+                    new_vertex_indices[1],
+                    new_vertex_indices[2],
+                    new_uv_indices[0],
+                    new_uv_indices[1],
+                    new_uv_indices[2]};
 
-            face f1 = 
-            {
-                new_vertex_indices[0],
-                new_vertex_indices[2],
-                new_vertex_indices[3],
-                new_uv_indices[0],
-                new_uv_indices[2],
-                new_uv_indices[3]
-            };
+            face f1 =
+                {
+                    new_vertex_indices[0],
+                    new_vertex_indices[2],
+                    new_vertex_indices[3],
+                    new_uv_indices[0],
+                    new_uv_indices[2],
+                    new_uv_indices[3]};
 
             array_insert(faces_clip, f0);
             array_insert(normals_clip, normal);
             array_insert(material_indices_clip, material_index);
-            
+
             array_insert(faces_clip, f1);
             array_insert(normals_clip, normal);
             array_insert(material_indices_clip, material_index);
         }
     }
-    
+
     array_copy(v3, vertices_clip, scene.vertices);
     array_copy(face, faces_clip, scene.faces);
     array_copy(v3, normals_clip, scene.normals);
@@ -279,7 +272,7 @@ void scene_clip_volume()
 
 void scene_render()
 {
-    array_init(v3, scene.projected);
+    array_init(v3, scene.projected, scene.vertices.used);
 
     for (u32 i = 0; i < scene.vertices.used; i++)
     {
@@ -287,8 +280,7 @@ void scene_render()
         v3 point = {
             round((vert.x / vert.z * viewport.t.scale.z) * (CANVAS_WIDTH / viewport.t.scale.x)),
             round((vert.y / vert.z * viewport.t.scale.z) * (CANVAS_HEIGHT / viewport.t.scale.y)),
-            vert.z
-        };
+            vert.z};
 
         array_insert(scene.projected, point);
     }
@@ -298,13 +290,15 @@ void scene_render()
         if (!settings.wireframe)
         {
             if (scene.materials.vals[scene.material_indices.vals[i]].textured)
-            {   
+            {
                 raster_triangle_textured(i);
-            }else
+            }
+            else
             {
                 raster_triangle_solid(i);
             }
-        }else
+        }
+        else
         {
             raster_triangle_wireframe(i);
         }

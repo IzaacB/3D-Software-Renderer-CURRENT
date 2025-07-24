@@ -3,68 +3,64 @@
 
 object object_import(char *path, u8 mode)
 {
-    object o = 
-    {
-        .t = {
-            {0, 0, 0},
-            {0, 0, 0},
-            {1, 1, 1}
-        },
-        .m = {
-            .c = {.75, .75, .75},
-            .textured = false
-        }
-    };
+    object o =
+        {
+            .t = {
+                {0, 0, 0},
+                {0, 0, 0},
+                {1, 1, 1}},
+            .m = {.c = {.75, .75, .75}, .textured = false}};
 
-    array_init(v3, o.vertices);
-    array_init(face, o.faces);
-    array_init(v3, o.normals);
-    array_init(v2, o.uvs);
+    array_init(v3, o.vertices, 1);
+    array_init(face, o.faces, 1);
+    array_init(v3, o.normals, 1);
+    array_init(v2, o.uvs, 1);
 
     FILE *file = fopen(path, "r");
     char string[256];
 
-    while(fgets(string, sizeof(string), file))
+    while (fgets(string, sizeof(string), file))
     {
         char type = string[0];
 
         switch (type)
         {
-            case 'v':
-                if (string[1] == ' ')
-                {
-                    f32 x, y, z;
-                    sscanf(string + 2, "%f %f %f", &x, &y, &z);
-                    v3 v = {x, y, z};
-                    array_insert(o.vertices, v);
+        case 'v':
+            if (string[1] == ' ')
+            {
+                f32 x, y, z;
+                sscanf(string + 2, "%f %f %f", &x, &y, &z);
+                v3 v = {x, y, z};
+                array_insert(o.vertices, v);
+            }
+            else if (string[1] == 't')
+            {
+                f32 u, v;
+                sscanf(string + 3, "%f %f", &u, &v);
+                v2 uv = {u, v};
+                array_insert(o.uvs, uv);
+            }
 
-                }else if(string[1] == 't')
-                {
-                    f32 u, v;
-                    sscanf(string + 3, "%f %f", &u, &v);
-                    v2 uv = {u, v};
-                    array_insert(o.uvs, uv);
-                }
+            break;
 
-                break;
+        case 'f':
+            if (mode == 0)
+            {
+                u32 i0, i1, i2;
+                sscanf(string + 2, "%u %u %u", &i0, &i1, &i2);
+                face f = {i0 - 1, i1 - 1, i2 - 1};
+                array_insert(o.faces, f);
+            }
+            else if (mode == 1)
+            {
+                u32 i0, i1, i2;
+                u32 uv0, uv1, uv2;
+                sscanf(string + 2, "%u/%u %u/%u %u/%u", &i0, &uv0, &i1, &uv1, &i2, &uv2);
+                face f = {i0 - 1, i1 - 1, i2 - 1, uv0 - 1, uv1 - 1, uv2 - 1};
+                array_insert(o.faces, f);
+            }
 
-            case 'f':
-                if (mode == 0)
-                {
-                    u32 i0, i1, i2;
-                    sscanf(string + 2, "%u %u %u", &i0, &i1, &i2);
-                    face f = {i0 - 1, i1 - 1, i2 - 1};
-                    array_insert(o.faces, f);
-                }else if (mode == 1)
-                {
-                    u32 i0, i1, i2;
-                    u32 uv0, uv1, uv2;
-                    sscanf(string + 2, "%u/%u %u/%u %u/%u", &i0, &uv0, &i1, &uv1, &i2, &uv2);
-                    face f = {i0 - 1, i1 - 1, i2 - 1, uv0 - 1, uv1 - 1, uv2 - 1};
-                    array_insert(o.faces, f);
-                }
-
-                break;
+            break;
         }
     }
 
@@ -85,7 +81,7 @@ object object_import(char *path, u8 mode)
 
         array_insert(o.normals, normal);
     }
-    
+
     return o;
 }
 
@@ -129,12 +125,11 @@ void object_draw(object o)
         v3 p0 = scene.vertices.vals[f.i0];
         v3 p1 = scene.vertices.vals[f.i1];
         v3 p2 = scene.vertices.vals[f.i2];
-        
+
         v3 origin = {
             (p0.x + p1.x + p2.x) / 3,
             (p0.y + p1.y + p2.y) / 3,
-            (p0.z + p1.z + p2.z) / 3
-        };
+            (p0.z + p1.z + p2.z) / 3};
 
         v3 normal = v3_transform(v3_transform(o.normals.vals[i], o.t, 2), viewport.t, 3);
 
@@ -142,7 +137,7 @@ void object_draw(object o)
         {
             array_insert(scene.faces, f);
             array_insert(scene.normals, normal);
-            
+
             array_insert(scene.material_indices, scene.materials.used);
         }
     }

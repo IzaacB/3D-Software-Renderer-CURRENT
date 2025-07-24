@@ -1,4 +1,4 @@
-//Convienient Type and Global Struct Storage.
+// Convienient Type and Global Struct Storage.
 
 #ifndef CTAGSS_H
 #define CTAGSS_H
@@ -24,8 +24,8 @@ typedef int16_t i16;
 typedef int32_t i32;
 typedef int64_t i64;
 
-#define CANVAS_WIDTH 320
-#define CANVAS_HEIGHT 200
+#define CANVAS_WIDTH 640
+#define CANVAS_HEIGHT 480
 #define TARGET_FPS 60
 
 array_define_type(f32, f32_array);
@@ -35,32 +35,28 @@ array_define_type(v2, v2_array);
 
 typedef struct
 {
-    f32 r, g, b;
-}
-color;
+    f32 r, g, b, a;
+} color;
 
 typedef struct
 {
     u32 i0, i1, i2;
     u32 uv0, uv1, uv2;
-}
-face;
+} face;
 array_define_type(face, face_array);
 
 typedef struct
 {
     v3 normal;
     f32 distance;
-}
-plane;
+} plane;
 
 typedef struct
 {
     v3 direction;
     color c;
     f32 intensity;
-}
-dir_light;
+} dir_light;
 array_define_type(dir_light, dir_light_array);
 
 typedef struct
@@ -69,16 +65,14 @@ typedef struct
     u32 *pixels;
     u32 width, height;
     u32 h_frames, v_frames;
-}
-image;
+} image;
 
 typedef struct
 {
     color c;
     bool textured;
     image texture;
-}
-material;
+} material;
 array_define_type(material, material_array);
 
 typedef struct
@@ -90,10 +84,15 @@ typedef struct
     v2_array uvs;
 
     material m;
-    
+
     transform t;
-}
-object;
+} object;
+
+typedef struct
+{
+    image img;
+    transform t;
+} sprite3D;
 
 struct State
 {
@@ -111,7 +110,7 @@ struct State
 struct Settings
 {
     u8 color_range;
-    
+
     f32 render_distance;
     bool wireframe;
 
@@ -121,7 +120,6 @@ struct Settings
     f32 fog_intensity;
     color fog_color;
     f32 fog_distance;
-
 };
 
 struct Scene
@@ -145,18 +143,19 @@ struct Images
     image grass;
     image tile;
     image yellow_wood;
+    image green;
 };
 
 struct Objects
 {
-    //3D Primitives.
+    // 3D Primitives.
     object cube;
     object sphere;
     object cone;
     object cylinder;
     object torus;
 
-    //Scene objects.
+    // Scene objects.
     object scene_grass;
     object scene_ring;
     object scene_tile;
