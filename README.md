@@ -2,8 +2,6 @@ BUILD INSTRUCTIONS:
 
     In Build Directory:
     
-        -$cmake ..
-        
-        -$cmake --build .
-        
-        -$./app
+        $cmake ..
+        $cmake --build .
+        $./app
