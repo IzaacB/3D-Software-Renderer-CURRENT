@@ -61,6 +61,15 @@ array_define_type(dir_light, dir_light_array);
 
 typedef struct
 {
+    v3 position;
+    color c;
+    f32 intensity;
+    f32 range;
+} point_light;
+array_define_type(point_light, point_light_array);
+
+typedef struct
+{
     SDL_Surface *source;
     u32 *pixels;
     u32 width, height;
@@ -88,12 +97,6 @@ typedef struct
     transform t;
 } object;
 
-typedef struct
-{
-    image img;
-    transform t;
-} sprite3D;
-
 struct State
 {
     SDL_Window *window;
@@ -105,6 +108,12 @@ struct State
 
     f32 delta;
     const u8 *keystate;
+};
+
+struct Precomp
+{
+    u32 half_canvas_width;
+    u32 half_canvas_height;
 };
 
 struct Settings
@@ -137,31 +146,25 @@ struct Scene
     v3_array projected;
 
     dir_light_array dir_lights;
+    point_light_array point_lights;
 };
 
 struct Images
 {
-    image bricks;
-    image grass;
-    image tile;
-    image yellow_wood;
-    image green;
+    image busts;
+    image ceiling;
+    image floor;
+    image wall;
 };
 
 struct Objects
 {
-    // 3D Primitives.
-    object cube;
-    object sphere;
-    object cone;
-    object cylinder;
-    object torus;
-
-    // Scene objects.
-    object scene_grass;
-    object scene_ring;
-    object scene_tile;
-    object scene_wall;
+    object busts;
+    object ceiling;
+    object floor;
+    object frames;
+    object lights;
+    object wall;
 };
 
 struct Viewport
@@ -171,6 +174,7 @@ struct Viewport
 };
 
 extern struct State state;
+extern struct Precomp precomp;
 extern struct Settings settings;
 extern struct Scene scene;
 extern struct Images images;

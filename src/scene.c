@@ -10,6 +10,7 @@ void scene_init()
     array_init(v2, scene.uvs, 1);
     array_init(material, scene.materials, 1);
     array_init(u32, scene.material_indices, 1);
+    array_init(point_light, scene.point_lights, 1);
     array_init(dir_light, scene.dir_lights, 1);
 
     for (u32 i = 0; i < CANVAS_WIDTH * CANVAS_HEIGHT; i++)
@@ -26,6 +27,7 @@ void scene_clear()
     array_clear(scene.uvs);
     array_clear(scene.materials);
     array_clear(scene.material_indices);
+    array_clear(scene.point_lights);
     array_clear(scene.dir_lights);
 }
 
@@ -270,8 +272,24 @@ void scene_clip_volume()
     scene_clip_plane(viewport.bottom);
 }
 
+static void scene_transform_lights()
+{
+    for (u32 i = 0; i < scene.point_lights.used; i++)
+    {
+        scene.point_lights.vals[i].position = v3_transform(scene.point_lights.vals[i].position, viewport.t, 1);
+    }
+
+    for (u32 i = 0; i < scene.dir_lights.used; i++)
+    {
+        scene.dir_lights.vals[i].direction = v3_norm(v3_transform(scene.dir_lights.vals[i].direction, viewport.t, 3));
+    }
+    
+}
+
 void scene_render()
 {
+    scene_transform_lights();
+
     array_init(v3, scene.projected, scene.vertices.used);
 
     for (u32 i = 0; i < scene.vertices.used; i++)
@@ -303,6 +321,7 @@ void scene_render()
             raster_triangle_wireframe(i);
         }
     }
+
 
     array_clear(scene.projected);
 }

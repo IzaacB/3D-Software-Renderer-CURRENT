@@ -5,7 +5,8 @@
 static f32_array raster_lerp(f32 i0, f32 d0, f32 i1, f32 d1)
 {
     f32_array line;
-    array_init(f32, line, CANVAS_WIDTH);
+    u32 len = ceil(i1) - ceil(i0);
+    array_init(f32, line, len);
 
     f32 slope = 0;
 
@@ -14,18 +15,20 @@ static f32_array raster_lerp(f32 i0, f32 d0, f32 i1, f32 d1)
         slope = (d1 - d0) / (i1 - i0);
     }
 
-    for (u32 i = 0; i < (u32)(i1 - i0); i++)
+    f32 d = d0 + slope * (ceil(i0) - i0);
+    for (u32 i = 0; i < len; i++)
     {
-        array_insert(line, d0 + slope * i);
+        array_insert(line, d);
+        d += slope;
     }
 
     return line;
 }
 
-void raster_ppx(f32 x, f32 y, color c)
+void raster_ppx(i32 x, i32 y, color c)
 {
-    x = ((f32)CANVAS_WIDTH / 2 + x);
-    y = ((f32)CANVAS_HEIGHT / 2 - y);
+    x = (precomp.half_canvas_width + x);
+    y = (precomp.half_canvas_height - y);
 
     bool on_screen = x >= 0 && x < CANVAS_WIDTH && y >= 0 && y < CANVAS_HEIGHT;
 
@@ -47,8 +50,8 @@ void raster_ppx(f32 x, f32 y, color c)
 
 void raster_ppx_z(f32 x, f32 y, f32 z, color c)
 {
-    x = ((f32)CANVAS_WIDTH / 2 + x);
-    y = ((f32)CANVAS_HEIGHT / 2 - y);
+    x = ceil(precomp.half_canvas_width + x);
+    y = ceil(precomp.half_canvas_height - y);
 
     bool on_screen = x >= 0 && x < CANVAS_WIDTH && y >= 0 && y < CANVAS_HEIGHT;
 
@@ -139,47 +142,58 @@ void raster_triangle_solid(u32 i)
     v3 p2 = scene.projected.vals[scene.faces.vals[i].i2];
 
     v3 normal = scene.normals.vals[i];
-    color c = scene.materials.vals[scene.material_indices.vals[i]].c;
-    color lit = {settings.ambient_light.r * c.r, settings.ambient_light.g * c.g, settings.ambient_light.b * c.b};
+    color base_color = scene.materials.vals[scene.material_indices.vals[i]].c;
+
+    color directional_contribution = {0, 0, 0};
 
     for (u32 j = 0; j < scene.dir_lights.used; j++)
     {
         dir_light light = scene.dir_lights.vals[j];
-        v3 light_dir = v3_norm(v3_transform(light.direction, viewport.t, 3));
-        f32 dot = fmax(0, -v3_dot(normal, light_dir));
+        f32 dot = fmax(0, -v3_dot(normal, light.direction));
 
-        color contribution =
-            {
-                dot * light.intensity * c.r * light.c.r,
-                dot * light.intensity * c.g * light.c.g,
-                dot * light.intensity * c.b * light.c.b};
-
-        lit.r = lit.r + contribution.r;
-        lit.g = lit.g + contribution.g;
-        lit.b = lit.b + contribution.b;
+        directional_contribution.r += (dot * light.intensity * light.c.r);
+        directional_contribution.g += (dot * light.intensity * light.c.g);
+        directional_contribution.b += (dot * light.intensity * light.c.b);
     }
 
-    v3 t;
+    color directional = {
+        directional_contribution.r * base_color.r,
+        directional_contribution.g * base_color.g,
+        directional_contribution.b * base_color.b
+    };
+
+    color ambient = {
+        base_color.r * settings.ambient_light.r,
+        base_color.g * settings.ambient_light.g,
+        base_color.b * settings.ambient_light.b
+    };
+
+    v3 t0;
+    v2 t1;
     if (p1.y < p0.y)
     {
-        t = p0;
+        t0 = p0;
         p0 = p1;
-        p1 = t;
+        p1 = t0;
     }
 
     if (p2.y < p0.y)
     {
-        t = p0;
+        t0 = p0;
         p0 = p2;
-        p2 = t;
+        p2 = t0;
     }
 
     if (p2.y < p1.y)
     {
-        t = p1;
+        t0 = p1;
         p1 = p2;
-        p2 = t;
+        p2 = t0;
     }
+
+    f32 z0 = 1.0f / p0.z;
+    f32 z1 = 1.0f / p1.z;
+    f32 z2 = 1.0f / p2.z;
 
     f32_array x01 = raster_lerp(p0.y, p0.x, p1.y, p1.x);
     f32_array x12 = raster_lerp(p1.y, p1.x, p2.y, p2.x);
@@ -187,53 +201,103 @@ void raster_triangle_solid(u32 i)
     f32_array x012;
     array_concat(f32, x012, x01, x12);
 
-    f32_array z01 = raster_lerp(p0.y, 1 / p0.z, p1.y, 1 / p1.z);
-    f32_array z12 = raster_lerp(p1.y, 1 / p1.z, p2.y, 1 / p2.z);
-    f32_array z02 = raster_lerp(p0.y, 1 / p0.z, p2.y, 1 / p2.z);
+    f32_array z01 = raster_lerp(p0.y, z0, p1.y, z1);
+    f32_array z12 = raster_lerp(p1.y, z1, p2.y, z2);
+    f32_array z02 = raster_lerp(p0.y, z0, p2.y, z2);
     f32_array z012;
     array_concat(f32, z012, z01, z12);
 
+    f32_array x_left, x_right, z_left, z_right;
+
+    if (x012.vals[(u32)(x012.used / 2)] < x02.vals[(u32)(x02.used / 2)])
+    {
+        x_left = x012;
+        x_right = x02;
+
+        z_left = z012;
+        z_right = z02;
+
+    }else
+    {
+        x_left = x02;
+        x_right = x012;
+
+        z_left = z02;
+        z_right = z012;
+    }
+
     for (u32 y_index = 0; y_index < x012.used; y_index++)
     {
-        i32 y = y_index + p0.y;
+        f32 y = y_index + ceil(p0.y);
 
-        f32 x_start = (x02.vals[y_index]);
-        f32 x_end = (x012.vals[y_index]);
+        f32 x_start = x_left.vals[y_index];
+        f32 x_end = x_right.vals[y_index];
 
-        f32 z_start = (z02.vals[y_index]);
-        f32 z_end = (z012.vals[y_index]);
+        f32 z_start = (z_left.vals[y_index]);
+        f32 z_end = (z_right.vals[y_index]);
 
-        if (x_start > x_end)
+        f32_array z_scan = raster_lerp(x_start, z_start, x_end, z_end);
+
+        for (u32 x_index = 0; x_index < ceil(x_end) - ceil(x_start); x_index++)
         {
-            f32 temp = x_start;
-            x_start = x_end;
-            x_end = temp;
+            f32 x = x_index + ceil(x_start);
 
-            temp = z_start;
-            z_start = z_end;
-            z_end = temp;
-        }
+            f32 z = (1.0f / z_scan.vals[x_index]);
 
-        f32_array z_scan = raster_lerp(x_start, z_start, x_end + 1, z_end);
+            v3 deprojected = 
+            {
+                ((x / (CANVAS_WIDTH / viewport.t.scale.x)) * z) / viewport.t.scale.z,
+                ((y / (CANVAS_HEIGHT / viewport.t.scale.y)) * z) / viewport.t.scale.z,
+                z
+            };
 
-        for (i32 x = x_start; x < x_end; x++)
-        {
-            f32 z = 1 / z_scan.vals[(u32)(x - x_start)];
+            color point = base_color;
+            color point_contribution = {0, 0, 0};
+
+            for (u32 i = 0; i < scene.point_lights.used; i++)
+            {
+                point_light light = scene.point_lights.vals[i];
+                v3 light_to_pixel = v3_sub(light.position, deprojected);
+                f32 distance = v3_mag(light_to_pixel);
+
+                if (distance > light.range)
+                {
+                    continue;
+                }
+
+                f32 intensity = light.intensity / (distance * distance);
+                f32 dot = fmax(0, v3_dot(normal, v3_norm(light_to_pixel)));
+
+                point_contribution.r += (intensity * dot * light.c.r);
+                point_contribution.g += (intensity * dot * light.c.g);
+                point_contribution.b += (intensity * dot * light.c.b);
+            }
+
+            point.r *= point_contribution.r;
+            point.g *= point_contribution.g;
+            point.b *= point_contribution.b;
+
+            color fully_lit = {
+                ambient.r + directional.r + point.r,
+                ambient.g + directional.g + point.g,
+                ambient.b + directional.b + point.b
+            };
+
             if (settings.fog)
             {
-                color lit_with_fog = lit;
-                f32 fog_affect = (z / settings.render_distance) * settings.fog_intensity;
+                f32 fog_affect = (z / (settings.render_distance * settings.render_distance)) * settings.fog_intensity;
+                color fog = {
+                    settings.fog_color.r * fog_affect,
+                    settings.fog_color.g * fog_affect,
+                    settings.fog_color.b * fog_affect
+                };
 
-                lit_with_fog.r -= fog_affect * settings.fog_color.r;
-                lit_with_fog.g -= fog_affect * settings.fog_color.g;
-                lit_with_fog.b -= fog_affect * settings.fog_color.b;
-
-                raster_ppx_z(x, y, z, lit_with_fog);
+                fully_lit.r -= fog.r;
+                fully_lit.g -= fog.g;
+                fully_lit.b -= fog.b;
             }
-            else
-            {
-                raster_ppx_z(x, y, z, lit);
-            }
+            
+            raster_ppx_z(x, y, z, fully_lit);
         }
         array_clear(z_scan);
     }
@@ -261,17 +325,17 @@ void raster_triangle_textured(u32 i)
 
     v3 normal = scene.normals.vals[i];
     image texture = scene.materials.vals[scene.material_indices.vals[i]].texture;
-    color contribution = settings.ambient_light;
+
+    color directional_contribution = {0, 0, 0};
 
     for (u32 j = 0; j < scene.dir_lights.used; j++)
     {
         dir_light light = scene.dir_lights.vals[j];
-        v3 light_dir = v3_norm(v3_transform(light.direction, viewport.t, 3));
-        f32 dot = fmax(0, -v3_dot(normal, light_dir));
+        f32 dot = fmax(0, -v3_dot(normal, light.direction));
 
-        contribution.r += (dot * light.intensity * light.c.r);
-        contribution.g += (dot * light.intensity * light.c.g);
-        contribution.b += (dot * light.intensity * light.c.b);
+        directional_contribution.r += (dot * light.intensity * light.c.r);
+        directional_contribution.g += (dot * light.intensity * light.c.g);
+        directional_contribution.b += (dot * light.intensity * light.c.b);
     }
 
     v3 t0;
@@ -309,96 +373,172 @@ void raster_triangle_textured(u32 i)
         uv2 = t1;
     }
 
+    f32 z0 = 1.0f / p0.z;
+    f32 z1 = 1.0f / p1.z;
+    f32 z2 = 1.0f / p2.z;
+
+    f32 u0 = uv0.x / p0.z;
+    f32 u1 = uv1.x / p1.z;
+    f32 u2 = uv2.x / p2.z;
+
+    f32 v0 = uv0.y / p0.z;
+    f32 v1 = uv1.y / p1.z;
+    f32 v2 = uv2.y / p2.z;
+
     f32_array x01 = raster_lerp(p0.y, p0.x, p1.y, p1.x);
     f32_array x12 = raster_lerp(p1.y, p1.x, p2.y, p2.x);
     f32_array x02 = raster_lerp(p0.y, p0.x, p2.y, p2.x);
     f32_array x012;
     array_concat(f32, x012, x01, x12);
 
-    f32_array z01 = raster_lerp(p0.y, 1 / p0.z, p1.y, 1 / p1.z);
-    f32_array z12 = raster_lerp(p1.y, 1 / p1.z, p2.y, 1 / p2.z);
-    f32_array z02 = raster_lerp(p0.y, 1 / p0.z, p2.y, 1 / p2.z);
+    f32_array z01 = raster_lerp(p0.y, z0, p1.y, z1);
+    f32_array z12 = raster_lerp(p1.y, z1, p2.y, z2);
+    f32_array z02 = raster_lerp(p0.y, z0, p2.y, z2);
     f32_array z012;
     array_concat(f32, z012, z01, z12);
 
-    f32_array u01 = raster_lerp(p0.y, uv0.x / p0.z, p1.y, uv1.x / p1.z);
-    f32_array u12 = raster_lerp(p1.y, uv1.x / p1.z, p2.y, uv2.x / p2.z);
-    f32_array u02 = raster_lerp(p0.y, uv0.x / p0.z, p2.y, uv2.x / p2.z);
+    f32_array u01 = raster_lerp(p0.y, u0, p1.y, u1);
+    f32_array u12 = raster_lerp(p1.y, u1, p2.y, u2);
+    f32_array u02 = raster_lerp(p0.y, u0, p2.y, u2);
     f32_array u012;
     array_concat(f32, u012, u01, u12);
 
-    f32_array v01 = raster_lerp(p0.y, uv0.y / p0.z, p1.y, uv1.y / p1.z);
-    f32_array v12 = raster_lerp(p1.y, uv1.y / p1.z, p2.y, uv2.y / p2.z);
-    f32_array v02 = raster_lerp(p0.y, uv0.y / p0.z, p2.y, uv2.y / p2.z);
+    f32_array v01 = raster_lerp(p0.y, v0, p1.y, v1);
+    f32_array v12 = raster_lerp(p1.y, v1, p2.y, v2);
+    f32_array v02 = raster_lerp(p0.y, v0, p2.y, v2);
     f32_array v012;
     array_concat(f32, v012, v01, v12);
 
+    f32_array x_left, x_right, z_left, z_right, u_left, u_right, v_left, v_right;
+
+    if (x012.vals[(u32)(x012.used / 2)] < x02.vals[(u32)(x02.used / 2)])
+    {
+        x_left = x012;
+        x_right = x02;
+
+        z_left = z012;
+        z_right = z02;
+
+        u_left = u012;
+        u_right = u02;
+
+        v_left = v012;
+        v_right = v02;
+    }else
+    {
+        x_left = x02;
+        x_right = x012;
+
+        z_left = z02;
+        z_right = z012;
+
+        u_left = u02;
+        u_right = u012;
+
+        v_left = v02;
+        v_right = v012;
+    }
+
     for (u32 y_index = 0; y_index < x012.used; y_index++)
     {
-        i32 y = y_index + p0.y;
+        f32 y = y_index + ceil(p0.y);
 
-        f32 x_start = (x02.vals[y_index]);
-        f32 x_end = (x012.vals[y_index]);
+        f32 x_start = x_left.vals[y_index];
+        f32 x_end = x_right.vals[y_index];
 
-        f32 z_start = (z02.vals[y_index]);
-        f32 z_end = (z012.vals[y_index]);
+        f32 z_start = (z_left.vals[y_index]);
+        f32 z_end = (z_right.vals[y_index]);
 
-        f32 u_start = (u02.vals[y_index]);
-        f32 u_end = (u012.vals[y_index]);
+        f32 u_start = (u_left.vals[y_index]);
+        f32 u_end = (u_right.vals[y_index]);
 
-        f32 v_start = (v02.vals[y_index]);
-        f32 v_end = (v012.vals[y_index]);
+        f32 v_start = (v_left.vals[y_index]);
+        f32 v_end = (v_right.vals[y_index]);
 
-        if (x_start > x_end)
+        f32_array z_scan = raster_lerp(x_start, z_start, x_end, z_end);
+        f32_array u_scan = raster_lerp(x_start, u_start, x_end, u_end);
+        f32_array v_scan = raster_lerp(x_start, v_start, x_end, v_end);
+
+        for (u32 x_index = 0; x_index < ceil(x_end) - ceil(x_start); x_index++)
         {
-            f32 temp = x_start;
-            x_start = x_end;
-            x_end = temp;
+            f32 x = x_index + ceil(x_start);
 
-            temp = z_start;
-            z_start = z_end;
-            z_end = temp;
+            f32 z = (1.0f / z_scan.vals[x_index]);
 
-            temp = u_start;
-            u_start = u_end;
-            u_end = temp;
-
-            temp = v_start;
-            v_start = v_end;
-            v_end = temp;
-        }
-
-        f32_array z_scan = raster_lerp(x_start, z_start, x_end + 1, z_end);
-        f32_array u_scan = raster_lerp(x_start, u_start, x_end + 1, u_end);
-        f32_array v_scan = raster_lerp(x_start, v_start, x_end + 1, v_end);
-
-        for (i32 x = round(x_start); x < round(x_end); x++)
-        {
-            i32 x_index = x - x_start;
-
-            f32 z = 1 / z_scan.vals[x_index];
-
-            f32 u = u_scan.vals[x_index] * z;
-            f32 v = v_scan.vals[x_index] * z;
+            f32 u = (u_scan.vals[x_index]) * z;
+            f32 v = (v_scan.vals[x_index]) * z;
 
             i32 u_sample = (i32)round(u * texture.width) % texture.width;
             i32 v_sample = (i32)round(v * texture.height) % texture.height;
 
-            color lit_texel = image_sample(texture, u_sample, v_sample);
+            color texel = image_sample(texture, u_sample, v_sample);
 
-            lit_texel.r *= contribution.r * lit_texel.r;
-            lit_texel.g *= contribution.g * lit_texel.g;
-            lit_texel.b *= contribution.b * lit_texel.b;
+            color ambient = {
+                texel.r * settings.ambient_light.r,
+                texel.g * settings.ambient_light.g,
+                texel.b * settings.ambient_light.b
+            };
+
+            color directional = {
+                texel.r * directional_contribution.r,
+                texel.g * directional_contribution.g,
+                texel.b * directional_contribution.b
+            };
+
+             v3 deprojected = 
+            {
+                ((x / (CANVAS_WIDTH / viewport.t.scale.x)) * z) / viewport.t.scale.z,
+                ((y / (CANVAS_HEIGHT / viewport.t.scale.y)) * z) / viewport.t.scale.z,
+                z
+            };
+
+            color point = texel;
+            color point_contribution = {0, 0, 0};
+
+            for (u32 i = 0; i < scene.point_lights.used; i++)
+            {
+                point_light light = scene.point_lights.vals[i];
+                v3 light_to_pixel = v3_sub(light.position, deprojected);
+                f32 distance = v3_mag(light_to_pixel);
+
+                if (distance > light.range)
+                {
+                    continue;
+                }
+
+                f32 intensity = light.intensity / (distance * distance);
+                f32 dot = fmax(0, v3_dot(normal, v3_norm(light_to_pixel)));
+
+                point_contribution.r += (intensity * dot * light.c.r);
+                point_contribution.g += (intensity * dot * light.c.g);
+                point_contribution.b += (intensity * dot * light.c.b);
+            }
+
+            point.r *= point_contribution.r;
+            point.g *= point_contribution.g;
+            point.b *= point_contribution.b;
+
+            color fully_lit = {
+                ambient.r + directional.r + point.r,
+                ambient.g + directional.g + point.g,
+                ambient.b + directional.b + point.b
+            };
 
             if (settings.fog)
             {
-                f32 fog_affect = (z / settings.render_distance) * settings.fog_intensity;
-                lit_texel.r -= fog_affect * settings.fog_color.r;
-                lit_texel.g -= fog_affect * settings.fog_color.g;
-                lit_texel.b -= fog_affect * settings.fog_color.b;
-            }
+                f32 fog_affect = (z / (settings.render_distance * settings.render_distance)) * settings.fog_intensity;
+                color fog = {
+                    settings.fog_color.r * fog_affect,
+                    settings.fog_color.g * fog_affect,
+                    settings.fog_color.b * fog_affect
+                };
 
-            raster_ppx_z(x, y, z, lit_texel);
+                fully_lit.r -= fog.r;
+                fully_lit.g -= fog.g;
+                fully_lit.b -= fog.b;
+            }
+            
+            raster_ppx_z(x, y, z, fully_lit);
         }
         array_clear(z_scan);
         array_clear(u_scan);
@@ -424,61 +564,4 @@ void raster_triangle_textured(u32 i)
     array_clear(v12);
     array_clear(v02);
     array_clear(v012);
-}
-
-void raster_sprite3D(image sprite, v3 pos, f32 size)
-{
-    v3 origin = v3_transform(pos, viewport.t, 1);
-
-    if (origin.z > viewport.t.scale.z)
-    {
-        v3 point = {
-            round((origin.x / origin.z * viewport.t.scale.z) * (CANVAS_WIDTH / viewport.t.scale.x)),
-            round((origin.y / origin.z * viewport.t.scale.z) * (CANVAS_HEIGHT / viewport.t.scale.y)),
-            origin.z};
-
-        f32 screen_ratio = CANVAS_HEIGHT / sprite.width;
-        f32 scale = fmax(.01, (size / point.z * viewport.t.scale.z) * screen_ratio);
-
-        f32 scaled_w = sprite.width * scale;
-        f32 scaled_h = sprite.height * scale;
-
-        f32 fog_affect = (point.z / settings.render_distance) * settings.fog_intensity;
-
-        v3 normal = {0, 0, -1};
-        color contribution = settings.ambient_light;
-
-        for (u32 j = 0; j < scene.dir_lights.used; j++)
-        {
-            dir_light light = scene.dir_lights.vals[j];
-            v3 light_dir = v3_norm(v3_transform(light.direction, viewport.t, 3));
-            f32 dot = fmax(0, -v3_dot(normal, light_dir));
-
-            contribution.r += (dot * light.intensity * light.c.r);
-            contribution.g += (dot * light.intensity * light.c.g);
-            contribution.b += (dot * light.intensity * light.c.b);
-        }
-
-        for(i32 y = 0; y < floor(scaled_h); y++)
-        {
-            i32 sample_y = floor((f32)y / scale);
-
-            for (i32 x = 0; x < floor(scaled_w); x++)
-            {
-                i32 sample_x = floor((f32)x / scale);
-
-                color sample = image_sample(sprite, sample_x, sample_y);
-
-                sample.r -= fog_affect * settings.fog_color.r;
-                sample.g -= fog_affect * settings.fog_color.g;
-                sample.b -= fog_affect * settings.fog_color.b;
-                
-
-                if (sample.a == 1)
-                {
-                    raster_ppx_z(point.x + x - scaled_w / 2, point.y - y + scaled_h / 2, point.z, sample);
-                }
-            }
-        }
-    }
 }

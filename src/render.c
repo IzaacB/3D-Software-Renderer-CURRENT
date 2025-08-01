@@ -8,8 +8,8 @@
 void render_settings()
 {
     settings.color_range_red = 16;
-    settings.color_range_green = 17;
-    settings.color_range_blue = 14;
+    settings.color_range_green = 16;
+    settings.color_range_blue = 16;
 
     settings.render_distance = 50;
     settings.wireframe = false;
@@ -17,8 +17,8 @@ void render_settings()
     color ambient_light = {.25, .25, .25};
     settings.ambient_light = ambient_light;
 
-    settings.fog = true;
-    settings.fog_intensity = -.5;
+    settings.fog = false;
+    settings.fog_intensity = -5;
     color fog_color = {1, 1, 1};
     settings.fog_color = fog_color;
 }
@@ -28,7 +28,7 @@ void render_init()
     state.window = SDL_CreateWindow(
         "Software Rasterizer",
         SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED,
-        1200, 800,
+        1280, 800,
         SDL_WINDOW_SHOWN | SDL_WINDOW_RESIZABLE);
 
     state.renderer = SDL_CreateRenderer(
@@ -65,59 +65,49 @@ void render_quit()
 
 void render_preload()
 {
-    // Images.
-    images.bricks = image_import("../res/images/bricks.bmp");
-    images.grass = image_import("../res/images/grass.bmp");
-    images.tile = image_import("../res/images/tile.bmp");
-    images.yellow_wood = image_import("../res/images/yellow_wood.bmp");
-    images.green = image_import("../res/images/green.bmp");
+    images.busts = image_import("../res/images/busts.bmp");
+    images.ceiling = image_import("../res/images/ceiling.bmp");
+    images.floor = image_import("../res/images/floor.bmp");
+    images.wall = image_import("../res/images/wall.bmp");
 
-    // 3D primitives.
-    objects.cube = object_import("../res/models/primitives/cube.obj", 0);
-    objects.sphere = object_import("../res/models/primitives/sphere.obj", 0);
-    objects.cylinder = object_import("../res/models/primitives/cylinder.obj", 0);
-    objects.torus = object_import("../res/models/primitives/torus.obj", 0);
-    objects.cone = object_import("../res/models/primitives/cone.obj", 0);
+    objects.busts = object_import("../res/models/busts.obj", 1);
+    objects.busts.m.texture = images.busts;
+    objects.busts.m.textured = true;
 
-    // Scene objects.
-    objects.scene_grass = object_import("../res/models/scene_grass.obj", 1);
-    objects.scene_grass.m.texture = images.grass;
-    objects.scene_grass.m.textured = true;
+    objects.ceiling = object_import("../res/models/ceiling.obj", 1);
+    objects.ceiling.m.texture = images.ceiling;
+    objects.ceiling.m.textured = true;
 
-    objects.scene_ring = object_import("../res/models/scene_ring.obj", 1);
-    objects.scene_ring.m.texture = images.yellow_wood;
-    objects.scene_ring.m.textured = true;
+    objects.floor = object_import("../res/models/floor.obj", 1);
+    objects.floor.m.texture = images.floor;
+    objects.floor.m.textured = true;
 
-    objects.scene_tile = object_import("../res/models/scene_tile.obj", 1);
-    objects.scene_tile.m.texture = images.tile;
-    objects.scene_tile.m.textured = true;
+    objects.frames = object_import("../res/models/frames.obj", 1);
+    color gold = {.5, .4, .12};
+    objects.frames.m.c = gold;
 
-    objects.scene_wall = object_import("../res/models/scene_wall.obj", 1);
-    objects.scene_wall.m.texture = images.bricks;
-    objects.scene_wall.m.textured = true;
+    objects.lights = object_import("../res/models/lights.obj", 1);
+    color white = {1, 1, 1};
+    objects.lights.m.c = white;
+
+    objects.wall = object_import("../res/models/wall.obj", 1);
+    objects.wall.m.texture = images.wall;
+    objects.wall.m.textured = true;
 }
 
 void render_dump()
 {
-    // Unload images.
-    image_deport(images.bricks);
-    image_deport(images.grass);
-    image_deport(images.tile);
-    image_deport(images.yellow_wood);
-    image_deport(images.green);
+    image_deport(images.busts);
+    image_deport(images.ceiling);
+    image_deport(images.floor);
+    image_deport(images.wall);
 
-    // Unload primitives.
-    object_deport(objects.cube);
-    object_deport(objects.sphere);
-    object_deport(objects.cylinder);
-    object_deport(objects.torus);
-    object_deport(objects.cone);
-
-    // Unload scene objects.
-    object_deport(objects.scene_grass);
-    object_deport(objects.scene_ring);
-    object_deport(objects.scene_tile);
-    object_deport(objects.scene_wall);
+    object_deport(objects.busts);
+    object_deport(objects.ceiling);
+    object_deport(objects.floor);
+    object_deport(objects.frames);
+    object_deport(objects.lights);
+    object_deport(objects.wall);
 }
 
 // Main render loop.
@@ -125,34 +115,47 @@ void render()
 {
     scene_init();
 
-    // Insert light sources.
-    dir_light sun = {
-        {1, -1, 0},
+    point_light l0 = {
+        {-2, 2.8, 0},
         {1, 1, 1},
-        1};
+        1,
+        10
+    };
+
+    point_light l1 = {
+        {0, 2.8, -2},
+        {1, 1, 1},
+        1,
+        10
+    };
+
+    point_light l2 = {
+        {2, 2.8, 0},
+        {1, 1, 1},
+        1,
+        10
+    };
+
+    dir_light sun = {
+        {-1, -1, -1},
+        {.5, .5, 1},
+        .5
+    };
+
+    array_insert(scene.point_lights, l0);
+    array_insert(scene.point_lights, l1);
+    array_insert(scene.point_lights, l2);
     array_insert(scene.dir_lights, sun);
 
-    // Draw scene.
-    object_draw(objects.scene_grass);
-    object_draw(objects.scene_ring);
-    object_draw(objects.scene_tile);
-    object_draw(objects.scene_wall);
-
-    sprite3D green = 
-    {
-        images.green,
-        {
-            {0, 1.75, 0},
-            {0, 0, 0},
-            {1, 1, 1}
-        }
-    };
+    object_draw(objects.busts);
+    object_draw(objects.ceiling);
+    object_draw(objects.floor);
+    object_draw(objects.frames);
+    object_draw(objects.lights);
+    object_draw(objects.wall);
 
     scene_clip_volume();
     scene_render();
-
-    v3 sprite_pos = {0, 2, 0};
-    raster_sprite3D(images.green, sprite_pos, 7);
 
     scene_clear();
 }

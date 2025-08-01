@@ -3,6 +3,7 @@
 #include "viewport.h"
 
 struct State state;
+struct Precomp precomp;
 struct Settings settings;
 struct Scene scene;
 struct Images images;
@@ -11,6 +12,9 @@ struct Viewport viewport;
 
 int main(int argc, char *argv[])
 {
+    precomp.half_canvas_width = CANVAS_WIDTH / 2;
+    precomp.half_canvas_height = CANVAS_HEIGHT / 2;
+
     render_settings();
     render_init();
     render_preload();

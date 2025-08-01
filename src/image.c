@@ -29,10 +29,10 @@ void image_deport(image img)
     img.height = 0;
 }
 
-color image_sample(image img, i32 x, i32 y)
+color image_sample(image img, u32 x, u32 y)
 {
     u8 r, g, b, a;
-    u32 pixel = img.pixels[y * img.source->pitch / 4 + x];
+    u32 pixel = img.pixels[y * (img.source->pitch / 4) + x];
     SDL_GetRGBA(pixel, img.source->format, &r, &g, &b, &a);
     color col = {(f32)r / 255, (f32)g / 255, (f32)b / 255, (f32)a / 255};
     return col;
