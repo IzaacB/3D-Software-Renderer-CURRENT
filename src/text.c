@@ -437,7 +437,7 @@ void text_render()
         text_label("Resolution: ",CANVAS_WIDTH);
         text_label("x",CANVAS_HEIGHT);
         newline();
-        text_line("Bit Depth:");
+        text_line("Color Depth:");
         newline();
         text_label("  R:", settings.color_range_red);
         text_label(", G:", settings.color_range_green);
