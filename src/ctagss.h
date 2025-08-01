@@ -108,6 +108,10 @@ struct State
 
     f32 delta;
     const u8 *keystate;
+    f32 key_timer;
+
+    i32 cursor_y;
+    i32 cursor_x;
 };
 
 struct Precomp
@@ -123,6 +127,7 @@ struct Settings
     u8 color_range_blue;
 
     f32 render_distance;
+    bool textured;
     bool wireframe;
 
     color ambient_light;
@@ -131,6 +136,15 @@ struct Settings
     f32 fog_intensity;
     color fog_color;
     f32 fog_distance;
+
+    u32 font_char_spacing;
+    u32 font_word_spacing;
+    u32 font_line_spacing;
+    u32 font_shadow;
+
+    bool show_stats;
+
+    bool mouse_look;
 };
 
 struct Scene
@@ -151,6 +165,9 @@ struct Scene
 
 struct Images
 {
+    image font;
+    image font_shadow;
+
     image busts;
     image ceiling;
     image floor;
@@ -173,6 +190,16 @@ struct Viewport
     plane near, far, left, right, top, bottom;
 };
 
+struct Stats
+{
+    f32 frequency;
+    u32 fps;
+    u32 total_faces;
+    u32 rendered_faces;
+    u32 point_lights;
+    u32 dir_lights;
+};
+
 extern struct State state;
 extern struct Precomp precomp;
 extern struct Settings settings;
@@ -180,5 +207,6 @@ extern struct Scene scene;
 extern struct Images images;
 extern struct Objects objects;
 extern struct Viewport viewport;
+extern struct Stats stats;
 
 #endif

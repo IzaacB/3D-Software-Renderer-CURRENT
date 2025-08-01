@@ -113,6 +113,8 @@ void object_draw(object o)
 
     for (u32 i = 0; i < o.faces.used; i++)
     {
+        stats.total_faces += 1;
+
         face f = o.faces.vals[i];
         f.i0 += vertice_offset;
         f.i1 += vertice_offset;

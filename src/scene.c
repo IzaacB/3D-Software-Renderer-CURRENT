@@ -307,7 +307,7 @@ void scene_render()
     {
         if (!settings.wireframe)
         {
-            if (scene.materials.vals[scene.material_indices.vals[i]].textured)
+            if (scene.materials.vals[scene.material_indices.vals[i]].textured && settings.textured)
             {
                 raster_triangle_textured(i);
             }

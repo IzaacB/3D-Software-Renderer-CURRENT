@@ -4,6 +4,7 @@
 #include "raster.h"
 #include "object.h"
 #include "image.h"
+#include "text.h"
 
 void render_settings()
 {
@@ -11,16 +12,21 @@ void render_settings()
     settings.color_range_green = 16;
     settings.color_range_blue = 16;
 
-    settings.render_distance = 50;
+    settings.render_distance = 25;
+    settings.textured = true;
     settings.wireframe = false;
 
     color ambient_light = {.25, .25, .25};
     settings.ambient_light = ambient_light;
 
-    settings.fog = false;
-    settings.fog_intensity = -5;
+    settings.fog = true;
+    settings.fog_intensity = -10;
     color fog_color = {1, 1, 1};
     settings.fog_color = fog_color;
+
+    settings.show_stats = true;
+
+    settings.mouse_look = false;
 }
 
 void render_init()
@@ -41,6 +47,21 @@ void render_init()
         SDL_PIXELFORMAT_ABGR8888,
         SDL_TEXTUREACCESS_STREAMING,
         CANVAS_WIDTH, CANVAS_HEIGHT);
+
+    stats.frequency = 0;
+    state.key_timer = 0;
+}
+
+static void render_update_stats()
+{
+    if (stats.frequency <= 0)
+    {
+        stats.fps = floor(1 / state.delta);
+        stats.frequency = .5;
+    }else
+    {
+        stats.frequency -= 1 * state.delta;
+    }
 }
 
 void render_update()
@@ -157,5 +178,14 @@ void render()
     scene_clip_volume();
     scene_render();
 
+    stats.rendered_faces = scene.faces.used;
+    stats.point_lights = scene.point_lights.used;
+    stats.dir_lights = scene.dir_lights.used;
+
+    render_update_stats();
+
+    text_render();
+
     scene_clear();
+    stats.total_faces = 0;
 }

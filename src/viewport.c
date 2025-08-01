@@ -59,6 +59,35 @@ void viewport_control()
     f32 move_speed = 5;
     f32 rotation_speed = 1;
 
+    if (state.key_timer <= 0)
+    {
+        if (state.keystate[SDL_SCANCODE_H])
+        {
+            settings.show_stats = !settings.show_stats;
+            state.key_timer = .5;
+        }
+
+        if (state.keystate[SDL_SCANCODE_T])
+        {
+            settings.mouse_look = !settings.mouse_look;
+            state.key_timer = .5;
+        }
+    }else
+    {
+        state.key_timer -= 1 * state.delta;
+    }
+
+    if (settings.mouse_look)
+    {
+        SDL_SetRelativeMouseMode(SDL_TRUE);  // Call this once during initialization
+
+        int dx, dy;
+        SDL_GetRelativeMouseState(&dx, &dy);
+
+        viewport.t.rotation.y += dx * 0.01f;
+        viewport.t.rotation.x += dy * 0.01f;
+    }
+
     if (state.keystate[SDL_SCANCODE_W])
     {
         viewport.t.position.z += move_speed * cos(viewport.t.rotation.y) * state.delta;

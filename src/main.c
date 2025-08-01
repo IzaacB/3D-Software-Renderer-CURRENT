@@ -1,6 +1,7 @@
 #include "ctagss.h"
 #include "render.h"
 #include "viewport.h"
+#include "text.h"
 
 struct State state;
 struct Precomp precomp;
@@ -9,6 +10,7 @@ struct Scene scene;
 struct Images images;
 struct Objects objects;
 struct Viewport viewport;
+struct Stats stats;
 
 int main(int argc, char *argv[])
 {
@@ -17,6 +19,7 @@ int main(int argc, char *argv[])
 
     render_settings();
     render_init();
+    text_init();
     render_preload();
     viewport_init();
 
