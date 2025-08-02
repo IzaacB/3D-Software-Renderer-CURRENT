@@ -316,6 +316,7 @@ void raster_triangle_solid(u32 i)
 }
 
 void raster_triangle_textured(u32 i)
+
 {
     v3 p0 = scene.projected.vals[scene.faces.vals[i].i0];
     v3 p1 = scene.projected.vals[scene.faces.vals[i].i1];

@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/build/cmake_install.cmake",
-		"C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/build/lib/SDL2/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
