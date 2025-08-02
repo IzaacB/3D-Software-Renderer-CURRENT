@@ -232,6 +232,8 @@ void raster_triangle_solid(u32 i)
 
         f32 x_start = x_left.vals[y_index];
         f32 x_end = x_right.vals[y_index];
+	
+	if (x_start > x_end) continue;
 
         f32 z_start = (z_left.vals[y_index]);
         f32 z_end = (z_right.vals[y_index]);
@@ -445,6 +447,8 @@ void raster_triangle_textured(u32 i)
 
         f32 x_start = x_left.vals[y_index];
         f32 x_end = x_right.vals[y_index];
+
+	if (x_start > x_end) continue;
 
         f32 z_start = (z_left.vals[y_index]);
         f32 z_end = (z_right.vals[y_index]);

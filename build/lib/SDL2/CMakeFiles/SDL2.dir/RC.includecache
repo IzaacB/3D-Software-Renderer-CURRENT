@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/main/windows/version.rc
+winresrc.h
+C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/main/windows/winresrc.h
+
