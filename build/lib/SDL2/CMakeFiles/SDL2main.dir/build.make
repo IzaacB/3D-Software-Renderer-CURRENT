@@ -76,15 +76,15 @@ lib/SDL2/CMakeFiles/SDL2main.dir/src/main/windows/SDL_windows_main.c.obj: lib/SD
 lib/SDL2/CMakeFiles/SDL2main.dir/src/main/windows/SDL_windows_main.c.obj: C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/main/windows/SDL_windows_main.c
 lib/SDL2/CMakeFiles/SDL2main.dir/src/main/windows/SDL_windows_main.c.obj: lib/SDL2/CMakeFiles/SDL2main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/SDL2/CMakeFiles/SDL2main.dir/src/main/windows/SDL_windows_main.c.obj"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\ccache.exe C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/SDL2/CMakeFiles/SDL2main.dir/src/main/windows/SDL_windows_main.c.obj -MF CMakeFiles\SDL2main.dir\src\main\windows\SDL_windows_main.c.obj.d -o CMakeFiles\SDL2main.dir\src\main\windows\SDL_windows_main.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\main\windows\SDL_windows_main.c
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\ccache.exe C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/SDL2/CMakeFiles/SDL2main.dir/src/main/windows/SDL_windows_main.c.obj -MF CMakeFiles\SDL2main.dir\src\main\windows\SDL_windows_main.c.obj.d -o CMakeFiles\SDL2main.dir\src\main\windows\SDL_windows_main.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\main\windows\SDL_windows_main.c
 
 lib/SDL2/CMakeFiles/SDL2main.dir/src/main/windows/SDL_windows_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL2main.dir/src/main/windows/SDL_windows_main.c.i"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\main\windows\SDL_windows_main.c > CMakeFiles\SDL2main.dir\src\main\windows\SDL_windows_main.c.i
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\main\windows\SDL_windows_main.c > CMakeFiles\SDL2main.dir\src\main\windows\SDL_windows_main.c.i
 
 lib/SDL2/CMakeFiles/SDL2main.dir/src/main/windows/SDL_windows_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL2main.dir/src/main/windows/SDL_windows_main.c.s"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\main\windows\SDL_windows_main.c -o CMakeFiles\SDL2main.dir\src\main\windows\SDL_windows_main.c.s
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\main\windows\SDL_windows_main.c -o CMakeFiles\SDL2main.dir\src\main\windows\SDL_windows_main.c.s
 
 # Object files for target SDL2main
 SDL2main_OBJECTS = \

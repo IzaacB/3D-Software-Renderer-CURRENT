@@ -76,240 +76,240 @@ lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_assert.c.obj: lib/SDL2/CMake
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_assert.c.obj: C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_assert.c
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_assert.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_assert.c.obj"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\ccache.exe C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_assert.c.obj -MF CMakeFiles\SDL2_test.dir\src\test\SDL_test_assert.c.obj.d -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_assert.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_assert.c
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\ccache.exe C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_assert.c.obj -MF CMakeFiles\SDL2_test.dir\src\test\SDL_test_assert.c.obj.d -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_assert.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_assert.c
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_assert.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL2_test.dir/src/test/SDL_test_assert.c.i"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_assert.c > CMakeFiles\SDL2_test.dir\src\test\SDL_test_assert.c.i
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_assert.c > CMakeFiles\SDL2_test.dir\src\test\SDL_test_assert.c.i
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_assert.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL2_test.dir/src/test/SDL_test_assert.c.s"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_assert.c -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_assert.c.s
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_assert.c -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_assert.c.s
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_common.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/flags.make
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_common.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/includes_C.rsp
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_common.c.obj: C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_common.c
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_common.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_common.c.obj"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\ccache.exe C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_common.c.obj -MF CMakeFiles\SDL2_test.dir\src\test\SDL_test_common.c.obj.d -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_common.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_common.c
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\ccache.exe C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_common.c.obj -MF CMakeFiles\SDL2_test.dir\src\test\SDL_test_common.c.obj.d -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_common.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_common.c
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_common.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL2_test.dir/src/test/SDL_test_common.c.i"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_common.c > CMakeFiles\SDL2_test.dir\src\test\SDL_test_common.c.i
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_common.c > CMakeFiles\SDL2_test.dir\src\test\SDL_test_common.c.i
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_common.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL2_test.dir/src/test/SDL_test_common.c.s"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_common.c -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_common.c.s
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_common.c -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_common.c.s
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_compare.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/flags.make
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_compare.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/includes_C.rsp
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_compare.c.obj: C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_compare.c
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_compare.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_compare.c.obj"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\ccache.exe C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_compare.c.obj -MF CMakeFiles\SDL2_test.dir\src\test\SDL_test_compare.c.obj.d -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_compare.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_compare.c
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\ccache.exe C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_compare.c.obj -MF CMakeFiles\SDL2_test.dir\src\test\SDL_test_compare.c.obj.d -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_compare.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_compare.c
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_compare.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL2_test.dir/src/test/SDL_test_compare.c.i"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_compare.c > CMakeFiles\SDL2_test.dir\src\test\SDL_test_compare.c.i
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_compare.c > CMakeFiles\SDL2_test.dir\src\test\SDL_test_compare.c.i
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_compare.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL2_test.dir/src/test/SDL_test_compare.c.s"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_compare.c -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_compare.c.s
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_compare.c -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_compare.c.s
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_crc32.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/flags.make
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_crc32.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/includes_C.rsp
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_crc32.c.obj: C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_crc32.c
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_crc32.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_crc32.c.obj"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\ccache.exe C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_crc32.c.obj -MF CMakeFiles\SDL2_test.dir\src\test\SDL_test_crc32.c.obj.d -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_crc32.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_crc32.c
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\ccache.exe C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_crc32.c.obj -MF CMakeFiles\SDL2_test.dir\src\test\SDL_test_crc32.c.obj.d -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_crc32.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_crc32.c
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_crc32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL2_test.dir/src/test/SDL_test_crc32.c.i"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_crc32.c > CMakeFiles\SDL2_test.dir\src\test\SDL_test_crc32.c.i
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_crc32.c > CMakeFiles\SDL2_test.dir\src\test\SDL_test_crc32.c.i
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_crc32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL2_test.dir/src/test/SDL_test_crc32.c.s"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_crc32.c -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_crc32.c.s
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_crc32.c -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_crc32.c.s
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_font.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/flags.make
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_font.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/includes_C.rsp
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_font.c.obj: C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_font.c
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_font.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_font.c.obj"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\ccache.exe C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_font.c.obj -MF CMakeFiles\SDL2_test.dir\src\test\SDL_test_font.c.obj.d -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_font.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_font.c
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\ccache.exe C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_font.c.obj -MF CMakeFiles\SDL2_test.dir\src\test\SDL_test_font.c.obj.d -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_font.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_font.c
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_font.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL2_test.dir/src/test/SDL_test_font.c.i"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_font.c > CMakeFiles\SDL2_test.dir\src\test\SDL_test_font.c.i
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_font.c > CMakeFiles\SDL2_test.dir\src\test\SDL_test_font.c.i
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_font.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL2_test.dir/src/test/SDL_test_font.c.s"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_font.c -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_font.c.s
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_font.c -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_font.c.s
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_fuzzer.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/flags.make
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_fuzzer.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/includes_C.rsp
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_fuzzer.c.obj: C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_fuzzer.c
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_fuzzer.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_fuzzer.c.obj"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\ccache.exe C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_fuzzer.c.obj -MF CMakeFiles\SDL2_test.dir\src\test\SDL_test_fuzzer.c.obj.d -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_fuzzer.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_fuzzer.c
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\ccache.exe C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_fuzzer.c.obj -MF CMakeFiles\SDL2_test.dir\src\test\SDL_test_fuzzer.c.obj.d -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_fuzzer.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_fuzzer.c
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_fuzzer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL2_test.dir/src/test/SDL_test_fuzzer.c.i"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_fuzzer.c > CMakeFiles\SDL2_test.dir\src\test\SDL_test_fuzzer.c.i
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_fuzzer.c > CMakeFiles\SDL2_test.dir\src\test\SDL_test_fuzzer.c.i
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_fuzzer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL2_test.dir/src/test/SDL_test_fuzzer.c.s"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_fuzzer.c -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_fuzzer.c.s
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_fuzzer.c -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_fuzzer.c.s
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_harness.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/flags.make
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_harness.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/includes_C.rsp
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_harness.c.obj: C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_harness.c
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_harness.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_harness.c.obj"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\ccache.exe C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_harness.c.obj -MF CMakeFiles\SDL2_test.dir\src\test\SDL_test_harness.c.obj.d -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_harness.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_harness.c
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\ccache.exe C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_harness.c.obj -MF CMakeFiles\SDL2_test.dir\src\test\SDL_test_harness.c.obj.d -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_harness.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_harness.c
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_harness.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL2_test.dir/src/test/SDL_test_harness.c.i"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_harness.c > CMakeFiles\SDL2_test.dir\src\test\SDL_test_harness.c.i
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_harness.c > CMakeFiles\SDL2_test.dir\src\test\SDL_test_harness.c.i
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_harness.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL2_test.dir/src/test/SDL_test_harness.c.s"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_harness.c -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_harness.c.s
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_harness.c -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_harness.c.s
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlit.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/flags.make
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlit.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/includes_C.rsp
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlit.c.obj: C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_imageBlit.c
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlit.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlit.c.obj"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\ccache.exe C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlit.c.obj -MF CMakeFiles\SDL2_test.dir\src\test\SDL_test_imageBlit.c.obj.d -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_imageBlit.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_imageBlit.c
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\ccache.exe C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlit.c.obj -MF CMakeFiles\SDL2_test.dir\src\test\SDL_test_imageBlit.c.obj.d -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_imageBlit.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_imageBlit.c
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlit.c.i"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_imageBlit.c > CMakeFiles\SDL2_test.dir\src\test\SDL_test_imageBlit.c.i
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_imageBlit.c > CMakeFiles\SDL2_test.dir\src\test\SDL_test_imageBlit.c.i
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlit.c.s"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_imageBlit.c -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_imageBlit.c.s
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_imageBlit.c -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_imageBlit.c.s
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlitBlend.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/flags.make
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlitBlend.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/includes_C.rsp
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlitBlend.c.obj: C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_imageBlitBlend.c
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlitBlend.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlitBlend.c.obj"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\ccache.exe C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlitBlend.c.obj -MF CMakeFiles\SDL2_test.dir\src\test\SDL_test_imageBlitBlend.c.obj.d -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_imageBlitBlend.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_imageBlitBlend.c
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\ccache.exe C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlitBlend.c.obj -MF CMakeFiles\SDL2_test.dir\src\test\SDL_test_imageBlitBlend.c.obj.d -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_imageBlitBlend.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_imageBlitBlend.c
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlitBlend.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlitBlend.c.i"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_imageBlitBlend.c > CMakeFiles\SDL2_test.dir\src\test\SDL_test_imageBlitBlend.c.i
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_imageBlitBlend.c > CMakeFiles\SDL2_test.dir\src\test\SDL_test_imageBlitBlend.c.i
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlitBlend.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlitBlend.c.s"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_imageBlitBlend.c -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_imageBlitBlend.c.s
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_imageBlitBlend.c -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_imageBlitBlend.c.s
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageFace.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/flags.make
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageFace.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/includes_C.rsp
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageFace.c.obj: C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_imageFace.c
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageFace.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageFace.c.obj"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\ccache.exe C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageFace.c.obj -MF CMakeFiles\SDL2_test.dir\src\test\SDL_test_imageFace.c.obj.d -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_imageFace.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_imageFace.c
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\ccache.exe C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageFace.c.obj -MF CMakeFiles\SDL2_test.dir\src\test\SDL_test_imageFace.c.obj.d -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_imageFace.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_imageFace.c
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageFace.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageFace.c.i"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_imageFace.c > CMakeFiles\SDL2_test.dir\src\test\SDL_test_imageFace.c.i
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_imageFace.c > CMakeFiles\SDL2_test.dir\src\test\SDL_test_imageFace.c.i
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageFace.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageFace.c.s"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_imageFace.c -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_imageFace.c.s
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_imageFace.c -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_imageFace.c.s
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitives.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/flags.make
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitives.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/includes_C.rsp
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitives.c.obj: C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_imagePrimitives.c
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitives.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitives.c.obj"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\ccache.exe C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitives.c.obj -MF CMakeFiles\SDL2_test.dir\src\test\SDL_test_imagePrimitives.c.obj.d -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_imagePrimitives.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_imagePrimitives.c
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\ccache.exe C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitives.c.obj -MF CMakeFiles\SDL2_test.dir\src\test\SDL_test_imagePrimitives.c.obj.d -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_imagePrimitives.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_imagePrimitives.c
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitives.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitives.c.i"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_imagePrimitives.c > CMakeFiles\SDL2_test.dir\src\test\SDL_test_imagePrimitives.c.i
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_imagePrimitives.c > CMakeFiles\SDL2_test.dir\src\test\SDL_test_imagePrimitives.c.i
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitives.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitives.c.s"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_imagePrimitives.c -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_imagePrimitives.c.s
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_imagePrimitives.c -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_imagePrimitives.c.s
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitivesBlend.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/flags.make
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitivesBlend.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/includes_C.rsp
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitivesBlend.c.obj: C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_imagePrimitivesBlend.c
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitivesBlend.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitivesBlend.c.obj"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\ccache.exe C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitivesBlend.c.obj -MF CMakeFiles\SDL2_test.dir\src\test\SDL_test_imagePrimitivesBlend.c.obj.d -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_imagePrimitivesBlend.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_imagePrimitivesBlend.c
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\ccache.exe C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitivesBlend.c.obj -MF CMakeFiles\SDL2_test.dir\src\test\SDL_test_imagePrimitivesBlend.c.obj.d -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_imagePrimitivesBlend.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_imagePrimitivesBlend.c
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitivesBlend.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitivesBlend.c.i"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_imagePrimitivesBlend.c > CMakeFiles\SDL2_test.dir\src\test\SDL_test_imagePrimitivesBlend.c.i
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_imagePrimitivesBlend.c > CMakeFiles\SDL2_test.dir\src\test\SDL_test_imagePrimitivesBlend.c.i
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitivesBlend.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitivesBlend.c.s"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_imagePrimitivesBlend.c -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_imagePrimitivesBlend.c.s
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_imagePrimitivesBlend.c -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_imagePrimitivesBlend.c.s
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_log.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/flags.make
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_log.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/includes_C.rsp
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_log.c.obj: C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_log.c
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_log.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_log.c.obj"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\ccache.exe C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_log.c.obj -MF CMakeFiles\SDL2_test.dir\src\test\SDL_test_log.c.obj.d -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_log.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_log.c
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\ccache.exe C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_log.c.obj -MF CMakeFiles\SDL2_test.dir\src\test\SDL_test_log.c.obj.d -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_log.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_log.c
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_log.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL2_test.dir/src/test/SDL_test_log.c.i"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_log.c > CMakeFiles\SDL2_test.dir\src\test\SDL_test_log.c.i
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_log.c > CMakeFiles\SDL2_test.dir\src\test\SDL_test_log.c.i
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_log.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL2_test.dir/src/test/SDL_test_log.c.s"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_log.c -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_log.c.s
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_log.c -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_log.c.s
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_md5.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/flags.make
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_md5.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/includes_C.rsp
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_md5.c.obj: C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_md5.c
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_md5.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_md5.c.obj"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\ccache.exe C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_md5.c.obj -MF CMakeFiles\SDL2_test.dir\src\test\SDL_test_md5.c.obj.d -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_md5.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_md5.c
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\ccache.exe C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_md5.c.obj -MF CMakeFiles\SDL2_test.dir\src\test\SDL_test_md5.c.obj.d -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_md5.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_md5.c
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_md5.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL2_test.dir/src/test/SDL_test_md5.c.i"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_md5.c > CMakeFiles\SDL2_test.dir\src\test\SDL_test_md5.c.i
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_md5.c > CMakeFiles\SDL2_test.dir\src\test\SDL_test_md5.c.i
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_md5.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL2_test.dir/src/test/SDL_test_md5.c.s"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_md5.c -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_md5.c.s
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_md5.c -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_md5.c.s
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_memory.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/flags.make
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_memory.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/includes_C.rsp
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_memory.c.obj: C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_memory.c
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_memory.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_memory.c.obj"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\ccache.exe C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_memory.c.obj -MF CMakeFiles\SDL2_test.dir\src\test\SDL_test_memory.c.obj.d -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_memory.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_memory.c
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\ccache.exe C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_memory.c.obj -MF CMakeFiles\SDL2_test.dir\src\test\SDL_test_memory.c.obj.d -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_memory.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_memory.c
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_memory.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL2_test.dir/src/test/SDL_test_memory.c.i"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_memory.c > CMakeFiles\SDL2_test.dir\src\test\SDL_test_memory.c.i
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_memory.c > CMakeFiles\SDL2_test.dir\src\test\SDL_test_memory.c.i
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_memory.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL2_test.dir/src/test/SDL_test_memory.c.s"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_memory.c -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_memory.c.s
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_memory.c -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_memory.c.s
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_random.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/flags.make
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_random.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/includes_C.rsp
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_random.c.obj: C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_random.c
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_random.c.obj: lib/SDL2/CMakeFiles/SDL2_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_random.c.obj"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\ccache.exe C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_random.c.obj -MF CMakeFiles\SDL2_test.dir\src\test\SDL_test_random.c.obj.d -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_random.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_random.c
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\ccache.exe C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_random.c.obj -MF CMakeFiles\SDL2_test.dir\src\test\SDL_test_random.c.obj.d -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_random.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_random.c
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_random.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL2_test.dir/src/test/SDL_test_random.c.i"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_random.c > CMakeFiles\SDL2_test.dir\src\test\SDL_test_random.c.i
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_random.c > CMakeFiles\SDL2_test.dir\src\test\SDL_test_random.c.i
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_random.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL2_test.dir/src/test/SDL_test_random.c.s"
-	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_random.c -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_random.c.s
+	cd /d C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\lib\SDL2 && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\lib\SDL2\src\test\SDL_test_random.c -o CMakeFiles\SDL2_test.dir\src\test\SDL_test_random.c.s
 
 # Object files for target SDL2_test
 SDL2_test_OBJECTS = \

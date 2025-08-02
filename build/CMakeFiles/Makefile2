@@ -114,8 +114,8 @@ lib/SDL2/clean: lib/SDL2/CMakeFiles/uninstall.dir/clean
 # Target rules for target CMakeFiles/app.dir
 
 # All Build rule for target.
-CMakeFiles/app.dir/all: lib/SDL2/CMakeFiles/SDL2-static.dir/all
 CMakeFiles/app.dir/all: lib/SDL2/CMakeFiles/SDL2main.dir/all
+CMakeFiles/app.dir/all: lib/SDL2/CMakeFiles/SDL2-static.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\CMakeFiles --progress-num=83,84 "Built target app"

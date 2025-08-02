@@ -164,11 +164,11 @@ void render()
     };
 
     array_insert(scene.point_lights, l0);
-    array_insert(scene.point_lights, l1);
-    array_insert(scene.point_lights, l2);
+    //array_insert(scene.point_lights, l1);
+    //array_insert(scene.point_lights, l2);
     array_insert(scene.dir_lights, sun);
 
-    object_draw(objects.busts);
+	object_draw(objects.busts);
     object_draw(objects.ceiling);
     object_draw(objects.floor);
     object_draw(objects.frames);

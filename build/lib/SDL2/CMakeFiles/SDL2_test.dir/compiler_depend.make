@@ -65,169 +65,169 @@ lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_assert.c.obj: C:/Users/izaac
   lib/SDL2/include/SDL2/SDL_video.h \
   lib/SDL2/include/SDL2/begin_code.h \
   lib/SDL2/include/SDL2/close_code.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/adxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ammintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxavx512intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxbf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxcomplexintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxint8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxmovrsintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtf32intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtileintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtransposeintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512convertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512mediaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512minmaxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512satcvtintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2convertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2copyintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2mediaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2minmaxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2satcvtintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512cdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512dqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmavlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmivlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlbwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vldqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnnivlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxifmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxneconvertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmi2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cetintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cldemoteintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clflushoptintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clwbintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clzerointrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cmpccxaddintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cpuid.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/emmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/enqcmdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/f16cintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/float.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fma4intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fxsrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/gfniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/hresetintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ia32intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/immintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/keylockerintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lwpintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lzcntintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm3dnow.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movdirintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movrsintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pconfigintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pkuintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/popcntintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/raointintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rdseedintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rtmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/serializeintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sgxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sha512intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/shaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm3intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm4intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/smmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tbmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tsxldtrkintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/uintrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/usermsrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vaesintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vpclmulqdqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/waitpkgintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wbnoinvdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86gprintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xopintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavecintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveoptintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavesintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xtestintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/ctype.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/errno.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/float.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/inttypes.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/limits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/malloc.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/math.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/process.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/setjmp.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stddef.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdint.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdio.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/string.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/strings.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sys/types.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/wchar.h
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/adxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ammintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxavx512intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxbf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxcomplexintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxint8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxmovrsintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtf32intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtileintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtransposeintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512convertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512mediaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512minmaxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512satcvtintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2convertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2copyintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2mediaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2minmaxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2satcvtintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512cdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512dqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmavlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmivlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlbwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vldqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnnivlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxifmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxneconvertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmi2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cetintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cldemoteintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clflushoptintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clwbintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clzerointrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cmpccxaddintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cpuid.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/emmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/enqcmdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/f16cintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/float.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fma4intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fxsrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/gfniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/hresetintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ia32intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/immintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/keylockerintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lwpintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lzcntintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm3dnow.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movdirintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movrsintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pconfigintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pkuintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/popcntintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/raointintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rdseedintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rtmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/serializeintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sgxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sha512intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/shaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm3intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm4intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/smmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdarg.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tbmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tsxldtrkintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/uintrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/usermsrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vaesintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vpclmulqdqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/waitpkgintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wbnoinvdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86gprintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xopintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavecintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveoptintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavesintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xtestintrin.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/mingw64/x86_64-w64-mingw32/include/ctype.h \
+  C:/mingw64/x86_64-w64-mingw32/include/errno.h \
+  C:/mingw64/x86_64-w64-mingw32/include/float.h \
+  C:/mingw64/x86_64-w64-mingw32/include/intrin.h \
+  C:/mingw64/x86_64-w64-mingw32/include/inttypes.h \
+  C:/mingw64/x86_64-w64-mingw32/include/limits.h \
+  C:/mingw64/x86_64-w64-mingw32/include/malloc.h \
+  C:/mingw64/x86_64-w64-mingw32/include/math.h \
+  C:/mingw64/x86_64-w64-mingw32/include/process.h \
+  C:/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/setjmp.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdarg.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stddef.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdint.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdio.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdlib.h \
+  C:/mingw64/x86_64-w64-mingw32/include/string.h \
+  C:/mingw64/x86_64-w64-mingw32/include/strings.h \
+  C:/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/mingw64/x86_64-w64-mingw32/include/sys/types.h \
+  C:/mingw64/x86_64-w64-mingw32/include/vadefs.h \
+  C:/mingw64/x86_64-w64-mingw32/include/wchar.h
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_common.c.obj: C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_common.c \
   lib/SDL2/include-config-/SDL2/SDL_config.h \
@@ -293,169 +293,169 @@ lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_common.c.obj: C:/Users/izaac
   lib/SDL2/include/SDL2/SDL_video.h \
   lib/SDL2/include/SDL2/begin_code.h \
   lib/SDL2/include/SDL2/close_code.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/adxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ammintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxavx512intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxbf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxcomplexintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxint8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxmovrsintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtf32intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtileintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtransposeintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512convertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512mediaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512minmaxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512satcvtintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2convertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2copyintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2mediaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2minmaxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2satcvtintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512cdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512dqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmavlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmivlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlbwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vldqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnnivlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxifmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxneconvertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmi2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cetintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cldemoteintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clflushoptintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clwbintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clzerointrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cmpccxaddintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cpuid.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/emmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/enqcmdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/f16cintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/float.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fma4intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fxsrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/gfniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/hresetintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ia32intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/immintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/keylockerintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lwpintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lzcntintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm3dnow.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movdirintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movrsintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pconfigintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pkuintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/popcntintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/raointintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rdseedintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rtmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/serializeintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sgxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sha512intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/shaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm3intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm4intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/smmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tbmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tsxldtrkintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/uintrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/usermsrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vaesintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vpclmulqdqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/waitpkgintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wbnoinvdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86gprintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xopintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavecintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveoptintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavesintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xtestintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/ctype.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/errno.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/float.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/inttypes.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/limits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/malloc.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/math.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/process.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/setjmp.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stddef.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdint.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdio.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/string.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/strings.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sys/types.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/wchar.h
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/adxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ammintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxavx512intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxbf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxcomplexintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxint8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxmovrsintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtf32intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtileintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtransposeintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512convertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512mediaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512minmaxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512satcvtintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2convertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2copyintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2mediaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2minmaxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2satcvtintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512cdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512dqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmavlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmivlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlbwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vldqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnnivlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxifmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxneconvertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmi2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cetintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cldemoteintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clflushoptintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clwbintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clzerointrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cmpccxaddintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cpuid.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/emmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/enqcmdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/f16cintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/float.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fma4intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fxsrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/gfniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/hresetintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ia32intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/immintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/keylockerintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lwpintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lzcntintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm3dnow.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movdirintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movrsintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pconfigintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pkuintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/popcntintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/raointintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rdseedintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rtmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/serializeintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sgxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sha512intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/shaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm3intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm4intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/smmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdarg.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tbmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tsxldtrkintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/uintrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/usermsrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vaesintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vpclmulqdqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/waitpkgintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wbnoinvdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86gprintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xopintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavecintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveoptintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavesintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xtestintrin.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/mingw64/x86_64-w64-mingw32/include/ctype.h \
+  C:/mingw64/x86_64-w64-mingw32/include/errno.h \
+  C:/mingw64/x86_64-w64-mingw32/include/float.h \
+  C:/mingw64/x86_64-w64-mingw32/include/intrin.h \
+  C:/mingw64/x86_64-w64-mingw32/include/inttypes.h \
+  C:/mingw64/x86_64-w64-mingw32/include/limits.h \
+  C:/mingw64/x86_64-w64-mingw32/include/malloc.h \
+  C:/mingw64/x86_64-w64-mingw32/include/math.h \
+  C:/mingw64/x86_64-w64-mingw32/include/process.h \
+  C:/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/setjmp.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdarg.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stddef.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdint.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdio.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdlib.h \
+  C:/mingw64/x86_64-w64-mingw32/include/string.h \
+  C:/mingw64/x86_64-w64-mingw32/include/strings.h \
+  C:/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/mingw64/x86_64-w64-mingw32/include/sys/types.h \
+  C:/mingw64/x86_64-w64-mingw32/include/vadefs.h \
+  C:/mingw64/x86_64-w64-mingw32/include/wchar.h
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_compare.c.obj: C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_compare.c \
   lib/SDL2/include-config-/SDL2/SDL_config.h \
@@ -521,169 +521,169 @@ lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_compare.c.obj: C:/Users/izaa
   lib/SDL2/include/SDL2/SDL_video.h \
   lib/SDL2/include/SDL2/begin_code.h \
   lib/SDL2/include/SDL2/close_code.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/adxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ammintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxavx512intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxbf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxcomplexintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxint8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxmovrsintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtf32intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtileintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtransposeintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512convertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512mediaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512minmaxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512satcvtintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2convertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2copyintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2mediaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2minmaxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2satcvtintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512cdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512dqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmavlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmivlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlbwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vldqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnnivlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxifmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxneconvertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmi2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cetintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cldemoteintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clflushoptintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clwbintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clzerointrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cmpccxaddintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cpuid.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/emmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/enqcmdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/f16cintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/float.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fma4intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fxsrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/gfniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/hresetintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ia32intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/immintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/keylockerintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lwpintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lzcntintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm3dnow.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movdirintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movrsintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pconfigintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pkuintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/popcntintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/raointintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rdseedintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rtmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/serializeintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sgxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sha512intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/shaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm3intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm4intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/smmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tbmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tsxldtrkintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/uintrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/usermsrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vaesintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vpclmulqdqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/waitpkgintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wbnoinvdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86gprintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xopintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavecintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveoptintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavesintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xtestintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/ctype.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/errno.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/float.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/inttypes.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/limits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/malloc.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/math.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/process.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/setjmp.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stddef.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdint.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdio.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/string.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/strings.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sys/types.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/wchar.h
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/adxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ammintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxavx512intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxbf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxcomplexintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxint8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxmovrsintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtf32intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtileintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtransposeintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512convertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512mediaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512minmaxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512satcvtintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2convertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2copyintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2mediaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2minmaxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2satcvtintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512cdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512dqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmavlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmivlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlbwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vldqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnnivlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxifmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxneconvertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmi2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cetintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cldemoteintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clflushoptintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clwbintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clzerointrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cmpccxaddintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cpuid.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/emmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/enqcmdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/f16cintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/float.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fma4intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fxsrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/gfniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/hresetintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ia32intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/immintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/keylockerintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lwpintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lzcntintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm3dnow.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movdirintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movrsintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pconfigintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pkuintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/popcntintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/raointintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rdseedintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rtmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/serializeintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sgxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sha512intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/shaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm3intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm4intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/smmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdarg.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tbmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tsxldtrkintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/uintrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/usermsrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vaesintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vpclmulqdqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/waitpkgintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wbnoinvdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86gprintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xopintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavecintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveoptintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavesintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xtestintrin.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/mingw64/x86_64-w64-mingw32/include/ctype.h \
+  C:/mingw64/x86_64-w64-mingw32/include/errno.h \
+  C:/mingw64/x86_64-w64-mingw32/include/float.h \
+  C:/mingw64/x86_64-w64-mingw32/include/intrin.h \
+  C:/mingw64/x86_64-w64-mingw32/include/inttypes.h \
+  C:/mingw64/x86_64-w64-mingw32/include/limits.h \
+  C:/mingw64/x86_64-w64-mingw32/include/malloc.h \
+  C:/mingw64/x86_64-w64-mingw32/include/math.h \
+  C:/mingw64/x86_64-w64-mingw32/include/process.h \
+  C:/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/setjmp.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdarg.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stddef.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdint.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdio.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdlib.h \
+  C:/mingw64/x86_64-w64-mingw32/include/string.h \
+  C:/mingw64/x86_64-w64-mingw32/include/strings.h \
+  C:/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/mingw64/x86_64-w64-mingw32/include/sys/types.h \
+  C:/mingw64/x86_64-w64-mingw32/include/vadefs.h \
+  C:/mingw64/x86_64-w64-mingw32/include/wchar.h
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_crc32.c.obj: C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_crc32.c \
   lib/SDL2/include-config-/SDL2/SDL_config.h \
@@ -749,169 +749,169 @@ lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_crc32.c.obj: C:/Users/izaac/
   lib/SDL2/include/SDL2/SDL_video.h \
   lib/SDL2/include/SDL2/begin_code.h \
   lib/SDL2/include/SDL2/close_code.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/adxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ammintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxavx512intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxbf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxcomplexintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxint8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxmovrsintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtf32intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtileintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtransposeintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512convertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512mediaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512minmaxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512satcvtintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2convertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2copyintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2mediaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2minmaxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2satcvtintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512cdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512dqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmavlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmivlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlbwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vldqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnnivlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxifmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxneconvertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmi2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cetintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cldemoteintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clflushoptintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clwbintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clzerointrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cmpccxaddintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cpuid.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/emmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/enqcmdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/f16cintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/float.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fma4intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fxsrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/gfniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/hresetintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ia32intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/immintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/keylockerintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lwpintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lzcntintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm3dnow.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movdirintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movrsintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pconfigintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pkuintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/popcntintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/raointintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rdseedintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rtmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/serializeintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sgxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sha512intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/shaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm3intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm4intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/smmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tbmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tsxldtrkintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/uintrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/usermsrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vaesintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vpclmulqdqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/waitpkgintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wbnoinvdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86gprintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xopintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavecintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveoptintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavesintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xtestintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/ctype.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/errno.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/float.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/inttypes.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/limits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/malloc.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/math.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/process.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/setjmp.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stddef.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdint.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdio.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/string.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/strings.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sys/types.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/wchar.h
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/adxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ammintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxavx512intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxbf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxcomplexintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxint8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxmovrsintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtf32intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtileintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtransposeintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512convertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512mediaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512minmaxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512satcvtintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2convertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2copyintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2mediaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2minmaxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2satcvtintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512cdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512dqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmavlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmivlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlbwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vldqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnnivlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxifmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxneconvertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmi2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cetintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cldemoteintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clflushoptintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clwbintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clzerointrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cmpccxaddintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cpuid.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/emmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/enqcmdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/f16cintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/float.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fma4intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fxsrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/gfniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/hresetintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ia32intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/immintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/keylockerintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lwpintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lzcntintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm3dnow.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movdirintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movrsintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pconfigintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pkuintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/popcntintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/raointintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rdseedintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rtmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/serializeintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sgxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sha512intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/shaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm3intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm4intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/smmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdarg.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tbmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tsxldtrkintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/uintrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/usermsrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vaesintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vpclmulqdqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/waitpkgintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wbnoinvdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86gprintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xopintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavecintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveoptintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavesintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xtestintrin.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/mingw64/x86_64-w64-mingw32/include/ctype.h \
+  C:/mingw64/x86_64-w64-mingw32/include/errno.h \
+  C:/mingw64/x86_64-w64-mingw32/include/float.h \
+  C:/mingw64/x86_64-w64-mingw32/include/intrin.h \
+  C:/mingw64/x86_64-w64-mingw32/include/inttypes.h \
+  C:/mingw64/x86_64-w64-mingw32/include/limits.h \
+  C:/mingw64/x86_64-w64-mingw32/include/malloc.h \
+  C:/mingw64/x86_64-w64-mingw32/include/math.h \
+  C:/mingw64/x86_64-w64-mingw32/include/process.h \
+  C:/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/setjmp.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdarg.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stddef.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdint.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdio.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdlib.h \
+  C:/mingw64/x86_64-w64-mingw32/include/string.h \
+  C:/mingw64/x86_64-w64-mingw32/include/strings.h \
+  C:/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/mingw64/x86_64-w64-mingw32/include/sys/types.h \
+  C:/mingw64/x86_64-w64-mingw32/include/vadefs.h \
+  C:/mingw64/x86_64-w64-mingw32/include/wchar.h
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_font.c.obj: C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_font.c \
   lib/SDL2/include-config-/SDL2/SDL_config.h \
@@ -977,169 +977,169 @@ lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_font.c.obj: C:/Users/izaac/O
   lib/SDL2/include/SDL2/SDL_video.h \
   lib/SDL2/include/SDL2/begin_code.h \
   lib/SDL2/include/SDL2/close_code.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/adxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ammintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxavx512intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxbf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxcomplexintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxint8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxmovrsintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtf32intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtileintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtransposeintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512convertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512mediaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512minmaxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512satcvtintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2convertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2copyintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2mediaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2minmaxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2satcvtintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512cdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512dqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmavlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmivlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlbwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vldqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnnivlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxifmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxneconvertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmi2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cetintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cldemoteintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clflushoptintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clwbintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clzerointrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cmpccxaddintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cpuid.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/emmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/enqcmdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/f16cintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/float.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fma4intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fxsrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/gfniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/hresetintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ia32intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/immintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/keylockerintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lwpintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lzcntintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm3dnow.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movdirintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movrsintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pconfigintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pkuintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/popcntintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/raointintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rdseedintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rtmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/serializeintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sgxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sha512intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/shaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm3intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm4intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/smmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tbmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tsxldtrkintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/uintrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/usermsrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vaesintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vpclmulqdqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/waitpkgintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wbnoinvdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86gprintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xopintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavecintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveoptintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavesintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xtestintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/ctype.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/errno.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/float.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/inttypes.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/limits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/malloc.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/math.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/process.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/setjmp.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stddef.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdint.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdio.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/string.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/strings.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sys/types.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/wchar.h
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/adxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ammintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxavx512intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxbf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxcomplexintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxint8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxmovrsintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtf32intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtileintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtransposeintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512convertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512mediaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512minmaxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512satcvtintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2convertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2copyintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2mediaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2minmaxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2satcvtintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512cdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512dqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmavlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmivlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlbwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vldqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnnivlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxifmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxneconvertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmi2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cetintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cldemoteintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clflushoptintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clwbintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clzerointrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cmpccxaddintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cpuid.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/emmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/enqcmdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/f16cintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/float.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fma4intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fxsrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/gfniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/hresetintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ia32intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/immintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/keylockerintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lwpintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lzcntintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm3dnow.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movdirintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movrsintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pconfigintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pkuintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/popcntintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/raointintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rdseedintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rtmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/serializeintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sgxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sha512intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/shaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm3intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm4intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/smmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdarg.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tbmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tsxldtrkintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/uintrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/usermsrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vaesintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vpclmulqdqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/waitpkgintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wbnoinvdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86gprintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xopintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavecintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveoptintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavesintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xtestintrin.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/mingw64/x86_64-w64-mingw32/include/ctype.h \
+  C:/mingw64/x86_64-w64-mingw32/include/errno.h \
+  C:/mingw64/x86_64-w64-mingw32/include/float.h \
+  C:/mingw64/x86_64-w64-mingw32/include/intrin.h \
+  C:/mingw64/x86_64-w64-mingw32/include/inttypes.h \
+  C:/mingw64/x86_64-w64-mingw32/include/limits.h \
+  C:/mingw64/x86_64-w64-mingw32/include/malloc.h \
+  C:/mingw64/x86_64-w64-mingw32/include/math.h \
+  C:/mingw64/x86_64-w64-mingw32/include/process.h \
+  C:/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/setjmp.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdarg.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stddef.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdint.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdio.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdlib.h \
+  C:/mingw64/x86_64-w64-mingw32/include/string.h \
+  C:/mingw64/x86_64-w64-mingw32/include/strings.h \
+  C:/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/mingw64/x86_64-w64-mingw32/include/sys/types.h \
+  C:/mingw64/x86_64-w64-mingw32/include/vadefs.h \
+  C:/mingw64/x86_64-w64-mingw32/include/wchar.h
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_fuzzer.c.obj: C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_fuzzer.c \
   lib/SDL2/include-config-/SDL2/SDL_config.h \
@@ -1205,169 +1205,169 @@ lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_fuzzer.c.obj: C:/Users/izaac
   lib/SDL2/include/SDL2/SDL_video.h \
   lib/SDL2/include/SDL2/begin_code.h \
   lib/SDL2/include/SDL2/close_code.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/adxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ammintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxavx512intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxbf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxcomplexintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxint8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxmovrsintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtf32intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtileintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtransposeintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512convertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512mediaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512minmaxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512satcvtintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2convertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2copyintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2mediaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2minmaxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2satcvtintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512cdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512dqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmavlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmivlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlbwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vldqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnnivlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxifmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxneconvertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmi2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cetintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cldemoteintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clflushoptintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clwbintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clzerointrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cmpccxaddintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cpuid.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/emmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/enqcmdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/f16cintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/float.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fma4intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fxsrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/gfniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/hresetintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ia32intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/immintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/keylockerintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lwpintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lzcntintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm3dnow.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movdirintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movrsintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pconfigintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pkuintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/popcntintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/raointintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rdseedintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rtmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/serializeintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sgxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sha512intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/shaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm3intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm4intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/smmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tbmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tsxldtrkintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/uintrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/usermsrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vaesintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vpclmulqdqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/waitpkgintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wbnoinvdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86gprintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xopintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavecintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveoptintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavesintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xtestintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/ctype.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/errno.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/float.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/inttypes.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/limits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/malloc.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/math.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/process.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/setjmp.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stddef.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdint.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdio.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/string.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/strings.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sys/types.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/wchar.h
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/adxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ammintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxavx512intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxbf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxcomplexintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxint8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxmovrsintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtf32intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtileintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtransposeintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512convertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512mediaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512minmaxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512satcvtintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2convertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2copyintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2mediaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2minmaxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2satcvtintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512cdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512dqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmavlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmivlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlbwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vldqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnnivlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxifmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxneconvertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmi2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cetintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cldemoteintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clflushoptintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clwbintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clzerointrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cmpccxaddintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cpuid.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/emmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/enqcmdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/f16cintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/float.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fma4intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fxsrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/gfniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/hresetintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ia32intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/immintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/keylockerintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lwpintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lzcntintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm3dnow.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movdirintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movrsintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pconfigintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pkuintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/popcntintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/raointintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rdseedintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rtmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/serializeintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sgxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sha512intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/shaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm3intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm4intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/smmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdarg.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tbmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tsxldtrkintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/uintrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/usermsrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vaesintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vpclmulqdqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/waitpkgintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wbnoinvdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86gprintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xopintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavecintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveoptintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavesintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xtestintrin.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/mingw64/x86_64-w64-mingw32/include/ctype.h \
+  C:/mingw64/x86_64-w64-mingw32/include/errno.h \
+  C:/mingw64/x86_64-w64-mingw32/include/float.h \
+  C:/mingw64/x86_64-w64-mingw32/include/intrin.h \
+  C:/mingw64/x86_64-w64-mingw32/include/inttypes.h \
+  C:/mingw64/x86_64-w64-mingw32/include/limits.h \
+  C:/mingw64/x86_64-w64-mingw32/include/malloc.h \
+  C:/mingw64/x86_64-w64-mingw32/include/math.h \
+  C:/mingw64/x86_64-w64-mingw32/include/process.h \
+  C:/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/setjmp.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdarg.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stddef.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdint.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdio.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdlib.h \
+  C:/mingw64/x86_64-w64-mingw32/include/string.h \
+  C:/mingw64/x86_64-w64-mingw32/include/strings.h \
+  C:/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/mingw64/x86_64-w64-mingw32/include/sys/types.h \
+  C:/mingw64/x86_64-w64-mingw32/include/vadefs.h \
+  C:/mingw64/x86_64-w64-mingw32/include/wchar.h
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_harness.c.obj: C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_harness.c \
   lib/SDL2/include-config-/SDL2/SDL_config.h \
@@ -1433,174 +1433,174 @@ lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_harness.c.obj: C:/Users/izaa
   lib/SDL2/include/SDL2/SDL_video.h \
   lib/SDL2/include/SDL2/begin_code.h \
   lib/SDL2/include/SDL2/close_code.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/adxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ammintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxavx512intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxbf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxcomplexintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxint8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxmovrsintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtf32intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtileintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtransposeintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512convertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512mediaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512minmaxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512satcvtintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2convertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2copyintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2mediaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2minmaxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2satcvtintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512cdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512dqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmavlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmivlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlbwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vldqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnnivlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxifmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxneconvertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmi2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cetintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cldemoteintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clflushoptintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clwbintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clzerointrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cmpccxaddintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cpuid.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/emmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/enqcmdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/f16cintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/float.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fma4intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fxsrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/gfniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/hresetintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ia32intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/immintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/keylockerintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lwpintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lzcntintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm3dnow.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movdirintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movrsintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pconfigintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pkuintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/popcntintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/raointintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rdseedintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rtmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/serializeintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sgxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sha512intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/shaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm3intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm4intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/smmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tbmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tsxldtrkintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/uintrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/usermsrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vaesintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vpclmulqdqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/waitpkgintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wbnoinvdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86gprintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xopintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavecintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveoptintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavesintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xtestintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_timeval.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/ctype.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/errno.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/float.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/inttypes.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/limits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/malloc.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/math.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/process.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/pthread_time.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/setjmp.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stddef.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdint.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdio.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/string.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/strings.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sys/timeb.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sys/types.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/time.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/wchar.h
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/adxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ammintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxavx512intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxbf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxcomplexintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxint8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxmovrsintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtf32intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtileintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtransposeintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512convertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512mediaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512minmaxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512satcvtintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2convertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2copyintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2mediaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2minmaxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2satcvtintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512cdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512dqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmavlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmivlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlbwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vldqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnnivlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxifmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxneconvertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmi2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cetintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cldemoteintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clflushoptintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clwbintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clzerointrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cmpccxaddintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cpuid.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/emmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/enqcmdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/f16cintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/float.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fma4intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fxsrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/gfniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/hresetintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ia32intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/immintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/keylockerintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lwpintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lzcntintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm3dnow.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movdirintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movrsintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pconfigintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pkuintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/popcntintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/raointintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rdseedintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rtmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/serializeintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sgxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sha512intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/shaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm3intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm4intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/smmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdarg.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tbmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tsxldtrkintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/uintrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/usermsrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vaesintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vpclmulqdqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/waitpkgintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wbnoinvdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86gprintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xopintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavecintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveoptintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavesintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xtestintrin.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_timeval.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/mingw64/x86_64-w64-mingw32/include/ctype.h \
+  C:/mingw64/x86_64-w64-mingw32/include/errno.h \
+  C:/mingw64/x86_64-w64-mingw32/include/float.h \
+  C:/mingw64/x86_64-w64-mingw32/include/intrin.h \
+  C:/mingw64/x86_64-w64-mingw32/include/inttypes.h \
+  C:/mingw64/x86_64-w64-mingw32/include/limits.h \
+  C:/mingw64/x86_64-w64-mingw32/include/malloc.h \
+  C:/mingw64/x86_64-w64-mingw32/include/math.h \
+  C:/mingw64/x86_64-w64-mingw32/include/process.h \
+  C:/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+  C:/mingw64/x86_64-w64-mingw32/include/pthread_time.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/setjmp.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdarg.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stddef.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdint.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdio.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdlib.h \
+  C:/mingw64/x86_64-w64-mingw32/include/string.h \
+  C:/mingw64/x86_64-w64-mingw32/include/strings.h \
+  C:/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/mingw64/x86_64-w64-mingw32/include/sys/timeb.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sys/types.h \
+  C:/mingw64/x86_64-w64-mingw32/include/time.h \
+  C:/mingw64/x86_64-w64-mingw32/include/vadefs.h \
+  C:/mingw64/x86_64-w64-mingw32/include/wchar.h
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlit.c.obj: C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_imageBlit.c \
   lib/SDL2/include-config-/SDL2/SDL_config.h \
@@ -1666,169 +1666,169 @@ lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlit.c.obj: C:/Users/iz
   lib/SDL2/include/SDL2/SDL_video.h \
   lib/SDL2/include/SDL2/begin_code.h \
   lib/SDL2/include/SDL2/close_code.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/adxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ammintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxavx512intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxbf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxcomplexintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxint8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxmovrsintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtf32intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtileintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtransposeintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512convertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512mediaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512minmaxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512satcvtintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2convertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2copyintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2mediaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2minmaxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2satcvtintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512cdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512dqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmavlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmivlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlbwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vldqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnnivlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxifmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxneconvertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmi2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cetintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cldemoteintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clflushoptintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clwbintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clzerointrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cmpccxaddintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cpuid.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/emmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/enqcmdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/f16cintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/float.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fma4intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fxsrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/gfniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/hresetintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ia32intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/immintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/keylockerintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lwpintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lzcntintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm3dnow.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movdirintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movrsintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pconfigintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pkuintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/popcntintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/raointintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rdseedintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rtmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/serializeintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sgxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sha512intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/shaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm3intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm4intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/smmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tbmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tsxldtrkintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/uintrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/usermsrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vaesintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vpclmulqdqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/waitpkgintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wbnoinvdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86gprintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xopintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavecintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveoptintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavesintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xtestintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/ctype.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/errno.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/float.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/inttypes.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/limits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/malloc.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/math.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/process.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/setjmp.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stddef.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdint.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdio.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/string.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/strings.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sys/types.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/wchar.h
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/adxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ammintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxavx512intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxbf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxcomplexintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxint8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxmovrsintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtf32intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtileintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtransposeintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512convertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512mediaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512minmaxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512satcvtintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2convertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2copyintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2mediaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2minmaxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2satcvtintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512cdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512dqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmavlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmivlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlbwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vldqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnnivlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxifmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxneconvertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmi2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cetintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cldemoteintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clflushoptintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clwbintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clzerointrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cmpccxaddintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cpuid.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/emmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/enqcmdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/f16cintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/float.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fma4intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fxsrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/gfniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/hresetintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ia32intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/immintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/keylockerintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lwpintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lzcntintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm3dnow.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movdirintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movrsintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pconfigintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pkuintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/popcntintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/raointintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rdseedintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rtmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/serializeintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sgxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sha512intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/shaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm3intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm4intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/smmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdarg.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tbmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tsxldtrkintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/uintrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/usermsrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vaesintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vpclmulqdqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/waitpkgintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wbnoinvdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86gprintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xopintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavecintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveoptintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavesintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xtestintrin.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/mingw64/x86_64-w64-mingw32/include/ctype.h \
+  C:/mingw64/x86_64-w64-mingw32/include/errno.h \
+  C:/mingw64/x86_64-w64-mingw32/include/float.h \
+  C:/mingw64/x86_64-w64-mingw32/include/intrin.h \
+  C:/mingw64/x86_64-w64-mingw32/include/inttypes.h \
+  C:/mingw64/x86_64-w64-mingw32/include/limits.h \
+  C:/mingw64/x86_64-w64-mingw32/include/malloc.h \
+  C:/mingw64/x86_64-w64-mingw32/include/math.h \
+  C:/mingw64/x86_64-w64-mingw32/include/process.h \
+  C:/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/setjmp.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdarg.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stddef.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdint.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdio.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdlib.h \
+  C:/mingw64/x86_64-w64-mingw32/include/string.h \
+  C:/mingw64/x86_64-w64-mingw32/include/strings.h \
+  C:/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/mingw64/x86_64-w64-mingw32/include/sys/types.h \
+  C:/mingw64/x86_64-w64-mingw32/include/vadefs.h \
+  C:/mingw64/x86_64-w64-mingw32/include/wchar.h
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlitBlend.c.obj: C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_imageBlitBlend.c \
   lib/SDL2/include-config-/SDL2/SDL_config.h \
@@ -1894,169 +1894,169 @@ lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlitBlend.c.obj: C:/Use
   lib/SDL2/include/SDL2/SDL_video.h \
   lib/SDL2/include/SDL2/begin_code.h \
   lib/SDL2/include/SDL2/close_code.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/adxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ammintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxavx512intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxbf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxcomplexintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxint8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxmovrsintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtf32intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtileintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtransposeintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512convertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512mediaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512minmaxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512satcvtintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2convertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2copyintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2mediaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2minmaxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2satcvtintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512cdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512dqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmavlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmivlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlbwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vldqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnnivlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxifmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxneconvertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmi2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cetintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cldemoteintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clflushoptintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clwbintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clzerointrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cmpccxaddintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cpuid.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/emmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/enqcmdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/f16cintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/float.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fma4intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fxsrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/gfniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/hresetintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ia32intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/immintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/keylockerintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lwpintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lzcntintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm3dnow.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movdirintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movrsintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pconfigintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pkuintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/popcntintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/raointintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rdseedintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rtmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/serializeintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sgxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sha512intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/shaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm3intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm4intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/smmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tbmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tsxldtrkintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/uintrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/usermsrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vaesintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vpclmulqdqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/waitpkgintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wbnoinvdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86gprintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xopintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavecintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveoptintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavesintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xtestintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/ctype.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/errno.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/float.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/inttypes.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/limits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/malloc.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/math.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/process.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/setjmp.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stddef.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdint.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdio.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/string.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/strings.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sys/types.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/wchar.h
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/adxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ammintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxavx512intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxbf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxcomplexintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxint8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxmovrsintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtf32intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtileintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtransposeintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512convertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512mediaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512minmaxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512satcvtintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2convertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2copyintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2mediaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2minmaxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2satcvtintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512cdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512dqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmavlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmivlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlbwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vldqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnnivlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxifmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxneconvertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmi2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cetintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cldemoteintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clflushoptintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clwbintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clzerointrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cmpccxaddintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cpuid.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/emmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/enqcmdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/f16cintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/float.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fma4intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fxsrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/gfniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/hresetintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ia32intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/immintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/keylockerintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lwpintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lzcntintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm3dnow.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movdirintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movrsintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pconfigintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pkuintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/popcntintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/raointintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rdseedintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rtmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/serializeintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sgxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sha512intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/shaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm3intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm4intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/smmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdarg.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tbmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tsxldtrkintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/uintrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/usermsrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vaesintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vpclmulqdqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/waitpkgintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wbnoinvdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86gprintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xopintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavecintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveoptintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavesintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xtestintrin.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/mingw64/x86_64-w64-mingw32/include/ctype.h \
+  C:/mingw64/x86_64-w64-mingw32/include/errno.h \
+  C:/mingw64/x86_64-w64-mingw32/include/float.h \
+  C:/mingw64/x86_64-w64-mingw32/include/intrin.h \
+  C:/mingw64/x86_64-w64-mingw32/include/inttypes.h \
+  C:/mingw64/x86_64-w64-mingw32/include/limits.h \
+  C:/mingw64/x86_64-w64-mingw32/include/malloc.h \
+  C:/mingw64/x86_64-w64-mingw32/include/math.h \
+  C:/mingw64/x86_64-w64-mingw32/include/process.h \
+  C:/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/setjmp.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdarg.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stddef.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdint.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdio.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdlib.h \
+  C:/mingw64/x86_64-w64-mingw32/include/string.h \
+  C:/mingw64/x86_64-w64-mingw32/include/strings.h \
+  C:/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/mingw64/x86_64-w64-mingw32/include/sys/types.h \
+  C:/mingw64/x86_64-w64-mingw32/include/vadefs.h \
+  C:/mingw64/x86_64-w64-mingw32/include/wchar.h
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageFace.c.obj: C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_imageFace.c \
   lib/SDL2/include-config-/SDL2/SDL_config.h \
@@ -2122,169 +2122,169 @@ lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageFace.c.obj: C:/Users/iz
   lib/SDL2/include/SDL2/SDL_video.h \
   lib/SDL2/include/SDL2/begin_code.h \
   lib/SDL2/include/SDL2/close_code.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/adxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ammintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxavx512intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxbf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxcomplexintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxint8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxmovrsintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtf32intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtileintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtransposeintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512convertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512mediaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512minmaxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512satcvtintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2convertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2copyintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2mediaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2minmaxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2satcvtintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512cdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512dqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmavlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmivlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlbwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vldqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnnivlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxifmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxneconvertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmi2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cetintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cldemoteintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clflushoptintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clwbintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clzerointrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cmpccxaddintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cpuid.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/emmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/enqcmdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/f16cintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/float.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fma4intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fxsrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/gfniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/hresetintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ia32intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/immintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/keylockerintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lwpintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lzcntintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm3dnow.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movdirintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movrsintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pconfigintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pkuintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/popcntintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/raointintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rdseedintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rtmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/serializeintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sgxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sha512intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/shaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm3intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm4intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/smmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tbmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tsxldtrkintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/uintrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/usermsrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vaesintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vpclmulqdqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/waitpkgintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wbnoinvdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86gprintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xopintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavecintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveoptintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavesintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xtestintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/ctype.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/errno.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/float.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/inttypes.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/limits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/malloc.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/math.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/process.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/setjmp.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stddef.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdint.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdio.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/string.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/strings.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sys/types.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/wchar.h
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/adxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ammintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxavx512intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxbf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxcomplexintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxint8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxmovrsintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtf32intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtileintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtransposeintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512convertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512mediaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512minmaxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512satcvtintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2convertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2copyintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2mediaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2minmaxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2satcvtintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512cdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512dqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmavlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmivlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlbwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vldqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnnivlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxifmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxneconvertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmi2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cetintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cldemoteintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clflushoptintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clwbintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clzerointrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cmpccxaddintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cpuid.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/emmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/enqcmdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/f16cintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/float.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fma4intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fxsrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/gfniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/hresetintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ia32intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/immintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/keylockerintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lwpintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lzcntintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm3dnow.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movdirintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movrsintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pconfigintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pkuintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/popcntintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/raointintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rdseedintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rtmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/serializeintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sgxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sha512intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/shaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm3intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm4intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/smmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdarg.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tbmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tsxldtrkintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/uintrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/usermsrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vaesintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vpclmulqdqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/waitpkgintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wbnoinvdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86gprintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xopintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavecintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveoptintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavesintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xtestintrin.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/mingw64/x86_64-w64-mingw32/include/ctype.h \
+  C:/mingw64/x86_64-w64-mingw32/include/errno.h \
+  C:/mingw64/x86_64-w64-mingw32/include/float.h \
+  C:/mingw64/x86_64-w64-mingw32/include/intrin.h \
+  C:/mingw64/x86_64-w64-mingw32/include/inttypes.h \
+  C:/mingw64/x86_64-w64-mingw32/include/limits.h \
+  C:/mingw64/x86_64-w64-mingw32/include/malloc.h \
+  C:/mingw64/x86_64-w64-mingw32/include/math.h \
+  C:/mingw64/x86_64-w64-mingw32/include/process.h \
+  C:/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/setjmp.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdarg.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stddef.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdint.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdio.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdlib.h \
+  C:/mingw64/x86_64-w64-mingw32/include/string.h \
+  C:/mingw64/x86_64-w64-mingw32/include/strings.h \
+  C:/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/mingw64/x86_64-w64-mingw32/include/sys/types.h \
+  C:/mingw64/x86_64-w64-mingw32/include/vadefs.h \
+  C:/mingw64/x86_64-w64-mingw32/include/wchar.h
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitives.c.obj: C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_imagePrimitives.c \
   lib/SDL2/include-config-/SDL2/SDL_config.h \
@@ -2350,169 +2350,169 @@ lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitives.c.obj: C:/Us
   lib/SDL2/include/SDL2/SDL_video.h \
   lib/SDL2/include/SDL2/begin_code.h \
   lib/SDL2/include/SDL2/close_code.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/adxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ammintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxavx512intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxbf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxcomplexintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxint8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxmovrsintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtf32intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtileintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtransposeintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512convertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512mediaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512minmaxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512satcvtintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2convertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2copyintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2mediaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2minmaxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2satcvtintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512cdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512dqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmavlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmivlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlbwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vldqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnnivlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxifmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxneconvertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmi2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cetintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cldemoteintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clflushoptintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clwbintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clzerointrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cmpccxaddintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cpuid.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/emmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/enqcmdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/f16cintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/float.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fma4intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fxsrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/gfniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/hresetintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ia32intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/immintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/keylockerintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lwpintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lzcntintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm3dnow.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movdirintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movrsintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pconfigintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pkuintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/popcntintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/raointintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rdseedintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rtmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/serializeintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sgxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sha512intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/shaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm3intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm4intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/smmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tbmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tsxldtrkintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/uintrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/usermsrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vaesintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vpclmulqdqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/waitpkgintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wbnoinvdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86gprintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xopintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavecintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveoptintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavesintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xtestintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/ctype.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/errno.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/float.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/inttypes.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/limits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/malloc.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/math.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/process.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/setjmp.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stddef.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdint.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdio.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/string.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/strings.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sys/types.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/wchar.h
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/adxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ammintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxavx512intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxbf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxcomplexintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxint8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxmovrsintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtf32intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtileintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtransposeintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512convertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512mediaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512minmaxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512satcvtintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2convertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2copyintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2mediaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2minmaxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2satcvtintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512cdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512dqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmavlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmivlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlbwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vldqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnnivlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxifmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxneconvertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmi2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cetintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cldemoteintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clflushoptintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clwbintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clzerointrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cmpccxaddintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cpuid.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/emmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/enqcmdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/f16cintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/float.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fma4intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fxsrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/gfniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/hresetintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ia32intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/immintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/keylockerintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lwpintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lzcntintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm3dnow.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movdirintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movrsintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pconfigintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pkuintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/popcntintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/raointintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rdseedintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rtmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/serializeintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sgxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sha512intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/shaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm3intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm4intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/smmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdarg.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tbmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tsxldtrkintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/uintrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/usermsrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vaesintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vpclmulqdqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/waitpkgintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wbnoinvdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86gprintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xopintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavecintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveoptintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavesintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xtestintrin.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/mingw64/x86_64-w64-mingw32/include/ctype.h \
+  C:/mingw64/x86_64-w64-mingw32/include/errno.h \
+  C:/mingw64/x86_64-w64-mingw32/include/float.h \
+  C:/mingw64/x86_64-w64-mingw32/include/intrin.h \
+  C:/mingw64/x86_64-w64-mingw32/include/inttypes.h \
+  C:/mingw64/x86_64-w64-mingw32/include/limits.h \
+  C:/mingw64/x86_64-w64-mingw32/include/malloc.h \
+  C:/mingw64/x86_64-w64-mingw32/include/math.h \
+  C:/mingw64/x86_64-w64-mingw32/include/process.h \
+  C:/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/setjmp.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdarg.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stddef.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdint.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdio.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdlib.h \
+  C:/mingw64/x86_64-w64-mingw32/include/string.h \
+  C:/mingw64/x86_64-w64-mingw32/include/strings.h \
+  C:/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/mingw64/x86_64-w64-mingw32/include/sys/types.h \
+  C:/mingw64/x86_64-w64-mingw32/include/vadefs.h \
+  C:/mingw64/x86_64-w64-mingw32/include/wchar.h
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitivesBlend.c.obj: C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_imagePrimitivesBlend.c \
   lib/SDL2/include-config-/SDL2/SDL_config.h \
@@ -2578,169 +2578,169 @@ lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitivesBlend.c.obj: 
   lib/SDL2/include/SDL2/SDL_video.h \
   lib/SDL2/include/SDL2/begin_code.h \
   lib/SDL2/include/SDL2/close_code.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/adxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ammintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxavx512intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxbf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxcomplexintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxint8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxmovrsintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtf32intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtileintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtransposeintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512convertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512mediaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512minmaxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512satcvtintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2convertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2copyintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2mediaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2minmaxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2satcvtintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512cdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512dqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmavlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmivlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlbwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vldqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnnivlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxifmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxneconvertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmi2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cetintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cldemoteintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clflushoptintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clwbintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clzerointrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cmpccxaddintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cpuid.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/emmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/enqcmdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/f16cintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/float.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fma4intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fxsrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/gfniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/hresetintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ia32intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/immintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/keylockerintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lwpintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lzcntintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm3dnow.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movdirintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movrsintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pconfigintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pkuintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/popcntintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/raointintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rdseedintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rtmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/serializeintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sgxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sha512intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/shaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm3intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm4intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/smmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tbmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tsxldtrkintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/uintrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/usermsrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vaesintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vpclmulqdqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/waitpkgintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wbnoinvdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86gprintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xopintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavecintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveoptintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavesintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xtestintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/ctype.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/errno.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/float.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/inttypes.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/limits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/malloc.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/math.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/process.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/setjmp.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stddef.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdint.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdio.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/string.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/strings.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sys/types.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/wchar.h
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/adxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ammintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxavx512intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxbf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxcomplexintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxint8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxmovrsintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtf32intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtileintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtransposeintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512convertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512mediaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512minmaxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512satcvtintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2convertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2copyintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2mediaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2minmaxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2satcvtintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512cdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512dqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmavlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmivlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlbwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vldqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnnivlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxifmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxneconvertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmi2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cetintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cldemoteintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clflushoptintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clwbintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clzerointrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cmpccxaddintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cpuid.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/emmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/enqcmdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/f16cintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/float.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fma4intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fxsrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/gfniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/hresetintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ia32intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/immintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/keylockerintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lwpintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lzcntintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm3dnow.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movdirintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movrsintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pconfigintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pkuintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/popcntintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/raointintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rdseedintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rtmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/serializeintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sgxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sha512intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/shaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm3intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm4intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/smmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdarg.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tbmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tsxldtrkintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/uintrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/usermsrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vaesintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vpclmulqdqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/waitpkgintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wbnoinvdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86gprintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xopintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavecintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveoptintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavesintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xtestintrin.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/mingw64/x86_64-w64-mingw32/include/ctype.h \
+  C:/mingw64/x86_64-w64-mingw32/include/errno.h \
+  C:/mingw64/x86_64-w64-mingw32/include/float.h \
+  C:/mingw64/x86_64-w64-mingw32/include/intrin.h \
+  C:/mingw64/x86_64-w64-mingw32/include/inttypes.h \
+  C:/mingw64/x86_64-w64-mingw32/include/limits.h \
+  C:/mingw64/x86_64-w64-mingw32/include/malloc.h \
+  C:/mingw64/x86_64-w64-mingw32/include/math.h \
+  C:/mingw64/x86_64-w64-mingw32/include/process.h \
+  C:/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/setjmp.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdarg.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stddef.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdint.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdio.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdlib.h \
+  C:/mingw64/x86_64-w64-mingw32/include/string.h \
+  C:/mingw64/x86_64-w64-mingw32/include/strings.h \
+  C:/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/mingw64/x86_64-w64-mingw32/include/sys/types.h \
+  C:/mingw64/x86_64-w64-mingw32/include/vadefs.h \
+  C:/mingw64/x86_64-w64-mingw32/include/wchar.h
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_log.c.obj: C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_log.c \
   lib/SDL2/include-config-/SDL2/SDL_config.h \
@@ -2806,174 +2806,174 @@ lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_log.c.obj: C:/Users/izaac/On
   lib/SDL2/include/SDL2/SDL_video.h \
   lib/SDL2/include/SDL2/begin_code.h \
   lib/SDL2/include/SDL2/close_code.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/adxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ammintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxavx512intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxbf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxcomplexintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxint8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxmovrsintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtf32intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtileintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtransposeintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512convertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512mediaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512minmaxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512satcvtintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2convertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2copyintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2mediaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2minmaxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2satcvtintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512cdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512dqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmavlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmivlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlbwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vldqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnnivlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxifmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxneconvertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmi2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cetintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cldemoteintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clflushoptintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clwbintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clzerointrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cmpccxaddintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cpuid.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/emmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/enqcmdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/f16cintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/float.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fma4intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fxsrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/gfniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/hresetintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ia32intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/immintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/keylockerintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lwpintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lzcntintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm3dnow.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movdirintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movrsintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pconfigintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pkuintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/popcntintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/raointintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rdseedintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rtmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/serializeintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sgxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sha512intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/shaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm3intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm4intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/smmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tbmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tsxldtrkintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/uintrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/usermsrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vaesintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vpclmulqdqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/waitpkgintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wbnoinvdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86gprintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xopintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavecintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveoptintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavesintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xtestintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_timeval.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/ctype.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/errno.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/float.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/inttypes.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/limits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/malloc.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/math.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/process.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/pthread_time.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/setjmp.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stddef.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdint.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdio.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/string.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/strings.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sys/timeb.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sys/types.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/time.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/wchar.h
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/adxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ammintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxavx512intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxbf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxcomplexintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxint8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxmovrsintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtf32intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtileintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtransposeintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512convertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512mediaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512minmaxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512satcvtintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2convertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2copyintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2mediaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2minmaxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2satcvtintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512cdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512dqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmavlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmivlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlbwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vldqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnnivlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxifmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxneconvertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmi2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cetintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cldemoteintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clflushoptintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clwbintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clzerointrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cmpccxaddintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cpuid.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/emmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/enqcmdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/f16cintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/float.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fma4intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fxsrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/gfniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/hresetintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ia32intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/immintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/keylockerintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lwpintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lzcntintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm3dnow.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movdirintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movrsintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pconfigintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pkuintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/popcntintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/raointintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rdseedintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rtmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/serializeintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sgxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sha512intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/shaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm3intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm4intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/smmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdarg.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tbmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tsxldtrkintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/uintrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/usermsrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vaesintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vpclmulqdqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/waitpkgintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wbnoinvdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86gprintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xopintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavecintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveoptintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavesintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xtestintrin.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_timeval.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/mingw64/x86_64-w64-mingw32/include/ctype.h \
+  C:/mingw64/x86_64-w64-mingw32/include/errno.h \
+  C:/mingw64/x86_64-w64-mingw32/include/float.h \
+  C:/mingw64/x86_64-w64-mingw32/include/intrin.h \
+  C:/mingw64/x86_64-w64-mingw32/include/inttypes.h \
+  C:/mingw64/x86_64-w64-mingw32/include/limits.h \
+  C:/mingw64/x86_64-w64-mingw32/include/malloc.h \
+  C:/mingw64/x86_64-w64-mingw32/include/math.h \
+  C:/mingw64/x86_64-w64-mingw32/include/process.h \
+  C:/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+  C:/mingw64/x86_64-w64-mingw32/include/pthread_time.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/setjmp.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdarg.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stddef.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdint.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdio.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdlib.h \
+  C:/mingw64/x86_64-w64-mingw32/include/string.h \
+  C:/mingw64/x86_64-w64-mingw32/include/strings.h \
+  C:/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/mingw64/x86_64-w64-mingw32/include/sys/timeb.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sys/types.h \
+  C:/mingw64/x86_64-w64-mingw32/include/time.h \
+  C:/mingw64/x86_64-w64-mingw32/include/vadefs.h \
+  C:/mingw64/x86_64-w64-mingw32/include/wchar.h
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_md5.c.obj: C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_md5.c \
   lib/SDL2/include-config-/SDL2/SDL_config.h \
@@ -3039,169 +3039,169 @@ lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_md5.c.obj: C:/Users/izaac/On
   lib/SDL2/include/SDL2/SDL_video.h \
   lib/SDL2/include/SDL2/begin_code.h \
   lib/SDL2/include/SDL2/close_code.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/adxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ammintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxavx512intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxbf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxcomplexintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxint8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxmovrsintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtf32intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtileintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtransposeintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512convertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512mediaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512minmaxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512satcvtintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2convertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2copyintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2mediaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2minmaxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2satcvtintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512cdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512dqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmavlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmivlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlbwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vldqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnnivlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxifmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxneconvertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmi2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cetintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cldemoteintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clflushoptintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clwbintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clzerointrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cmpccxaddintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cpuid.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/emmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/enqcmdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/f16cintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/float.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fma4intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fxsrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/gfniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/hresetintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ia32intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/immintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/keylockerintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lwpintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lzcntintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm3dnow.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movdirintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movrsintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pconfigintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pkuintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/popcntintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/raointintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rdseedintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rtmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/serializeintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sgxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sha512intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/shaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm3intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm4intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/smmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tbmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tsxldtrkintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/uintrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/usermsrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vaesintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vpclmulqdqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/waitpkgintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wbnoinvdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86gprintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xopintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavecintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveoptintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavesintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xtestintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/ctype.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/errno.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/float.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/inttypes.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/limits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/malloc.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/math.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/process.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/setjmp.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stddef.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdint.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdio.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/string.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/strings.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sys/types.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/wchar.h
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/adxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ammintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxavx512intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxbf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxcomplexintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxint8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxmovrsintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtf32intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtileintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtransposeintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512convertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512mediaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512minmaxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512satcvtintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2convertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2copyintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2mediaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2minmaxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2satcvtintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512cdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512dqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmavlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmivlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlbwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vldqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnnivlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxifmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxneconvertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmi2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cetintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cldemoteintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clflushoptintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clwbintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clzerointrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cmpccxaddintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cpuid.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/emmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/enqcmdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/f16cintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/float.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fma4intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fxsrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/gfniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/hresetintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ia32intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/immintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/keylockerintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lwpintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lzcntintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm3dnow.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movdirintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movrsintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pconfigintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pkuintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/popcntintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/raointintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rdseedintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rtmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/serializeintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sgxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sha512intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/shaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm3intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm4intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/smmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdarg.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tbmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tsxldtrkintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/uintrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/usermsrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vaesintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vpclmulqdqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/waitpkgintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wbnoinvdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86gprintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xopintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavecintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveoptintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavesintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xtestintrin.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/mingw64/x86_64-w64-mingw32/include/ctype.h \
+  C:/mingw64/x86_64-w64-mingw32/include/errno.h \
+  C:/mingw64/x86_64-w64-mingw32/include/float.h \
+  C:/mingw64/x86_64-w64-mingw32/include/intrin.h \
+  C:/mingw64/x86_64-w64-mingw32/include/inttypes.h \
+  C:/mingw64/x86_64-w64-mingw32/include/limits.h \
+  C:/mingw64/x86_64-w64-mingw32/include/malloc.h \
+  C:/mingw64/x86_64-w64-mingw32/include/math.h \
+  C:/mingw64/x86_64-w64-mingw32/include/process.h \
+  C:/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/setjmp.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdarg.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stddef.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdint.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdio.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdlib.h \
+  C:/mingw64/x86_64-w64-mingw32/include/string.h \
+  C:/mingw64/x86_64-w64-mingw32/include/strings.h \
+  C:/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/mingw64/x86_64-w64-mingw32/include/sys/types.h \
+  C:/mingw64/x86_64-w64-mingw32/include/vadefs.h \
+  C:/mingw64/x86_64-w64-mingw32/include/wchar.h
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_memory.c.obj: C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_memory.c \
   lib/SDL2/include-config-/SDL2/SDL_config.h \
@@ -3213,46 +3213,46 @@ lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_memory.c.obj: C:/Users/izaac
   lib/SDL2/include/SDL2/SDL_test_memory.h \
   lib/SDL2/include/SDL2/begin_code.h \
   lib/SDL2/include/SDL2/close_code.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/float.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/ctype.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/errno.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/float.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/inttypes.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/limits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/malloc.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/math.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stddef.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdint.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdio.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/string.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/strings.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sys/types.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/wchar.h
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/float.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdarg.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/mingw64/x86_64-w64-mingw32/include/ctype.h \
+  C:/mingw64/x86_64-w64-mingw32/include/errno.h \
+  C:/mingw64/x86_64-w64-mingw32/include/float.h \
+  C:/mingw64/x86_64-w64-mingw32/include/inttypes.h \
+  C:/mingw64/x86_64-w64-mingw32/include/limits.h \
+  C:/mingw64/x86_64-w64-mingw32/include/malloc.h \
+  C:/mingw64/x86_64-w64-mingw32/include/math.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdarg.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stddef.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdint.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdio.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdlib.h \
+  C:/mingw64/x86_64-w64-mingw32/include/string.h \
+  C:/mingw64/x86_64-w64-mingw32/include/strings.h \
+  C:/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/mingw64/x86_64-w64-mingw32/include/sys/types.h \
+  C:/mingw64/x86_64-w64-mingw32/include/vadefs.h \
+  C:/mingw64/x86_64-w64-mingw32/include/wchar.h
 
 lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_random.c.obj: C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_random.c \
   lib/SDL2/include-config-/SDL2/SDL_config.h \
@@ -3318,179 +3318,179 @@ lib/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_random.c.obj: C:/Users/izaac
   lib/SDL2/include/SDL2/SDL_video.h \
   lib/SDL2/include/SDL2/begin_code.h \
   lib/SDL2/include/SDL2/close_code.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/adxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ammintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxavx512intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxbf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxcomplexintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxint8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxmovrsintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtf32intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtileintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtransposeintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512convertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512mediaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512minmaxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512satcvtintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2convertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2copyintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2mediaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2minmaxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2satcvtintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512cdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512dqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmavlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmivlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlbwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vldqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnnivlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqvlintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxifmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxneconvertintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint16intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint8intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmi2intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cetintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cldemoteintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clflushoptintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clwbintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clzerointrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cmpccxaddintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cpuid.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/emmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/enqcmdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/f16cintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/float.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fma4intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fmaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fxsrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/gfniintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/hresetintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ia32intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/immintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/keylockerintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lwpintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lzcntintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm3dnow.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movdirintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movrsintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pconfigintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pkuintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/popcntintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchiintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchwintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/raointintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rdseedintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rtmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/serializeintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sgxintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sha512intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/shaintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm3intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm4intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/smmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tbmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tsxldtrkintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/uintrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/usermsrintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vaesintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vpclmulqdqintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/waitpkgintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wbnoinvdintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86gprintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xmmintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xopintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavecintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveoptintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavesintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xtestintrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_timeval.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/ctype.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/errno.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/float.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/intrin.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/inttypes.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/limits.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/malloc.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/math.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/process.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/pthread_time.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/setjmp.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdarg.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stddef.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdint.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdio.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/string.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/strings.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sys/timeb.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sys/types.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/time.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/wchar.h
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/adxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ammintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxavx512intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxbf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxcomplexintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxint8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxmovrsintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtf32intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtileintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtransposeintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512convertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512mediaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512minmaxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512satcvtintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2convertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2copyintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2mediaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2minmaxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2satcvtintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512cdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512dqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmavlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmivlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlbwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vldqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnnivlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqvlintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxifmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxneconvertintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint16intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint8intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmi2intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cetintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cldemoteintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clflushoptintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clwbintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clzerointrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cmpccxaddintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cpuid.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/emmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/enqcmdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/f16cintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/float.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fma4intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fmaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fxsrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/gfniintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/hresetintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ia32intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/immintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/keylockerintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lwpintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lzcntintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm3dnow.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movdirintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movrsintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pconfigintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pkuintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/popcntintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchiintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchwintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/raointintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rdseedintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rtmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/serializeintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sgxintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sha512intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/shaintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm3intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm4intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/smmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdarg.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tbmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tsxldtrkintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/uintrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/usermsrintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vaesintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vpclmulqdqintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/waitpkgintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wbnoinvdintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86gprintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86intrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xmmintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xopintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavecintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveoptintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavesintrin.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xtestintrin.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+  C:/mingw64/x86_64-w64-mingw32/include/_timeval.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/mingw64/x86_64-w64-mingw32/include/ctype.h \
+  C:/mingw64/x86_64-w64-mingw32/include/errno.h \
+  C:/mingw64/x86_64-w64-mingw32/include/float.h \
+  C:/mingw64/x86_64-w64-mingw32/include/intrin.h \
+  C:/mingw64/x86_64-w64-mingw32/include/inttypes.h \
+  C:/mingw64/x86_64-w64-mingw32/include/limits.h \
+  C:/mingw64/x86_64-w64-mingw32/include/malloc.h \
+  C:/mingw64/x86_64-w64-mingw32/include/math.h \
+  C:/mingw64/x86_64-w64-mingw32/include/process.h \
+  C:/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+  C:/mingw64/x86_64-w64-mingw32/include/pthread_time.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+  C:/mingw64/x86_64-w64-mingw32/include/setjmp.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdarg.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stddef.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdint.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdio.h \
+  C:/mingw64/x86_64-w64-mingw32/include/stdlib.h \
+  C:/mingw64/x86_64-w64-mingw32/include/string.h \
+  C:/mingw64/x86_64-w64-mingw32/include/strings.h \
+  C:/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/mingw64/x86_64-w64-mingw32/include/sys/timeb.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sys/types.h \
+  C:/mingw64/x86_64-w64-mingw32/include/time.h \
+  C:/mingw64/x86_64-w64-mingw32/include/vadefs.h \
+  C:/mingw64/x86_64-w64-mingw32/include/wchar.h
 
-
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xopintrin.h:
 
 lib/SDL2/include/SDL2/SDL_blendmode.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/ctype.h:
 
 C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_assert.c:
 
@@ -3506,33 +3506,25 @@ C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test
 
 lib/SDL2/include/SDL2/SDL_test_harness.h:
 
+C:/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h:
+
 lib/SDL2/include/SDL2/SDL_quit.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgvlintrin.h:
+C:/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h:
 
 lib/SDL2/include/SDL2/SDL.h:
 
 lib/SDL2/include/SDL2/SDL_locale.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/setjmp.h:
-
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cmpccxaddintrin.h:
-
 lib/SDL2/include/SDL2/SDL_audio.h:
 
 lib/SDL2/include/SDL2/SDL_log.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxmovrsintrin.h:
-
 lib/SDL2/include/SDL2/SDL_cpuinfo.h:
-
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wbnoinvdintrin.h:
 
 lib/SDL2/include/SDL2/SDL_assert.h:
 
 lib/SDL2/include/SDL2/SDL_power.h:
-
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp8intrin.h:
 
 lib/SDL2/include/SDL2/SDL_atomic.h:
 
@@ -3540,19 +3532,27 @@ C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test
 
 lib/SDL2/include/SDL2/SDL_video.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16vlintrin.h:
+C:/mingw64/x86_64-w64-mingw32/include/stddef.h:
 
 lib/SDL2/include/SDL2/SDL_endian.h:
 
 lib/SDL2/include/SDL2/SDL_error.h:
 
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxcomplexintrin.h:
+
 lib/SDL2/include/SDL2/SDL_events.h:
 
 lib/SDL2/include/SDL2/begin_code.h:
 
+C:/mingw64/x86_64-w64-mingw32/include/errno.h:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectintrin.h:
+
 lib/SDL2/include/SDL2/SDL_system.h:
 
 lib/SDL2/include/SDL2/SDL_test_assert.h:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512cdintrin.h:
 
 lib/SDL2/include/SDL2/SDL_filesystem.h:
 
@@ -3560,21 +3560,27 @@ lib/SDL2/include/SDL2/SDL_test_memory.h:
 
 lib/SDL2/include/SDL2/SDL_gamecontroller.h:
 
+C:/mingw64/x86_64-w64-mingw32/include/float.h:
+
 lib/SDL2/include/SDL2/SDL_platform.h:
 
 lib/SDL2/include/SDL2/SDL_gesture.h:
 
 lib/SDL2/include/SDL2/SDL_guid.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavecintrin.h:
+C:/mingw64/x86_64-w64-mingw32/include/corecrt.h:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/uintrintrin.h:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmavlintrin.h:
 
 lib/SDL2/include/SDL2/SDL_haptic.h:
-
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmi2intrin.h:
 
 lib/SDL2/include/SDL2/SDL_hidapi.h:
 
 lib/SDL2/include/SDL2/SDL_touch.h:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlintrin.h:
 
 lib/SDL2/include/SDL2/SDL_hints.h:
 
@@ -3584,15 +3590,9 @@ lib/SDL2/include/SDL2/SDL_test_random.h:
 
 lib/SDL2/include/SDL2/SDL_loadso.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/ctype.h:
-
 lib/SDL2/include/SDL2/SDL_joystick.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/strings.h:
-
 lib/SDL2/include/SDL2/SDL_keyboard.h:
-
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ammintrin.h:
 
 lib/SDL2/include/SDL2/SDL_keycode.h:
 
@@ -3608,21 +3608,19 @@ lib/SDL2/include/SDL2/SDL_surface.h:
 
 lib/SDL2/include/SDL2/SDL_metal.h:
 
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/hresetintrin.h:
+
 lib/SDL2/include/SDL2/SDL_test_crc32.h:
 
 lib/SDL2/include/SDL2/SDL_misc.h:
 
 lib/SDL2/include/SDL2/SDL_stdinc.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniintrin.h:
-
 lib/SDL2/include/SDL2/SDL_mouse.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxifmaintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectvlintrin.h:
 
 lib/SDL2/include/SDL2/SDL_mutex.h:
-
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/serializeintrin.h:
 
 lib/SDL2/include/SDL2/SDL_pixels.h:
 
@@ -3636,11 +3634,13 @@ lib/SDL2/include/SDL2/SDL_scancode.h:
 
 lib/SDL2/include/SDL2/SDL_shape.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sys/timeb.h:
-
 lib/SDL2/include/SDL2/SDL_test.h:
 
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/emmintrin.h:
+
 lib/SDL2/include/SDL2/SDL_test_common.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/process.h:
 
 lib/SDL2/include/SDL2/SDL_test_font.h:
 
@@ -3652,332 +3652,332 @@ lib/SDL2/include/SDL2/SDL_test_log.h:
 
 lib/SDL2/include/SDL2/SDL_test_md5.h:
 
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xtestintrin.h:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmaintrin.h:
+
 lib/SDL2/include/SDL2/SDL_timer.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/adxintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/adxintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxavx512intrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ammintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxbf16intrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxavx512intrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm4intrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxbf16intrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxcomplexintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp16intrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp16intrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxfp8intrin.h:
 
-C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_imageBlit.c:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fxsrintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxint8intrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxint8intrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtf32intrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxmovrsintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtileintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rdseedintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtf32intrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtransposeintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtileintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512bf16intrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtransposeintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512convertintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512bf16intrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xmmintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512convertintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512mediaintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512mediaintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512minmaxintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512minmaxintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512satcvtintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2-512satcvtintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2bf16intrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2bf16intrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512cdintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2convertintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2convertintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vldqintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2copyintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2copyintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2mediaintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tbmintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2minmaxintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2mediaintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2satcvtintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2minmaxintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx2intrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx10_2satcvtintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16intrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx2intrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16intrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bwintrin.h:
-
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512dqintrin.h:
-
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fintrin.h:
-
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16intrin.h:
-
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16vlintrin.h:
-
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmaintrin.h:
-
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512ifmavlintrin.h:
-
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_timeval.h:
-
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2intrin.h:
-
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2vlintrin.h:
-
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmiintrin.h:
-
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmivlintrin.h:
-
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlbwintrin.h:
-
-C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_compare.c:
-
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vldqintrin.h:
-
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlintrin.h:
-
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/popcntintrin.h:
-
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnniintrin.h:
-
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitintrin.h:
-
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnnivlintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16vlintrin.h:
 
 C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_crc32.c:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bitalgvlintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectvlintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bwintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqvlintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512dqintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxneconvertintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16intrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmiintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512fp16vlintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint16intrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2intrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint8intrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2vlintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cetintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmiintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cldemoteintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmivlintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clflushoptintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vlbwintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clwbintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnniintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clzerointrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vnnivlintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm3dnow.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cpuid.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vpopcntdqvlintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/emmintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmi2intrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/enqcmdintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxifmaintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fmaintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/f16cintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxneconvertintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/intrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tsxldtrkintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/float.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint16intrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fma4intrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lwpintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniint8intrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fxsrintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/gfniintrin.h:
+C:/mingw64/x86_64-w64-mingw32/include/math.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/hresetintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/bmiintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ia32intrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchiintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rdseedintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cetintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/immintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cldemoteintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/keylockerintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clflushoptintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clwbintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/time.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clzerointrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lwpintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wbnoinvdintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lzcntintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cmpccxaddintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mmintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cpuid.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movdirintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/enqcmdintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movrsintrin.h:
+C:/mingw64/x86_64-w64-mingw32/include/intrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitxintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/f16cintrin.h:
 
-C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_random.c:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/float.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pconfigintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/serializeintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pkuintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fma4intrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pmmintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/fmaintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchiintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/gfniintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchwintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/waitpkgintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/raointintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ia32intrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rtmintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/immintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sgxintrin.h:
+C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_imageBlit.c:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sha512intrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/keylockerintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/shaintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lzcntintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm3intrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm3dnow.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/smmintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h:
 
-C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_imagePrimitivesBlend.c:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mmintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdarg.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movdirintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movrsintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitxintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tbmintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pconfigintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pkuintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tmmintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pmmintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tsxldtrkintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/popcntintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdlib.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/prfchwintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/uintrintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/raointintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/usermsrintrin.h:
+C:/mingw64/x86_64-w64-mingw32/include/wchar.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vaesintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rtmintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vpclmulqdqintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sgxintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/waitpkgintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sha512intrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wmmintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/shaintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86gprintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm3intrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86intrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/sm4intrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xopintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavesintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/smmintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveoptintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdarg.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xtestintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h:
+C:/mingw64/x86_64-w64-mingw32/include/sys/types.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tmmintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/usermsrintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vaesintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stddef.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/vpclmulqdqintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wmmintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86gprintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86intrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/crtdefs.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xmmintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/errno.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavecintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/float.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/inttypes.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveoptintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/limits.h:
+C:/mingw64/x86_64-w64-mingw32/include/inttypes.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/malloc.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavesintrin.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/math.h:
+C:/mingw64/x86_64-w64-mingw32/include/_mingw.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/process.h:
+C:/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h:
+C:/mingw64/x86_64-w64-mingw32/include/stdarg.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdarg.h:
+C:/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h:
+C:/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h:
+C:/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h:
+C:/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdint.h:
+C:/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/stdio.h:
+C:/mingw64/x86_64-w64-mingw32/include/crtdefs.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/string.h:
+C:/mingw64/x86_64-w64-mingw32/include/limits.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/swprintf.inl:
+C:/mingw64/x86_64-w64-mingw32/include/malloc.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sys/types.h:
+C:/mingw64/x86_64-w64-mingw32/include/setjmp.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/vadefs.h:
+C:/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/wchar.h:
+C:/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/stdint.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/stdio.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/strings.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/stdlib.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/string.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/swprintf.inl:
+
+C:/mingw64/x86_64-w64-mingw32/include/vadefs.h:
 
 C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_common.c:
+
+C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_compare.c:
 
 C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_fuzzer.c:
 
 C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_harness.c:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/pthread_time.h:
+C:/mingw64/x86_64-w64-mingw32/include/_timeval.h:
 
-C:/Users/izaac/OneDrive/Documents/mingw64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h:
+C:/mingw64/x86_64-w64-mingw32/include/pthread_time.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/sys/timeb.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/time.h:
 
 C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_imageBlitBlend.c:
 
 C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_imageFace.c:
+
+C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_imagePrimitivesBlend.c:
 
 C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_log.c:
 
 C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_md5.c:
 
 C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_memory.c:
+
+C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/lib/SDL2/src/test/SDL_test_random.c:

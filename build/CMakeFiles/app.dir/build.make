@@ -76,135 +76,135 @@ CMakeFiles/app.dir/src/main.c.obj: CMakeFiles/app.dir/includes_C.rsp
 CMakeFiles/app.dir/src/main.c.obj: C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/src/main.c
 CMakeFiles/app.dir/src/main.c.obj: CMakeFiles/app.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/app.dir/src/main.c.obj"
-	C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/src/main.c.obj -MF CMakeFiles\app.dir\src\main.c.obj.d -o CMakeFiles\app.dir\src\main.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\main.c
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/src/main.c.obj -MF CMakeFiles\app.dir\src\main.c.obj.d -o CMakeFiles\app.dir\src\main.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\main.c
 
 CMakeFiles/app.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/app.dir/src/main.c.i"
-	C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\main.c > CMakeFiles\app.dir\src\main.c.i
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\main.c > CMakeFiles\app.dir\src\main.c.i
 
 CMakeFiles/app.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/app.dir/src/main.c.s"
-	C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\main.c -o CMakeFiles\app.dir\src\main.c.s
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\main.c -o CMakeFiles\app.dir\src\main.c.s
 
 CMakeFiles/app.dir/src/render.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/src/render.c.obj: CMakeFiles/app.dir/includes_C.rsp
 CMakeFiles/app.dir/src/render.c.obj: C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/src/render.c
 CMakeFiles/app.dir/src/render.c.obj: CMakeFiles/app.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/app.dir/src/render.c.obj"
-	C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/src/render.c.obj -MF CMakeFiles\app.dir\src\render.c.obj.d -o CMakeFiles\app.dir\src\render.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\render.c
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/src/render.c.obj -MF CMakeFiles\app.dir\src\render.c.obj.d -o CMakeFiles\app.dir\src\render.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\render.c
 
 CMakeFiles/app.dir/src/render.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/app.dir/src/render.c.i"
-	C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\render.c > CMakeFiles\app.dir\src\render.c.i
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\render.c > CMakeFiles\app.dir\src\render.c.i
 
 CMakeFiles/app.dir/src/render.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/app.dir/src/render.c.s"
-	C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\render.c -o CMakeFiles\app.dir\src\render.c.s
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\render.c -o CMakeFiles\app.dir\src\render.c.s
 
 CMakeFiles/app.dir/src/raster.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/src/raster.c.obj: CMakeFiles/app.dir/includes_C.rsp
 CMakeFiles/app.dir/src/raster.c.obj: C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/src/raster.c
 CMakeFiles/app.dir/src/raster.c.obj: CMakeFiles/app.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/app.dir/src/raster.c.obj"
-	C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/src/raster.c.obj -MF CMakeFiles\app.dir\src\raster.c.obj.d -o CMakeFiles\app.dir\src\raster.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\raster.c
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/src/raster.c.obj -MF CMakeFiles\app.dir\src\raster.c.obj.d -o CMakeFiles\app.dir\src\raster.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\raster.c
 
 CMakeFiles/app.dir/src/raster.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/app.dir/src/raster.c.i"
-	C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\raster.c > CMakeFiles\app.dir\src\raster.c.i
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\raster.c > CMakeFiles\app.dir\src\raster.c.i
 
 CMakeFiles/app.dir/src/raster.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/app.dir/src/raster.c.s"
-	C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\raster.c -o CMakeFiles\app.dir\src\raster.c.s
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\raster.c -o CMakeFiles\app.dir\src\raster.c.s
 
 CMakeFiles/app.dir/src/scene.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/src/scene.c.obj: CMakeFiles/app.dir/includes_C.rsp
 CMakeFiles/app.dir/src/scene.c.obj: C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/src/scene.c
 CMakeFiles/app.dir/src/scene.c.obj: CMakeFiles/app.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/app.dir/src/scene.c.obj"
-	C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/src/scene.c.obj -MF CMakeFiles\app.dir\src\scene.c.obj.d -o CMakeFiles\app.dir\src\scene.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\scene.c
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/src/scene.c.obj -MF CMakeFiles\app.dir\src\scene.c.obj.d -o CMakeFiles\app.dir\src\scene.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\scene.c
 
 CMakeFiles/app.dir/src/scene.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/app.dir/src/scene.c.i"
-	C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\scene.c > CMakeFiles\app.dir\src\scene.c.i
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\scene.c > CMakeFiles\app.dir\src\scene.c.i
 
 CMakeFiles/app.dir/src/scene.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/app.dir/src/scene.c.s"
-	C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\scene.c -o CMakeFiles\app.dir\src\scene.c.s
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\scene.c -o CMakeFiles\app.dir\src\scene.c.s
 
 CMakeFiles/app.dir/src/object.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/src/object.c.obj: CMakeFiles/app.dir/includes_C.rsp
 CMakeFiles/app.dir/src/object.c.obj: C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/src/object.c
 CMakeFiles/app.dir/src/object.c.obj: CMakeFiles/app.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/app.dir/src/object.c.obj"
-	C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/src/object.c.obj -MF CMakeFiles\app.dir\src\object.c.obj.d -o CMakeFiles\app.dir\src\object.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\object.c
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/src/object.c.obj -MF CMakeFiles\app.dir\src\object.c.obj.d -o CMakeFiles\app.dir\src\object.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\object.c
 
 CMakeFiles/app.dir/src/object.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/app.dir/src/object.c.i"
-	C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\object.c > CMakeFiles\app.dir\src\object.c.i
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\object.c > CMakeFiles\app.dir\src\object.c.i
 
 CMakeFiles/app.dir/src/object.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/app.dir/src/object.c.s"
-	C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\object.c -o CMakeFiles\app.dir\src\object.c.s
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\object.c -o CMakeFiles\app.dir\src\object.c.s
 
 CMakeFiles/app.dir/src/vector.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/src/vector.c.obj: CMakeFiles/app.dir/includes_C.rsp
 CMakeFiles/app.dir/src/vector.c.obj: C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/src/vector.c
 CMakeFiles/app.dir/src/vector.c.obj: CMakeFiles/app.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/app.dir/src/vector.c.obj"
-	C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/src/vector.c.obj -MF CMakeFiles\app.dir\src\vector.c.obj.d -o CMakeFiles\app.dir\src\vector.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\vector.c
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/src/vector.c.obj -MF CMakeFiles\app.dir\src\vector.c.obj.d -o CMakeFiles\app.dir\src\vector.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\vector.c
 
 CMakeFiles/app.dir/src/vector.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/app.dir/src/vector.c.i"
-	C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\vector.c > CMakeFiles\app.dir\src\vector.c.i
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\vector.c > CMakeFiles\app.dir\src\vector.c.i
 
 CMakeFiles/app.dir/src/vector.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/app.dir/src/vector.c.s"
-	C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\vector.c -o CMakeFiles\app.dir\src\vector.c.s
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\vector.c -o CMakeFiles\app.dir\src\vector.c.s
 
 CMakeFiles/app.dir/src/viewport.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/src/viewport.c.obj: CMakeFiles/app.dir/includes_C.rsp
 CMakeFiles/app.dir/src/viewport.c.obj: C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/src/viewport.c
 CMakeFiles/app.dir/src/viewport.c.obj: CMakeFiles/app.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/app.dir/src/viewport.c.obj"
-	C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/src/viewport.c.obj -MF CMakeFiles\app.dir\src\viewport.c.obj.d -o CMakeFiles\app.dir\src\viewport.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\viewport.c
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/src/viewport.c.obj -MF CMakeFiles\app.dir\src\viewport.c.obj.d -o CMakeFiles\app.dir\src\viewport.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\viewport.c
 
 CMakeFiles/app.dir/src/viewport.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/app.dir/src/viewport.c.i"
-	C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\viewport.c > CMakeFiles\app.dir\src\viewport.c.i
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\viewport.c > CMakeFiles\app.dir\src\viewport.c.i
 
 CMakeFiles/app.dir/src/viewport.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/app.dir/src/viewport.c.s"
-	C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\viewport.c -o CMakeFiles\app.dir\src\viewport.c.s
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\viewport.c -o CMakeFiles\app.dir\src\viewport.c.s
 
 CMakeFiles/app.dir/src/image.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/src/image.c.obj: CMakeFiles/app.dir/includes_C.rsp
 CMakeFiles/app.dir/src/image.c.obj: C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/src/image.c
 CMakeFiles/app.dir/src/image.c.obj: CMakeFiles/app.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/app.dir/src/image.c.obj"
-	C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/src/image.c.obj -MF CMakeFiles\app.dir\src\image.c.obj.d -o CMakeFiles\app.dir\src\image.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\image.c
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/src/image.c.obj -MF CMakeFiles\app.dir\src\image.c.obj.d -o CMakeFiles\app.dir\src\image.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\image.c
 
 CMakeFiles/app.dir/src/image.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/app.dir/src/image.c.i"
-	C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\image.c > CMakeFiles\app.dir\src\image.c.i
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\image.c > CMakeFiles\app.dir\src\image.c.i
 
 CMakeFiles/app.dir/src/image.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/app.dir/src/image.c.s"
-	C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\image.c -o CMakeFiles\app.dir\src\image.c.s
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\image.c -o CMakeFiles\app.dir\src\image.c.s
 
 CMakeFiles/app.dir/src/text.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/src/text.c.obj: CMakeFiles/app.dir/includes_C.rsp
 CMakeFiles/app.dir/src/text.c.obj: C:/Users/izaac/OneDrive/Desktop/Projects/c-software-rasterizer/src/text.c
 CMakeFiles/app.dir/src/text.c.obj: CMakeFiles/app.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/app.dir/src/text.c.obj"
-	C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/src/text.c.obj -MF CMakeFiles\app.dir\src\text.c.obj.d -o CMakeFiles\app.dir\src\text.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\text.c
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/src/text.c.obj -MF CMakeFiles\app.dir\src\text.c.obj.d -o CMakeFiles\app.dir\src\text.c.obj -c C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\text.c
 
 CMakeFiles/app.dir/src/text.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/app.dir/src/text.c.i"
-	C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\text.c > CMakeFiles\app.dir\src\text.c.i
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\text.c > CMakeFiles\app.dir\src\text.c.i
 
 CMakeFiles/app.dir/src/text.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/app.dir/src/text.c.s"
-	C:\Users\izaac\OneDrive\Documents\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\text.c -o CMakeFiles\app.dir\src\text.c.s
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\izaac\OneDrive\Desktop\Projects\c-software-rasterizer\src\text.c -o CMakeFiles\app.dir\src\text.c.s
 
 # Object files for target app
 app_OBJECTS = \
